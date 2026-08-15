@@ -207,4 +207,27 @@ export const infrastructure = [
   },
 ] as const;
 
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mastanaintl.com';
+/**
+ * `??` alone was not enough. An environment variable declared with a blank
+ * value — and Next's build-time inlining of an unset NEXT_PUBLIC_* var —
+ * both produce '', which `??` happily passes through. `new URL('')` throws,
+ * and that failed the whole Vercel build while working fine locally, where
+ * the variable is genuinely undefined.
+ *
+ * Anything that is not a usable absolute URL falls back to the canonical
+ * domain. A bare host is accepted and assumed to be https.
+ */
+function resolveSiteUrl(): string {
+  const configured = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (configured) {
+    const candidate = /^https?:\/\//i.test(configured) ? configured : `https://${configured}`;
+    try {
+      return new URL(candidate).origin;
+    } catch {
+      /* not a usable URL — fall through to the canonical domain */
+    }
+  }
+  return 'https://mastanaintl.com';
+}
+
+export const siteUrl = resolveSiteUrl();
