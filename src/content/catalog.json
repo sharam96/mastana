@@ -1,0 +1,2848 @@
+{
+  "categories": [
+    {
+      "legacyId": 189,
+      "legacyName": "All flat knitting machine",
+      "name": "Flat Knitting Machines",
+      "slug": "flat-knitting-machines",
+      "tagline": "Computerized and semi-computerized flat knitting",
+      "description": "Mastana’s flat knitting range covers fully computerized, semi-computerized, collar and whole-garment machines for sweaters, collars, T-shirts and flyknit shoe uppers.",
+      "image": "/media/kitecms__images__intarsia.jpg",
+      "legacyUrl": "/catagory.php?id=189"
+    },
+    {
+      "legacyId": 215,
+      "legacyName": "Embridoery machines",
+      "name": "Embroidery Machines",
+      "slug": "embroidery-machines",
+      "tagline": "High-speed multi-head embroidery systems",
+      "description": "High-speed embroidery machines including chenille, sequin, beads and chain-stitch configurations for garments, logos, curtains, handbags and lace fabrics.",
+      "image": "/media/kitecms__images__embrodiery-machine.jpg",
+      "legacyUrl": "/catagory.php?id=215"
+    },
+    {
+      "legacyId": 234,
+      "legacyName": "Laser and Fusing Machine",
+      "name": "Laser & Fusing Machines",
+      "slug": "laser-fusing-machines",
+      "tagline": "Laser cutting, engraving and heat-press fusing",
+      "description": "CO2 laser cutting and engraving machines together with heat-press fusing and calendering equipment for shoe uppers, garments and composite materials.",
+      "image": "/media/kitecms__images__co2-heat-presses-fusing-machine.jpg",
+      "legacyUrl": "/catagory.php?id=234"
+    },
+    {
+      "legacyId": 238,
+      "legacyName": "Mesh knitting Machines",
+      "name": "Mesh Knitting Machines",
+      "slug": "mesh-knitting-machines",
+      "tagline": "Double-bar raschel machines for spacer textiles",
+      "description": "Flexible double-bar raschel warp knitting machines for producing spacer fabrics and air-mesh materials used in shoe uppers.",
+      "image": "/media/kitecms__images__airmash-jaiquard-wrap-knitting-machine-for-shoes-upper.jpg",
+      "legacyUrl": "/catagory.php?id=238"
+    },
+    {
+      "legacyId": 240,
+      "legacyName": "Socks and gloves And Cap Machines",
+      "name": "Socks, Gloves & Cap Machines",
+      "slug": "socks-gloves-cap-machines",
+      "tagline": "Dedicated hosiery knitting machines",
+      "description": "Purpose-built knitting machines for socks, gloves and caps, including computerized glove knitting systems.",
+      "image": "/media/kitecms__images__cap-knit.jpg",
+      "legacyUrl": "/catagory.php?id=240"
+    },
+    {
+      "legacyId": 245,
+      "legacyName": "Weaving machines",
+      "name": "Weaving Machines",
+      "slug": "weaving-machines",
+      "tagline": "Electronic jacquard shoe-upper weaving",
+      "description": "Electronic jacquard weaving machines engineered for shoe-upper and technical fabric production.",
+      "image": "/media/kitecms__images__sultex-electronic-jacquard-shoe-upper-weaving-machine.jpg",
+      "legacyUrl": "/catagory.php?id=245"
+    },
+    {
+      "legacyId": 256,
+      "legacyName": "Warp Machine Part",
+      "name": "Warp Machines & Parts",
+      "slug": "warp-machines-parts",
+      "tagline": "Warping, warp knitting and lamination equipment",
+      "description": "Warping, warp knitting, beaming and composite lamination equipment, including CNC-controlled high-speed copy warping and sectional warping machines.",
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122822.png",
+      "legacyUrl": "/catagory.php?id=256"
+    }
+  ],
+  "products": [
+    {
+      "legacyId": 358,
+      "legacyUrl": "/product_description.php?id=358",
+      "slug": "fx-72s3-computerized-intarsia-flat-knitting-machine",
+      "name": "Computerized Intarsia Flat Knitting Machine",
+      "model": "FX-72S3",
+      "series": "Fully Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A fully computerized intarsia flat knitting machine built around a 5.2\" carriage and Reynen control system. It covers gauges from 2.5G to 18G and knitting widths from 52\" to 100\", running at a maximum knitting speed of 1.6 m/s. Non-waiting racking, patented tight-hanging motor technology and full protection monitoring support continuous production of intarsia, jacquard and shaped patterns.",
+      "features": [],
+      "applications": [
+        "Intarsia patterned knitwear",
+        "Jacquard and shaped panels",
+        "Three-dimensional relief knitting"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "2 Sys, 2+2, 3 Sys, 3+3"
+        },
+        {
+          "label": "Control System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Gauge",
+          "value": "2.5G, 3G,5G,7G, 3-5-7G, 8G, 9G,10G,12G,8-10-12G,14G, 12-14G, 16G, 18G"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "52\",60,\" 72,\"80,\" 90,\"100,\""
+        },
+        {
+          "label": "Knitting Speed",
+          "value": "Maximum 1.6 m/s"
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning"
+        },
+        {
+          "label": "intarsia",
+          "value": "Motorize feeder comand by timing belt ( Without Catcher and Solenoid )"
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Technology Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects"
+        },
+        {
+          "label": "Sinke",
+          "value": "Leading sinker patented technology makes, any filling process easier, tighter density and thicker upper with no difficulty at all."
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency."
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Transfer, Knit, miss, tuck, ntelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns."
+        },
+        {
+          "label": "Power",
+          "value": "PFC Module Technology, 120V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is MORE reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "System The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device."
+        },
+        {
+          "label": "Advantages",
+          "value": "Increased Production In Intarsia Patterns, High Speed, Anti Shake Technology, High Definition Full Touch Screen, Dynamic Stitch, 3D Knitting Patters, Graded Cast Iron, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__intarsia.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 359,
+      "legacyUrl": "/product_description.php?id=359",
+      "slug": "fx-3-36-sj-flat-knitting-flyknit-shoe-upper-machine",
+      "name": "Flat Knitting Flyknit Shoe Upper Machine",
+      "model": "FX-3-36-SJ",
+      "series": "Fully Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A three-system computerized flat knitting machine configured for flyknit shoe uppers. Fine gauges of 14G, 16G and 18G and knitting widths from 52\" to 80\" suit dense upper structures, with a maximum knitting speed of 1.6 m/s under Reynen control.",
+      "features": [],
+      "applications": [
+        "Flyknit shoe uppers",
+        "Technical knitted uppers"
+      ],
+      "specifications": [
+        {
+          "label": "KnittingSystem",
+          "value": "3 Sys, 3+3"
+        },
+        {
+          "label": "Control System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Gauge",
+          "value": "14G, 16G, 18G"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "52\",60,\" 72,\"80,\""
+        },
+        {
+          "label": "Knitting Speed",
+          "value": "Maximum 1.6 m/s"
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning."
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Technology Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects"
+        },
+        {
+          "label": "Sinker",
+          "value": "Leading sinker patented technology makes, any filling process easier, tighter density and thicker upper with no difficulty at all."
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency.(Racking on both bed)"
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Transfer, Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns."
+        },
+        {
+          "label": "Power",
+          "value": "1.5KW,PFC Module Technology, 220V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is MORE reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "System The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device."
+        },
+        {
+          "label": "Advantages",
+          "value": "High Speed, Anti Shake Technology, High Definition Full Touch Screen, Dynamic Stitch, 3D Knitting Patters, Graded Cast Iron, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__show-2.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 360,
+      "legacyUrl": "/product_description.php?id=360",
+      "slug": "fx-3-72-sj-computerized-sweater-flat-knitting-machine",
+      "name": "Computerized Sweater Flat Knitting Machine",
+      "model": "FX-3-72-SJ",
+      "series": "Fully Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A computerized sweater flat knitting machine spanning 2.5G to 18G gauges and 52\" to 100\" knitting widths. Two- and three-system carriage configurations, a maximum speed of 1.6 m/s and non-waiting racking support high-output sweater panel production.",
+      "features": [],
+      "applications": [
+        "Sweater panels",
+        "Knitted garment panels"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "2 Sys, 2+2, 3 Sys, 3+3"
+        },
+        {
+          "label": "Control System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Gauge",
+          "value": "2.5G, 3G,5G,7G, 3-5-7G, 8G, 9G,10G,12G,8-10-12G,14G, 12-14G, 16G, 18G"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "52\",60,\" 72,\"80,\" 90,\"100,\""
+        },
+        {
+          "label": "Knitting Speed",
+          "value": "Maximum 1.6 m/s"
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning."
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Technology Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects"
+        },
+        {
+          "label": "Sinker",
+          "value": "Leading sinker patented technology makes, any filling process easier, tighter density and thicker upper with no difficulty at all."
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency.(Racking on both bed)"
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Transfer, Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns."
+        },
+        {
+          "label": "Power",
+          "value": "1.5KW,PFC Module Technology, 220V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is MORE reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "System The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device."
+        },
+        {
+          "label": "Advantages",
+          "value": "High Speed, Anti Shake Technology, High Definition Full Touch Screen, Dynamic Stitch, 3D Knitting Patters, Graded Cast Iron, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__woolen-series.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 417,
+      "legacyUrl": "/product_description.php?id=417",
+      "slug": "fx-3-72-s-3d-flyknit-shoe-vamp-computerized-flat-knitting-machine",
+      "name": "Flyknit Shoe Vamp Computerized Flat Knitting Machine",
+      "model": "FX-3-72-S 3D",
+      "series": "Fully Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A three-system computerized flat knitting machine for 3D flyknit shoe vamps. It runs 14G to 18G gauges across 52\" to 80\" knitting widths at up to 1.6 m/s, with patented sinker and tight-hanging motor technology for dense, three-dimensional upper structures.",
+      "features": [],
+      "applications": [
+        "3D flyknit shoe vamps",
+        "Shoe upper knitting"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "3 Sys, 3+3"
+        },
+        {
+          "label": "Control System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Gauge",
+          "value": "14G, 16G, 18G"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "52\",60,\" 72,\"80,\""
+        },
+        {
+          "label": "Knitting Speed",
+          "value": "Maximum 1.6 m/s"
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning."
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Technology Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects"
+        },
+        {
+          "label": "Sinker",
+          "value": "Leading sinker patented technology makes, any filling process easier, tighter density and thicker upper with no difficulty at all."
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency.(Racking on both bed)"
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Transfer, Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns."
+        },
+        {
+          "label": "Power",
+          "value": "1.5KW,PFC Module Technology, 220V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is MORE reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "System The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device."
+        },
+        {
+          "label": "Advantages",
+          "value": "High Speed, Anti Shake Technology, High Definition Full Touch Screen, Dynamic Stitch, 3D Knitting Patters, Graded Cast Iron, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__show-1.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 418,
+      "legacyUrl": "/product_description.php?id=418",
+      "slug": "fx-2-52-sw-computerized-sweater-flat-knitting-machine-with-comb",
+      "name": "Computerized Sweater Flat Knitting Machine (With Comb)",
+      "model": "FX-2-52-SW",
+      "series": "Fully Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A computerized sweater flat knitting machine fitted with a comb device that knits yarn directly from the bottom, saving waste-yarn cost. Gauges run 2.5G to 18G across 52\" to 80\" knitting widths at a maximum speed of 1.6 m/s.",
+      "features": [],
+      "applications": [
+        "Sweater panels",
+        "Waste-yarn-free knitting"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "2 Sys, 2+2, 3 Sys, 3+3"
+        },
+        {
+          "label": "Control System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Gauge",
+          "value": "2.5G, 3G,5G,7G, 3-5-7G, 8G, 9G,10G,12G,8-10-12G,14G, 12-14G, 16G, 18G"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "52\",60,\" 72,\"80,\""
+        },
+        {
+          "label": "Knitting Speed",
+          "value": "Maximum 1.6 m/s"
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning."
+        },
+        {
+          "label": "Comb Device",
+          "value": "The yarn is directly knitting from the bottom, which saves a lot of waste yarn costs. Free of the bottom yarn, eliminating the need of workers to disconnect the line, greatly increasing efficiency."
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Technology Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects"
+        },
+        {
+          "label": "Sinker",
+          "value": "Leading sinker patented technology makes, any filling process easier, tighter density and thicker upper with no difficulty at all."
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency.(Racking on both bed)"
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Transfer, Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns."
+        },
+        {
+          "label": "Power",
+          "value": "1.5KW,PFC Module Technology, 220V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is MORE reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "System The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device."
+        },
+        {
+          "label": "Advantages",
+          "value": "High Speed, Anti Shake Technology, High Definition Full Touch Screen, Dynamic Stitch, 3D Knitting Patters, Graded Cast Iron, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__comb.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 419,
+      "legacyUrl": "/product_description.php?id=419",
+      "slug": "fx-3-36-sj-computerized-t-shirt-flat-knitting-machine",
+      "name": "Computerized T-Shirt Flat Knitting Machine",
+      "model": "FX-3-36-SJ",
+      "series": "Fully Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A computerized flat knitting machine configured for T-shirt panels, with 12G to 18G gauges and 36\", 52\", 72\" and 80\" knitting widths. Maximum knitting speed is 1.6 m/s under Reynen control.",
+      "features": [],
+      "applications": [
+        "Knitted T-shirt panels",
+        "Fine-gauge garment panels"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "2 Sys, 2+2, 3 Sys, 3+3"
+        },
+        {
+          "label": "Controlling System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Gauge",
+          "value": "12G,14G, 16G, 18G"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "36\", 52\", 72\", 80\","
+        },
+        {
+          "label": "Knitting Speed",
+          "value": ", Maximum 1.6 m/s."
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning."
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects."
+        },
+        {
+          "label": "Sinker",
+          "value": "Leading sinker patented technology makes, tighter density and thicker fabric with no difficulty at all."
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency"
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Transfer, Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns."
+        },
+        {
+          "label": "Power",
+          "value": "1.5KW, PFC Module Technology, 220V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is mroe reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device. High Speed, Anti Shake Technology,"
+        },
+        {
+          "label": "Advantages",
+          "value": "High Definition Full Touch Screen, Dynamic Stitch, 3D Knitting Patters, Graded Cast Iron, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__t-shirt.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 362,
+      "legacyUrl": "/product_description.php?id=362",
+      "slug": "km-1122-semi-computerized-sweater-flat-knitting-machine",
+      "name": "Semi Computerized Sweater Flat Knitting Machine",
+      "model": "KM-1122",
+      "series": "Semi Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A semi-computerized sweater flat knitting machine with a micro-computer control system and 40x4 LCD display. Knitting widths run 40\" to 80\" across 7G to 16G sweater gauges at 1.4 m/sec, with six yarn feeders on three rails and storage for 250 design files.",
+      "features": [],
+      "applications": [
+        "Sweater panels",
+        "Semi-automatic knitwear production"
+      ],
+      "specifications": [
+        {
+          "label": "Model",
+          "value": "KM-1122"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "40\",44\",52\",60\",80\""
+        },
+        {
+          "label": "Gauge",
+          "value": "7G,8G,10G,12G,14G,16G (Sweater)"
+        },
+        {
+          "label": "Speed",
+          "value": "1.4m/sec"
+        },
+        {
+          "label": "Yarn Carrier",
+          "value": "6 Yarn Feeder on 3 rail"
+        },
+        {
+          "label": "Cam System",
+          "value": "Single Cam System"
+        },
+        {
+          "label": "Stop Motion",
+          "value": "Top yarn break, Knot, Needle Break ,Piece Count Overload, Fabric Fall,"
+        },
+        {
+          "label": "Stitch Density",
+          "value": "Mechanical operated"
+        },
+        {
+          "label": "Racking",
+          "value": "1 to 5 left or right, half needle rack also available at one time"
+        },
+        {
+          "label": "Command",
+          "value": "Electronic Controlled by Steeper motor"
+        },
+        {
+          "label": "Power",
+          "value": "0.75KW (Motor)"
+        },
+        {
+          "label": "Control System Capacity",
+          "value": "Micro Computer System, Display on 40x4 LCD, Command simple and easy Control"
+        },
+        {
+          "label": "Design Storage Capacity",
+          "value": "250 Files"
+        },
+        {
+          "label": "Winder",
+          "value": "Mechanical / Motorized"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__mastana-computerized-sweater.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 363,
+      "legacyUrl": "/product_description.php?id=363",
+      "slug": "km-1122-semi-computerized-collar-flat-knitting-machine",
+      "name": "Semi Computerized Collar Flat Knitting Machine",
+      "model": "KM-1122",
+      "series": "Semi Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "The collar configuration of the KM-1122 semi-computerized flat knitting machine. It offers 7G to 16G collar gauges and 40\" to 80\" knitting widths at 1.4 m/sec, with a single cam system, electronic stepper-motor command and 250-file design storage.",
+      "features": [],
+      "applications": [
+        "Knitted collars",
+        "Cuffs and plackets"
+      ],
+      "specifications": [
+        {
+          "label": "Model",
+          "value": "KM-1122"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "40\",44\",52\",60\",80\""
+        },
+        {
+          "label": "Gauge",
+          "value": "7G,8G,10G,12G,14G,16G ( Collar )"
+        },
+        {
+          "label": "Speed",
+          "value": "1.4m/sec"
+        },
+        {
+          "label": "Yarn Carrier",
+          "value": "6 Yarn Feeder on 3 rail"
+        },
+        {
+          "label": "Cam System",
+          "value": "Single Cam System"
+        },
+        {
+          "label": "Stop Motion",
+          "value": "Top yarn break, Knot, Needle Break ,Piece Count Overload, Fabric Fall,"
+        },
+        {
+          "label": "Stitch Density",
+          "value": "Mechanical operated"
+        },
+        {
+          "label": "Racking",
+          "value": "1 to 5 left or right, half needle rack also available at one time"
+        },
+        {
+          "label": "Command",
+          "value": "Electronic Controlled by Steeper motor"
+        },
+        {
+          "label": "Power",
+          "value": "0.75KW (Motor)"
+        },
+        {
+          "label": "Control System Capacity",
+          "value": "Micro Computer System, Display on 40x4 LCD, Command simple and easy Control"
+        },
+        {
+          "label": "Design Storage Capacity",
+          "value": "250 Files"
+        },
+        {
+          "label": "Winder",
+          "value": "Mechanical / Motorized"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__mastanacomputerized-collar.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 413,
+      "legacyUrl": "/product_description.php?id=413",
+      "slug": "km-1122-dj-fully-computerized-dj-collar-flat-knitting-machine",
+      "name": "Fully Computerized DJ Collar Flat Knitting Machine",
+      "model": "KM-1122-DJ",
+      "series": "Semi Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A fully computerized collar flat knitting machine offering full jacquard and full jacquard with transfer. Servo-controlled knitting reaches 1.4 m/s across 12G to 18G gauges and 42\" to 80\" knitting widths, with servo racking within 2 inches, 32-section stitch density control and an LCD industrial display with USB memory. Net weight is 550-1050 kg.",
+      "features": [],
+      "applications": [
+        "Jacquard collars",
+        "Collars with transfer patterning"
+      ],
+      "specifications": [],
+      "specTable": {
+        "header": [
+          "Model",
+          "KM-1122 DJ",
+          "KM-1122DJ"
+        ],
+        "rows": [
+          [
+            "Gauge",
+            "12G, 14G, 16G, 18G",
+            "—"
+          ],
+          [
+            "Knitting Width",
+            "42\", 52\", 60\", 68\", 80\"",
+            "—"
+          ],
+          [
+            "Knitting Function",
+            "Full Jacquard.",
+            "Full Jacquard with Transfer."
+          ],
+          [
+            "Knitting System",
+            "Single, Double carriage/Single System 8 needle jack full jacquard selection cams.",
+            "—"
+          ],
+          [
+            "Needle-Bed",
+            "Segment knife needle bed of common needle bed option available when buying with 8 seats of solenold needle selection structure.",
+            "—"
+          ],
+          [
+            "Racking",
+            "Controlled by servo motor racking within 2 Inches & with fine adjusting function",
+            "—"
+          ],
+          [
+            "Knitting Speed",
+            "Controlled by servo motor, maximum 1.4M/S.",
+            "—"
+          ],
+          [
+            "Encoder",
+            "Advanced encoder adopted.",
+            "—"
+          ],
+          [
+            "Stitch Density",
+            "Controlled by stepping motor, 32 sections stitch selectable adjustable scope supported by subdivision technology: 0-650, The stitch of the knitwear can be accurately controlled.",
+            "—"
+          ],
+          [
+            "Take Down Roller",
+            "Programmed Instruction controlled by stepping motor, 32 levels selection adjustable range: 0-100",
+            "—"
+          ],
+          [
+            "Yarn Carrier",
+            "2 sets of 6 feeders on both sides of the 3 feeder rails.",
+            "—"
+          ],
+          [
+            "Protection",
+            "The machine will automatically alarm if yarn breakage knots floating yarn rewind end of Knitting, Fall of racking needle breakage error programming occur also set up the safety auto-lock protect device.",
+            "—"
+          ],
+          [
+            "Operational Display",
+            "LCD industrial display, can display various parameters, USB memory, time counting, visual Interface control, maintenance history, easy system update, express in Chinese or English etc.",
+            "—"
+          ],
+          [
+            "Power",
+            "Single-Phase 220V, adopt advanced CMOS technology, having memorizing function at power Shock stop.",
+            "—"
+          ],
+          [
+            "N.W.",
+            "550-1050KGS",
+            "—"
+          ]
+        ]
+      },
+      "image": "/media/kitecms__images__mastana-dj-collar-flat-knitting-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 414,
+      "legacyUrl": "/product_description.php?id=414",
+      "slug": "ks-3-72-ke-shang-pro-three-system-flat-knitting-machine",
+      "name": "KE-Shang Pro Three System Flat Knitting Machine",
+      "model": "KS-3-72",
+      "series": "Semi Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A three-system single-carriage flat knitting machine under Heng Qiang / Reynen control. Gauges span 2.5G to 18G with knitting widths from 36\" to 100\", AC servo racking within 2 inches and a stepper-controlled sinker system adjustable to different knitwear structures.",
+      "features": [],
+      "applications": [
+        "Sweater and garment panels",
+        "Jacquard and intarsia knitwear"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "Three system single carriage (3 +3)"
+        },
+        {
+          "label": "Controlling System",
+          "value": "Heng Qiang / Reynen"
+        },
+        {
+          "label": "Gauge",
+          "value": "2.5G ,3G, 5G, 7G, 8G , 9G, 10g, 12g, 14G, 16G, 18G"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "36\", 52\", 60\" ,72\", 80 \", 90\" , 100\","
+        },
+        {
+          "label": "Racking System",
+          "value": "Controlled by AC servo motor racking within 2 Inches, in addition to accurate fine micro adjustable function. ( Racking on Both Bed )"
+        },
+        {
+          "label": "Knitting function",
+          "value": "Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular & irregular patterns"
+        },
+        {
+          "label": "sinker system",
+          "value": "Controlled by stepping motor, adjustable to different knitwear, achieve various results of narrowing and widening"
+        },
+        {
+          "label": "Encoder",
+          "value": "Advanced encoder adopted."
+        },
+        {
+          "label": "power",
+          "value": "Single Phase 220V, adopt advanced CMOS technology enabling memorizing at the Instant of Power outage and restoring of knitting thereafter"
+        },
+        {
+          "label": "protection system",
+          "value": "The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device"
+        },
+        {
+          "label": "Advantages",
+          "value": "High Speed, Anti Shake Technology, High Definition Full Touch Screen, Dynamic Stitch, High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__untitled-2.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 415,
+      "legacyUrl": "/product_description.php?id=415",
+      "slug": "ks-3-72-ke-shang-triple-system-flat-knitting-machine",
+      "name": "KE-Shang Triple System Flat Knitting Machine",
+      "model": "KS-3-72",
+      "series": "Semi Computerized",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A triple-system single-carriage flat knitting machine (3+3) under Heng Qiang / Reynen control, covering 2.5G to 18G gauges and 36\" to 100\" knitting widths with AC servo racking and a stepper-controlled sinker system.",
+      "features": [],
+      "applications": [
+        "Sweater and garment panels",
+        "Jacquard and intarsia knitwear"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "Three system single carriage 3=3"
+        },
+        {
+          "label": "Controlling System",
+          "value": "Heng Qiang / Reynen"
+        },
+        {
+          "label": "Gauge",
+          "value": "2.5G ,3G, 5G, 7G, 8G , 9G, 10g, 12g, 14G, 16G, 18G"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "36\", 52\", 60\" ,72\", 80 \", 90\" , 100\","
+        },
+        {
+          "label": "Racking System",
+          "value": "Controlled by AC servo motor racking within 2 Inches, in addition to accurate fine micro adjustable function. ( Racking on Both Bed )"
+        },
+        {
+          "label": "Knitting function",
+          "value": "Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular & irregular patterns"
+        },
+        {
+          "label": "sinker system",
+          "value": "Controlled by stepping motor, adjustable to different knitwear, achieve various results of narrowing and widening"
+        },
+        {
+          "label": "Encoder",
+          "value": "Advanced encoder adopted."
+        },
+        {
+          "label": "power",
+          "value": "Single Phase 220V, adopt advanced CMOS technology enabling memorizing at the Instant of Power outage and restoring of knitting thereafter"
+        },
+        {
+          "label": "protection system",
+          "value": "The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device"
+        },
+        {
+          "label": "Advantages",
+          "value": "High Speed, Anti Shake Technology, High Definition Full Touch Screen, Dynamic Stitch, High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__untitled-1.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 381,
+      "legacyUrl": "/product_description.php?id=381",
+      "slug": "fx-2-52-szl-fully-jacquard-professional-collar-machine-with-transfer",
+      "name": "Fully Jacquard Professional Collar Machine (With Transfer)",
+      "model": "FX-2-52-SZL",
+      "series": "Collar",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A professional collar flat knitting machine offering full jacquard with transfer. Single, double and triple system configurations run 14G to 20G basic and transfer needles across 52\", 72\" and 80\" knitting widths at up to 1.6 m/s, with a double takedown winder and sub roller.",
+      "features": [],
+      "applications": [
+        "Jacquard collars with transfer",
+        "Fine-gauge collar production"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "Single System (1+1), Double System (2+2), Triple System (3+3)"
+        },
+        {
+          "label": "Controlling System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Gauge / Needle",
+          "value": "14G,15G,16G,18G, 20G Basic Needle / Transfer Needle"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "52\",72\", 80\""
+        },
+        {
+          "label": "Knitting Speed",
+          "value": "Maximum 1.6 m/s ."
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning."
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects."
+        },
+        {
+          "label": "Takedown Winder",
+          "value": "Equipped with Sub Roller. ( Double winder )"
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency."
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns. ."
+        },
+        {
+          "label": "Sinker",
+          "value": "Without Sinker"
+        },
+        {
+          "label": "Power",
+          "value": "1.5KW, PFC Module Technology, 220V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is mroe reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device. High Speed, Anti Shake Technology,"
+        },
+        {
+          "label": "Advantages",
+          "value": ". High Speed, Anti Shake Technology, High Definition Full Touch Screen, 3D Knitting Patters, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__coller.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 382,
+      "legacyUrl": "/product_description.php?id=382",
+      "slug": "fx-2-80-szl-fully-jacquard-professional-tandem-collar-machine",
+      "name": "Fully Jacquard Professional Tandem Collar Machine",
+      "model": "FX-2-80-SZL",
+      "series": "Collar",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A tandem professional collar machine with full jacquard capability. It offers 14G to 20G basic and transfer needles across 52\", 72\" and 80\" knitting widths, running at up to 1.6 m/s with a 5.2\" carriage and double takedown winder.",
+      "features": [],
+      "applications": [
+        "Tandem collar production",
+        "Jacquard collars"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "Single System (1+1), Double System (2+2), Triple System (3+3)"
+        },
+        {
+          "label": "Controlling System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Gauge / Needle",
+          "value": "14G,15G,16G,18G, 20G Basic Needle / Transfer Needle"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "52\",72\", 80\""
+        },
+        {
+          "label": "Knitting Speed",
+          "value": "Maximum 1.6 m/s ."
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning."
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects."
+        },
+        {
+          "label": "Takedown Winder",
+          "value": "Equipped with Sub Roller. ( Double winder )"
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency."
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns. ."
+        },
+        {
+          "label": "Sinker",
+          "value": "Without Sinker"
+        },
+        {
+          "label": "Power",
+          "value": "1.5KW, PFC Module Technology, 220V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is mroe reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device. High Speed, Anti Shake Technology,"
+        },
+        {
+          "label": "Advantages",
+          "value": ". High Speed, Anti Shake Technology, High Definition Full Touch Screen, 3D Knitting Patters, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__fully-jacquard-professional-collar-flat-knitting-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 412,
+      "legacyUrl": "/product_description.php?id=412",
+      "slug": "fx-3-72-szl-full-fashion-collar-flat-knitting-machine",
+      "name": "Full Fashion Collar Flat Knitting Machine",
+      "model": "FX-3-72-SZL",
+      "series": "Collar",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A full-fashion collar flat knitting machine with double-carriage two- and three-system configurations. Gauges of 14G, 16G and 18G run across 52\" to 100\" knitting widths at up to 1.6 m/s, with patented sinker technology and a double takedown winder.",
+      "features": [],
+      "applications": [
+        "Full-fashion collars",
+        "Shaped collar panels"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "2 Sys, 2+2, 3 Sys, 3+3 Double carriage"
+        },
+        {
+          "label": "Gauge",
+          "value": "14G, 16G, 18G"
+        },
+        {
+          "label": "Controlling System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Knitting Width",
+          "value": "52\", 72\", 80\",100\""
+        },
+        {
+          "label": "Knitting Speed",
+          "value": "Maximum 1.6 m/s"
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning."
+        },
+        {
+          "label": "Takedown Winder",
+          "value": "Equipped with Sub Roller.( Double winder )"
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects."
+        },
+        {
+          "label": "With Sinker",
+          "value": "Leading sinker patented technology makes, tighter Fabric and thicker upper with no difficulty at all."
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency."
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Transfer, Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns."
+        },
+        {
+          "label": "Power",
+          "value": "1.5KW, PFC Module Technology, 220V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is mroe reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device."
+        },
+        {
+          "label": "Advantages",
+          "value": "High Speed, Anti Shake Technology, High Definition Full Touch Screen, Dynamic Stitch, 3D Knitting Patters, Graded Cast Iron, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__fully-fashion-coller-flat-knitting-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 416,
+      "legacyUrl": "/product_description.php?id=416",
+      "slug": "fx-3-72-sh-whole-garment-flat-knitting-machine",
+      "name": "Whole Garment Flat Knitting Machine",
+      "model": "FX-3-72-SH",
+      "series": "Whole Garment",
+      "categorySlug": "flat-knitting-machines",
+      "categoryName": "Flat Knitting Machines",
+      "description": "A whole-garment flat knitting machine covering 2.5G to 18G gauges and 52\" to 80\" knitting widths, running at up to 1.6 m/s with non-waiting racking, patented sinker technology and full protection monitoring.",
+      "features": [],
+      "applications": [
+        "Whole-garment knitwear",
+        "Seamless knitted garments"
+      ],
+      "specifications": [
+        {
+          "label": "Knitting System",
+          "value": "2 Sys, 2+2, 3 Sys, 3+3"
+        },
+        {
+          "label": "Control System",
+          "value": "Reynen"
+        },
+        {
+          "label": "Gauge",
+          "value": "2.5G, 3G,5G,7G, 3-5-7G, 8G, 9G,10G,12G,8-10-12G,14G, 12-14G, 16G, 18G"
+        },
+        {
+          "label": "KnittingWidth",
+          "value": "52\",60,\" 72,\"80,\""
+        },
+        {
+          "label": "Knitting Speed",
+          "value": "Maximum 1.6 m/s"
+        },
+        {
+          "label": "Carriage",
+          "value": "5.2\" Carriage which is fast and stable, no noise, efficient weaving & accurate positioning."
+        },
+        {
+          "label": "Motor Technology",
+          "value": "Technology Adopting the industry-leading patented tight-hanging motor, it can freely control the height of the lifting and accurately position, and perfectly realize the three-dimensional relief effect of various tight hanging objects"
+        },
+        {
+          "label": "Sinker",
+          "value": "Leading sinker patented technology makes, any filling process easier, tighter density and thicker upper with no difficulty at all."
+        },
+        {
+          "label": "Racking System",
+          "value": "Non-Waiting Technology. During the racking process the machine doesn't need to stop or wait, greatly improving the knitting efficiency.(Racking on both bed)"
+        },
+        {
+          "label": "Knitting Function",
+          "value": "Transfer, Knit, miss, tuck, pointelle, intarsia, jacquard, hide or apparent shaping & other regular or irregular patterns."
+        },
+        {
+          "label": "Power",
+          "value": "1.5KW,PFC Module Technology, 220V-300V wide voltage input all available for the machine, constant 400V DC output and continuous knitting is MORE reliable."
+        },
+        {
+          "label": "Protection System",
+          "value": "System The machine will automatically alarm if yarn-breaking, knots, floating thread, rewinding, end of knitting, racking failure, needle breakage, wrong programming occur, also with safety auto lock protection device."
+        },
+        {
+          "label": "Advantages",
+          "value": "High Speed, Anti Shake Technology, High Definition Full Touch Screen, Dynamic Stitch, 3D Knitting Patters, Graded Cast Iron, Ultra Digital Laser Technology Safety Sensor, Conventional Auto Oiler, Enhanced High Quality Sensors & High Efficiency Spare Parts."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__whole-germent.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 366,
+      "legacyUrl": "/product_description.php?id=366",
+      "slug": "xtl-series-computerized-embroidery-machine",
+      "name": "XTL Series Computerized Embroidery Machine",
+      "model": "XTL Series",
+      "series": null,
+      "categorySlug": "embroidery-machines",
+      "categoryName": "Embroidery Machines",
+      "description": "A new generation high speed, high efficiency and high value flagship computer. embroidery machine is suitable for fashion forefront branded clothing and dress design, expanding more kinds of thick and thin thread, fully supporting the unique design, high-quality embroidery needs, and can produce products according to customers",
+      "features": [],
+      "applications": [
+        "Branded clothing and dress design",
+        "Fashion embroidery"
+      ],
+      "specifications": [],
+      "specTable": {
+        "header": [
+          "Model",
+          "Needle NO.",
+          "Head No.",
+          "Head Distance",
+          "Embroidery Area",
+          "Frame Size",
+          "Length x Width"
+        ],
+        "rows": [
+          [
+            "XTL-604",
+            "6",
+            "4",
+            "330",
+            "680 x 800",
+            "1690 x 840",
+            "3080 x 2100"
+          ],
+          [
+            "XTL-912",
+            "9",
+            "12",
+            "300",
+            "600 x 850",
+            "3940 x 890",
+            "5420 x 2227"
+          ],
+          [
+            "XTL-1215",
+            "12",
+            "15",
+            "400",
+            "800 x 1200",
+            "6440 x 1240",
+            "8090 x 2917"
+          ],
+          [
+            "XTL-1518",
+            "15",
+            "18",
+            "400",
+            "500 x 680",
+            "7340 x 720",
+            "8690 x 1877"
+          ],
+          [
+            "XTL-920",
+            "9",
+            "20",
+            "330",
+            "450 x 550",
+            "6720 x 590",
+            "8100 x 1648"
+          ]
+        ]
+      },
+      "image": "/media/kitecms__images__embrodiery-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 377,
+      "legacyUrl": "/product_description.php?id=377",
+      "slug": "high-speed-embroidery-machine-with-beads-and-heat-cutting",
+      "name": "High Speed Embroidery Machine With Beads and Heat Cutting",
+      "model": null,
+      "series": null,
+      "categorySlug": "embroidery-machines",
+      "categoryName": "Embroidery Machines",
+      "description": "High speed machine with beads mixed with heat cutting devices series Maximum speed 1200 rpm, Dahao computer control system, main shaft servo motor, Dahao full servo motors, linear guide, single cam double reciprocators, linear head system, imported high-speed rotary hooks. high-speed head tension, high-strength wear-resistant aluminum alloy embroidery frame, high-strength wear-resistant Eucalyptus table, 1200 high-wear-resistant plastic surface, OLH beads device, MING brand heat- cutting device, automatic bobbin changing device Maximum speed 1200 rpm, can adjust stable embroidery, production has been greatly improved, 9 colors can be automatically converted function, so that you can flexibly use color matching, automatic conversion of beads and heating cutting function, to add luster in your products We can make all kinds of products according to customers' needs",
+      "features": [
+        "Maximum speed of 1200 rpm with adjustable, stable embroidery for greatly improved production",
+        "9 colours can be automatically converted, so colour matching can be used flexibly",
+        "Automatic conversion between beads and heat cutting adds lustre to finished products",
+        "Products can be made according to customers' requirements"
+      ],
+      "applications": [
+        "Beadwork embroidery",
+        "Heat-cut appliqué"
+      ],
+      "specifications": [
+        {
+          "label": "Maximum Speed",
+          "value": "1200 rpm"
+        },
+        {
+          "label": "Control System",
+          "value": "Dahao computer control system"
+        },
+        {
+          "label": "Motors",
+          "value": "Main shaft servo motor, Dahao full servo motors"
+        },
+        {
+          "label": "Head System",
+          "value": "Single cam double reciprocators, linear head system"
+        },
+        {
+          "label": "Guides",
+          "value": "Linear guide"
+        },
+        {
+          "label": "Rotary Hooks",
+          "value": "Imported high-speed rotary hooks"
+        },
+        {
+          "label": "Embroidery Frame",
+          "value": "High-strength wear-resistant aluminium alloy"
+        },
+        {
+          "label": "Table",
+          "value": "High-strength wear-resistant eucalyptus table"
+        },
+        {
+          "label": "Beads Device",
+          "value": "OLH beads device"
+        },
+        {
+          "label": "Heat Cutting Device",
+          "value": "MING brand heat-cutting device"
+        },
+        {
+          "label": "Bobbin Changing",
+          "value": "Automatic bobbin changing device"
+        },
+        {
+          "label": "Colour Change",
+          "value": "9 colours, automatic conversion"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__high-speed-embroidery--machine-with-beads-mixed-with-heat-cutting-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 367,
+      "legacyUrl": "/product_description.php?id=367",
+      "slug": "high-speed-embroidery-machine",
+      "name": "High Speed Embroidery Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "embroidery-machines",
+      "categoryName": "Embroidery Machines",
+      "description": "A high-speed embroidery machine for logo, trademark and three-dimensional small-lettering work. A full-bearing structure gives stable running at 1050 rpm with a maximum of 1200 rpm, supported by a Tajima-type thread holding system, high-accuracy digital colour change and automatic oiling and lubrication.",
+      "features": [
+        "Suitable for LOGO trademark, three-dimensional embroidery of small letters, etc",
+        "Excellent and reliable full bearing structure, stable and reliable speed 1050 rpm, maximum speed 1200 rpm",
+        "Tajima type thread holding system can effectively improve or prevent the possibility of thread breakage with",
+        "Digital color change system with high accuracy",
+        "New embroidered frame structure with high strength, light weight and high precision",
+        "Embroidery frame drive belt with Italian original belt, small deformation and long life",
+        "Motor trimmer system with less noise and high torque",
+        "Automatic oiling and lubrication system",
+        "Double cam double reciprocator and single cam double reciprocator head systems are optional",
+        "AC servo motor and linear guide with imported belts are used in the machine frames",
+        "Jump solenoid",
+        "Key parts are imported"
+      ],
+      "applications": [
+        "Logo and trademark embroidery",
+        "Three-dimensional small lettering"
+      ],
+      "specifications": [],
+      "specTable": null,
+      "image": "/media/kitecms__images__high-speed-embroidery-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 378,
+      "legacyUrl": "/product_description.php?id=378",
+      "slug": "mixed-chenille-embroidery-machine",
+      "name": "Mixed Chenille Embroidery Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "embroidery-machines",
+      "categoryName": "Embroidery Machines",
+      "description": "A mixed chenille embroidery machine that switches automatically between chenille and ordinary flat embroidery. Maximum speed is 1200 rpm with automatic 12-colour change; flat heads are available in 3/4/6/9/12/15 colours and chenille heads in 4/6/9/12 colours, with optional chain, chenille, cording and taping functions.",
+      "features": [
+        "Maximum speed 1200 rpm with high speed stable embroidery, so that production has been greatly improved",
+        "Automatic 12 colors changes will allows you to use color collocation flexibly Use color change box to minimize noise and stabilize operation",
+        "3/4/6/9/12/15 colors is optional for flat machine, 4/6/9/12 colors is optional for chenille machine",
+        "It can automatically change machine head and is easy to carry out delicate mixed chenille embroidery and ordinary flat embroidery",
+        "Patent design of head components of high speed chenille machine",
+        "Various products can be manufactured according to customers'needs"
+      ],
+      "applications": [
+        "Chenille embroidery",
+        "Flat embroidery",
+        "Cording and taping"
+      ],
+      "specifications": [
+        {
+          "label": "Optional function",
+          "value": "chain, chenille, cording, taping"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__mixed-chenille-embroidery-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 389,
+      "legacyUrl": "/product_description.php?id=389",
+      "slug": "high-speed-embroidery-machinery",
+      "name": "High Speed Embroidery Machinery",
+      "model": null,
+      "series": null,
+      "categorySlug": "embroidery-machines",
+      "categoryName": "Embroidery Machines",
+      "description": "A high-speed embroidery machine suited to logo, trademark and three-dimensional small-lettering work, running at a stable 1050 rpm with a maximum of 1200 rpm. It uses a Tajima-type thread holding system, high-accuracy digital colour change, AC servo motors with linear guides and automatic oiling.",
+      "features": [
+        "SUITABLE FOR LOGO TRADEMARK, THREE-DIMENSIONAL EMBROIDERY OF SMALL LETTERS, ETC",
+        "EXCELLENT AND RELIABLE FULL BEARING STRUCTURE, STABLE AND RELIABLE SPEED 1050 RPM, MAXIMUM SPEED 1200 RPM",
+        "TAJIMA TYPE THREAD HOLDING SYSTEM CAN EFFECTIVELY IMPROVE OR PREVENT THE POSSIBILITY OF THREAD BREAKAGE WITH",
+        "DIGITAL COLOR CHANGE SYSTEM WITH HIGH ACCURACY",
+        "NEW EMBROIDERED FRAME STRUCTURE WITH HIGH STRENGTH, LIGHT WEIGHT AND HIGH PRECISION",
+        "EMBROIDERY FRAME DRIVE BELT WITH ITALIAN ORIGINAL BELT, SMALL DEFORMATION AND LONG LIFE",
+        "MOTOR TRIMMER SYSTEM WITH LESS NOISE AND HIGH TORQUE",
+        "AUTOMATIC OILING AND LUBRICATION SYSTEM",
+        "DOUBLE CAM DOUBLE RECIPROCATOR AND SINGLE CAM DOUBLE RECIPROCATOR HEAD SYSTEMS ARE OPTIONAL",
+        "AC SERVO MOTOR AND LINEAR GUIDE WITH IMPORTED BELTS ARE USED IN THE MACHINE FRAMES",
+        "JUMP SOLENOID",
+        "KEY PARTS ARE IMPORTED"
+      ],
+      "applications": [
+        "Logo and trademark embroidery",
+        "Three-dimensional small lettering"
+      ],
+      "specifications": [],
+      "specTable": null,
+      "image": "/media/kitecms__images__untitled-design-5-.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 390,
+      "legacyUrl": "/product_description.php?id=390",
+      "slug": "high-speed-embroidery-machine-with-dual-sequins",
+      "name": "High Speed Embroidery Machine With Dual Sequins",
+      "model": null,
+      "series": null,
+      "categorySlug": "embroidery-machines",
+      "categoryName": "Embroidery Machines",
+      "description": "High-speed flat embroidery with dual sequins or two devices four colors sequins and embroridery functions can meet the diversified embroidery needs of customers This product is maintly suitable for clothings curtains handbags and lace fabrics embroidery range can be customized according to customer needs. Sequin Device According to the installation position and quantity of the sequin devices, there are different embroidery forms. The sizes of the sequins are from 2 m to 12 mm. By using differ sequin sizes and colours, you can the desired effect",
+      "features": [],
+      "applications": [
+        "Clothing",
+        "Curtains",
+        "Handbags",
+        "Lace fabrics"
+      ],
+      "specifications": [
+        {
+          "label": "Beads type",
+          "value": "glass beads, plastic beads"
+        },
+        {
+          "label": "Beadsnsize",
+          "value": "2.0mm,2.5mm"
+        },
+        {
+          "label": "Beads quantity",
+          "value": "800 pcs"
+        },
+        {
+          "label": "Producation efficiency",
+          "value": "16000per hours"
+        },
+        {
+          "label": "Maximum speed",
+          "value": "800rpm"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__untitled-design-6-.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 392,
+      "legacyUrl": "/product_description.php?id=392",
+      "slug": "mpl-series-high-speed-chain-stitch-and-chenille-embroidery-machine",
+      "name": "High Speed Chain Stitch and Chenille Embroidery Machine",
+      "model": "MPL Series",
+      "series": null,
+      "categorySlug": "embroidery-machines",
+      "categoryName": "Embroidery Machines",
+      "description": "A high-speed chain-stitch and chenille embroidery machine available in MPL-618 through MPL-647 configurations, with 4 or 6 needles and 12 to 47 heads. Maximum speed is 1200 rpm with automatic 12-colour change and optional chain, chenille, cording and taping functions.",
+      "features": [
+        "MAXIMUM SPEED 1200 RPM WITH HIGH SPEED STABLE EMBROIDERY, SO THAT PRODUCTION HAS BEEN GREATLY IMPROVED",
+        "AUTOMATIC 12 COLORS CHANGES WILL ALLOWS YOU TO USE COLOR COLLOCATION FLEXIBLY USE COLOR CHANGE BOX TO MINIMIZE NOISE AND STABILIZE OPERATION",
+        "3/4/6/9/12/15 COLORS IS OPTIONAL FOR FLAT MACHINE, 4/6/9/12 COLORS IS OPTIONAL FOR CHENILLE MACHINE",
+        "IT CAN AUTOMATICALLY CHANGE MACHINE HEAD AND IS EASY TO CARRY OUT DELICATE MIXED CHENILLE EMBROIDERY AND ORDINARY FLAT EMBROIDERY"
+      ],
+      "applications": [
+        "Chain-stitch embroidery",
+        "Chenille embroidery"
+      ],
+      "specifications": [],
+      "specTable": {
+        "header": [
+          "MODEL",
+          "NEEDLE NO",
+          "HEAD NO",
+          "HEAD DISTANCE",
+          "EMBROIDERY AREA",
+          "FRAM SIZE",
+          "LENGTH WIDTH"
+        ],
+        "rows": [
+          [
+            "MPL-618",
+            "6",
+            "12",
+            "500",
+            "600*1060",
+            "6180*1060",
+            "7630*2557"
+          ],
+          [
+            "MPL-642",
+            "6",
+            "18",
+            "450",
+            "900*1260",
+            "8630*1260",
+            "10560*2957"
+          ],
+          [
+            "MPL-624",
+            "6",
+            "18",
+            "330",
+            "700*1300",
+            "8370*1340",
+            "9980*3147"
+          ],
+          [
+            "MPL-628",
+            "6",
+            "24",
+            "330",
+            "700*1350",
+            "9060*1390",
+            "11150*3227"
+          ],
+          [
+            "MPL-647",
+            "4",
+            "47",
+            "200",
+            "600*1500",
+            "98801540",
+            "11540*3567"
+          ],
+          [
+            "OPTIONAL FUNCTION",
+            "CHAIN, CHENILLE, CORDING, TAPING PATENT DESIGN OF HEAD COMPONENTS OF HIGH SPEED CHENILLE MACHINE",
+            "—",
+            "—",
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122451.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 368,
+      "legacyUrl": "/product_description.php?id=368",
+      "slug": "co2-heat-press-fusing-machine",
+      "name": "CO2 Heat Press Fusing Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "laser-fusing-machines",
+      "categoryName": "Laser & Fusing Machines",
+      "description": "A heat-press fusing machine with a heating area extended to 1400 mm and nine heating plates giving independent temperature control across the left, middle and right sections. Pressure is applied by cylinder or motor and adjustable from 0 to 0.6 MPa, with a ring-shaped belt path, a multi-fan cooling zone and glass-fibre wool insulation. Available in 450 mm, 600 mm, 900 mm, 1600 mm and 1800 mm sizes.",
+      "features": [
+        "Heat Press Fusing Machine",
+        "The heating area is extended to 1400MM 9 heating plates for independent temperature control of the left, middle and right three sections of the upper. The width can be adjusted according to the width of the upper to avoid wasting electricity. The front, middle and rear three sections of clothing and other materials control the heating temperature balance, and the constant temperature effect is good, avoiding color difference reflection due to excessive temperature or too low temperature to melt",
+        "The design of the large silicone stick makes the pressure more balanced to avoid the virtual stickiness of the material composite drum, and at the same time increases the friction force of the belt. Even if the non-pressure belt does not slip. material dislocation, inclined sheet, etc. will not be caused by the belt slipping",
+        "The imported electrical accessories have a longer service life and more accurate temperature control and speed control",
+        "The ring-shaped belt walking method does not roll the material and will not damage the belt",
+        "Under the same power, the nickel-chromium heating wire mica sheet is 40% faster than the traditional electric heating tube, and the energy saving is 40%. It is 25% faster than the iron-chromium heating wire. The energy saving is 25%. Equipped with 5mm aluminum profile heat conduction plate, the heat conduction speed is fast and it is not easy to deform",
+        "The unique micro-switch belt adjustment and correction structure makes the belt more stable and not easy to deviate, and the structure is simple and easy to maintain. This item has obtained the national practical patent",
+        "The pressure method can be pressurized by cylinder or motor, and the pressure can be adjusted arbitrarily from 0 to 0.6MPa. It is convenient to use different materials",
+        "The cooling area uses multiple high-temperature shaft fans, which have large air volume, low noise and good cooling effect",
+        "The use of glass fiber wool insulation layer is three times more environmentally friendly and non-toxic insulation effect than the common rock wool, aluminum silicate and other materials in the market",
+        "Imported anti",
+        "Imported high temperature 280? silicone roller with a diamete of 100mm",
+        "Imported nickel",
+        "Imported temperature controller (Otonix)",
+        "Sheet metal pickling electrostatic spraying",
+        "450mm, 600mm, 900mm, 1600mm, 1800mm",
+        "APPLICABLE INDUSTRY"
+      ],
+      "applications": [
+        "3D fly-woven uppers and woven uppers",
+        "Mid- to high-end clothing adhesive lining",
+        "Seamless underwear, down jackets and shirts",
+        "Leather composites"
+      ],
+      "specifications": [
+        {
+          "label": "Heating Area",
+          "value": "Extended to 1400 mm"
+        },
+        {
+          "label": "Heating Plates",
+          "value": "9 plates, independent left / middle / right control"
+        },
+        {
+          "label": "Pressure",
+          "value": "Cylinder or motor, adjustable 0-0.6 MPa"
+        },
+        {
+          "label": "Silicone Roller",
+          "value": "Imported, high temperature, 100 mm diameter"
+        },
+        {
+          "label": "Temperature Controller",
+          "value": "Imported (Otonix)"
+        },
+        {
+          "label": "Belt",
+          "value": "Imported anti-static ring-shaped seamless belt"
+        },
+        {
+          "label": "Insulation",
+          "value": "Glass fibre wool insulation layer"
+        },
+        {
+          "label": "Sizes Available",
+          "value": "450 mm, 600 mm, 900 mm, 1600 mm, 1800 mm"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__co2-heat-presses-fusing-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 369,
+      "legacyUrl": "/product_description.php?id=369",
+      "slug": "flywoven-vamp-calender-and-gluing-machine",
+      "name": "Flywoven Vamp Calender and Gluing Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "laser-fusing-machines",
+      "categoryName": "Laser & Fusing Machines",
+      "description": "A calendering and gluing machine for flywoven vamps, available as NHG-600 through NHG-1800 with adhesive tape widths from 600 mm to 1800 mm. Bonding speed is 0-12 m/min at 0-0.4 MPa bonding pressure, with multi-stage independent heating, mica-sheet heating elements and rated power from 12 kW to 32 kW.",
+      "features": [
+        "multi-stage independent control heating",
+        "The width of the calender can be adjusted according to the width of the vamp for cutting vamp or semi-forming vamp. For example, NHG-120C can use three heating modes of 40 cm, 80 cm and 120 cm. lt can be used alone or in combination. Unused parts are not heated to reduce power consumption",
+        "The night sample heating alone for a period of time. Large models can be used as small models. It saves energy and power and feels the same as the larger size. This completely solves the problem that the sample is not consistent with the bulk cargo. It consumes only 30 percent of the power of the whole machine",
+        "Any section temperature can be used only or alternatively. It solves the oblique plate caused by the temperature difference between left and right and inconsistent hand feel was solved",
+        "The pressure roller is adjusted synchronously with the rubber parent. This meets the air layer double vamp and drum wave three-dimensional strong vamp arbitrary adjustment. Electric voltage regulating operation is adopted",
+        "Mica sheet heating is adopted and has high thermal conductivity efficiency. It has low loss, temperature difference and longer service life",
+        "Seamless high temperature annular walking belt is used. Damage to the belt caused by material and hot fuse running inside the belt is avoided. The service life of the belt is increased by 2-3 times",
+        "Electrical components of international brands are used.More safe and energy efficient use is guaranteed"
+      ],
+      "applications": [
+        "Flywoven and woven vamps",
+        "Jacquard and leather composites",
+        "Seamless underwear",
+        "Clothing adhesive lining"
+      ],
+      "specifications": [],
+      "specTable": {
+        "header": [
+          "Model Number",
+          "NHG-600",
+          "NHG-900",
+          "NHG-1200",
+          "NHG-1600",
+          "NHG-1800"
+        ],
+        "rows": [
+          [
+            "Width of adhesive tape (mm)",
+            "600",
+            "900",
+            "1200",
+            "1600",
+            "1800"
+          ],
+          [
+            "Bonding speed (m/min)",
+            "0~12",
+            "—",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "Operating voltage (V)",
+            "380v",
+            "—",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "Rated power (kW)",
+            "12",
+            "18",
+            "23",
+            "27",
+            "32"
+          ],
+          [
+            "Rated frequency (Hz)",
+            "50",
+            "—",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "Bonding pressure (MPa)",
+            "0-0.4",
+            "—",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "Heater Operating Temperature (P)",
+            "Indoor Temperature - 250",
+            "Indoor Temperature ? 250",
+            "Indoor Temperature ? 250",
+            "Indoor Temperature - 250",
+            "Indoor Temperature - 250"
+          ],
+          [
+            "Net weight/gross weight (kg)",
+            "380/490",
+            "570/700",
+            "760/910",
+            "950/1100",
+            "1120/1300"
+          ],
+          [
+            "Transportation dimension (mm)",
+            "1550 x 1300 x 1750",
+            "1690 x 1500 x 1750",
+            "1990 x 1550 x 1750",
+            "2290 x 1550 x 1750",
+            "2490 x 1550 x 1750"
+          ]
+        ]
+      },
+      "image": "/media/kitecms__images__flying-woven-vamp--woven-vamp--jacquard--leather-composite--seamless-underwear--clothing-adhesive-lining--etc.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 379,
+      "legacyUrl": "/product_description.php?id=379",
+      "slug": "fs1600-co2-laser-cutting-machine",
+      "name": "CO2 Laser Cutting Machine",
+      "model": "FS1600",
+      "series": null,
+      "categorySlug": "laser-fusing-machines",
+      "categoryName": "Laser & Fusing Machines",
+      "description": "A CO2 laser cutting machine with processing areas from 900 x 600 mm to 1600 x 1000 mm and laser power options of 80 W, 100 W, 130 W, 150 W and 180 W. Cutting speed reaches 64,000 mm/min at 0.0064 mm resolution with positioning precision under 0.01 mm, using DSP control with projection positioning and separated upper and lower suction systems.",
+      "features": [
+        "Machine characteristics",
+        "We adopt internationally advanced DSP control technology, initiate the industry-leading function of continuous rapid curve cutting and minimum machining path optimization, improving the work efficiency greatly",
+        "Automatically compensate light attenuation during the working process, ensuring that the cutting effects are consistent in different areas; It can also improve the work efficiency through the control software design for fast cutting and the buffer function of high-speed motion",
+        "We adopt the separated lower and upper suction systems. The lower unit is located under the platform work board to make it form negative pressure ensuring that the process materials are fixed in the work board; the upper unit can move together with the cutting head ensuring that the dust and smoke produced by cutting can be sucked, finally making sure the materials surface is clean and the precision is high",
+        "Professionally solve the problem of high scrap rate if the soft materials deform then they can't fit the position",
+        "It can position the pattern the most precisely and intuitively through projection and the projection line's color can be changed according to the product color, so that the worker can work easily and improve work efficiency. For example, the worker can finish cutting about 600 pairs manually working 10 hours per day, but the projection positioning laser cutting machine can cut about 1000-1200pairs. It also can save all kinds of cost such as electricity, salary, machine, etc. If cuttingby projection position, the worker only needs to operate in computer when changing different size of materials, it doesn't need to change pattern film and paper, saving consumable items cost. The laser machine can be separated, so there is no demand for the land; single head and double head are available, so that the customers can choose different type of machineaccording to his requirements"
+      ],
+      "applications": [
+        "3D flyknit and 4D shoe uppers",
+        "Printed uppers and 3D art ware",
+        "Leather, cloth, woollen and paper",
+        "Acrylic, resin, ABS and organic glass"
+      ],
+      "specifications": [
+        {
+          "label": "Processing Area",
+          "value": "900 x 600MM / 1200 x 800MM / 1300 x 900MM / 1600 x 800MM / 1600 x1000MM"
+        },
+        {
+          "label": "Engraving Speed",
+          "value": "0-36000mm/min"
+        },
+        {
+          "label": "Cutting Speed",
+          "value": "0-64000mm/min"
+        },
+        {
+          "label": "Laser Power",
+          "value": "80W/100W/130W/150W/180W"
+        },
+        {
+          "label": "Resolution Ratio",
+          "value": "0.0064mm"
+        },
+        {
+          "label": "Min Shaping CharacterChinese character",
+          "value": "2*2mm"
+        },
+        {
+          "label": "Letter",
+          "value": "1*1mm"
+        },
+        {
+          "label": "Power Supply",
+          "value": "AC220±10%, 50HZ"
+        },
+        {
+          "label": "Location Precision",
+          "value": "<0.01mm"
+        },
+        {
+          "label": "Gross Power",
+          "value": "=<3000W"
+        },
+        {
+          "label": "Operating Temperature",
+          "value": "0°C-45°C"
+        },
+        {
+          "label": "Operating Humidity",
+          "value": "5%-95% (Free of condensed Water)"
+        },
+        {
+          "label": "Graphic Format Supported",
+          "value": "PLT, AI, DXF, BMP etc."
+        },
+        {
+          "label": "Model",
+          "value": "FS1600"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-21-102058.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 393,
+      "legacyUrl": "/product_description.php?id=393",
+      "slug": "1590-1610-laser-cutting-and-engraving-machine",
+      "name": "Laser Cutting and Engraving Machine",
+      "model": "1590 / 1610",
+      "series": null,
+      "categorySlug": "laser-fusing-machines",
+      "categoryName": "Laser & Fusing Machines",
+      "description": "A laser cutting and engraving machine available in 1590 and 1610 sizes, in single- or double-head configuration and with or without projector. Laser power runs 70-100 W at 0.0064 mm resolution with positioning precision under 0.01 mm and 1250 W gross power, supporting BMP, JPEG, PLT, CDR, DWG, DXF and DST files.",
+      "features": [
+        "With Projector & Without Projector"
+      ],
+      "applications": [
+        "Cloth, leather and fabric",
+        "Wood, paper and bamboo",
+        "Acrylic, resin and plexiglass",
+        "Advertising, packaging and printing"
+      ],
+      "specifications": [
+        {
+          "label": "Medel",
+          "value": "cutting, electric product, module, arts, advertising, package and printing, paper etc. 1590/1610"
+        },
+        {
+          "label": "Version",
+          "value": "Single Head Double Head"
+        },
+        {
+          "label": "Laser Power",
+          "value": "70-80W-100W"
+        },
+        {
+          "label": "Cutting Speedt",
+          "value": "0-36000mm/mm"
+        },
+        {
+          "label": "Mn From Character",
+          "value": "Chinese character 2x2 mm, Letter 1X1 mm"
+        },
+        {
+          "label": "Resolution Ratio",
+          "value": "0.0064 mm"
+        },
+        {
+          "label": "Power Supply",
+          "value": "AC220V+ 10% 50 HZ Location Precision <0.01mm"
+        },
+        {
+          "label": "Number of Hung Line",
+          "value": "60 line Gross Power 1250W"
+        },
+        {
+          "label": "Operating Temperature",
+          "value": "Oc-45c"
+        },
+        {
+          "label": "Operationg Humidity",
+          "value": "5-95% (Free of condensed water)"
+        },
+        {
+          "label": "Graphic Format Supported",
+          "value": "BMP JPEG, PLT CDR DWG"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122729.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 370,
+      "legacyUrl": "/product_description.php?id=370",
+      "slug": "air-mesh-jacquard-warp-knitting-machine-for-shoe-uppers",
+      "name": "Air Mesh Jacquard Warp Knitting Machine for Shoe Uppers",
+      "model": null,
+      "series": null,
+      "categorySlug": "mesh-knitting-machines",
+      "categoryName": "Mesh Knitting Machines",
+      "description": "A flexible double-bar raschel machine for producing spacer textiles and air-mesh shoe uppers. Working widths of 1995 mm (77\") and 3505 mm (138\") are available in E18, E22, E24 and E28 gauges, with a continuously adjustable 2-12 mm knock-over comb bar distance, two needle bars with latch needle units and seven ground bars. The machine is operated through the KAMCOS (Karl Mayer Command System) interface.",
+      "features": [
+        "Highly efficient production speed combined with easy and flexible patterning",
+        "Easy handling due to stitch comb swiveling device and central trick plate readjustment",
+        "Wide range of gauges and trick plate distances for various applications"
+      ],
+      "applications": [
+        "Spacer fabrics",
+        "Air-mesh shoe uppers"
+      ],
+      "specifications": [
+        {
+          "label": "Working Width",
+          "value": "1995 mm (77\") / 3505 mm (138\")"
+        },
+        {
+          "label": "Gauge",
+          "value": "E18, E22, E24, E28"
+        },
+        {
+          "label": "Knock-over Comb Bar Distance",
+          "value": "2-12 mm, continuously adjustable"
+        },
+        {
+          "label": "Needle Bars",
+          "value": "Two needle bars with latch needle units"
+        },
+        {
+          "label": "Comb Bars",
+          "value": "Two knock-over comb bars, two movable stitch comb bars"
+        },
+        {
+          "label": "Ground Bars",
+          "value": "Seven ground bars; GB4 and GB5 stitch forming on both needle bars"
+        },
+        {
+          "label": "Warp Beam Support",
+          "value": "7 x 812 mm (32\"), free standing"
+        },
+        {
+          "label": "Control System",
+          "value": "KAMCOS (Karl Mayer Command System)"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__airmash-jaiquard-wrap-knitting-machine-for-shoes-upper.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 371,
+      "legacyUrl": "/product_description.php?id=371",
+      "slug": "cap-knitting-machine",
+      "name": "Cap Knitting Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "socks-gloves-cap-machines",
+      "categoryName": "Socks, Gloves & Cap Machines",
+      "description": "A circular cap knitting machine in E14 cut with latch needles and a double knitting method, producing at 40-50 m/h. It runs on 380 V / 50 Hz three-phase power (customisable), measures 60 x 78 x 155 cm and is supplied with free spare parts and service within 12 months.",
+      "features": [],
+      "applications": [
+        "Knitted caps and hats"
+      ],
+      "specifications": [
+        {
+          "label": "Type",
+          "value": "Circular"
+        },
+        {
+          "label": "Knitting Machine Cut",
+          "value": "E14"
+        },
+        {
+          "label": "Knitting Machine Type",
+          "value": "Hat"
+        },
+        {
+          "label": "Knitting Style",
+          "value": "Flat"
+        },
+        {
+          "label": "Knitting Method",
+          "value": "Double"
+        },
+        {
+          "label": "Needle Style",
+          "value": "Latch Needle"
+        },
+        {
+          "label": "Condition",
+          "value": "New"
+        },
+        {
+          "label": "Machine Painting Color",
+          "value": "Be Made According to Your Need"
+        },
+        {
+          "label": "Voltage",
+          "value": "380V/50Hz 3 Phase Can Be Customized"
+        },
+        {
+          "label": "Warranty Time",
+          "value": "Offer Free Spare Parts and Service Within 12 Months"
+        },
+        {
+          "label": "Delivery Date",
+          "value": "Fast Delivery in 7 Days"
+        },
+        {
+          "label": "Size",
+          "value": "60*78*155Cm"
+        },
+        {
+          "label": "Specification",
+          "value": "40-50m/h"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__cap-knit.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 372,
+      "legacyUrl": "/product_description.php?id=372",
+      "slug": "socks-knitting-machine",
+      "name": "Socks Knitting Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "socks-gloves-cap-machines",
+      "categoryName": "Socks, Gloves & Cap Machines",
+      "description": "A computerized sock knitting machine with a 3.5\" cylinder and 84 to 200 needles, running at a maximum 330 rpm. Main power is 1.1 kW with a 0.8 kW control cabinet on a 220 V or 380 V supply, in a 150 x 120 x 240 cm footprint at 300 kg net weight.",
+      "features": [],
+      "applications": [
+        "Knitted socks",
+        "Hosiery production"
+      ],
+      "specifications": [
+        {
+          "label": "Name",
+          "value": "Computerized Sock knitting Machine"
+        },
+        {
+          "label": "Diameter of cylinder",
+          "value": "3.5\""
+        },
+        {
+          "label": "Needle Count",
+          "value": "84N-200N"
+        },
+        {
+          "label": "Maximum Speed",
+          "value": "330RPM"
+        },
+        {
+          "label": "Voltage",
+          "value": "220V/380V"
+        },
+        {
+          "label": "Main Power",
+          "value": "1.1KW"
+        },
+        {
+          "label": "Control Cabinet Power",
+          "value": "0.8KW"
+        },
+        {
+          "label": "Floor Space",
+          "value": "150*120*240cm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "300KG"
+        },
+        {
+          "label": "Gross Weight",
+          "value": "350KG"
+        },
+        {
+          "label": "Package size",
+          "value": "111*77*176cm"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__socks.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 373,
+      "legacyUrl": "/product_description.php?id=373",
+      "slug": "high-speed-automatic-glove-knitting-machine",
+      "name": "High Speed Automatic Glove Knitting Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "socks-gloves-cap-machines",
+      "categoryName": "Socks, Gloves & Cap Machines",
+      "description": "A high-speed automatic glove knitting machine operated from a large full-touch HD LCD panel with USB copy output. A servo-motor synchronous belt drive allows the head stroke to be changed freely, with stepper-motor density control, stepper-motor scissor control, elastic thread feeding and a broken-finger weaving system that reduces raw material loss.",
+      "features": [
+        "2022 High Speed Automatic Glove Making Machines",
+        "The operation panel Adopts large-screen high definition LCD Full Screen Touch, U Disk copy Output,Simple and convenient",
+        "Servo motor synchronous belt drive arbitrarily change the head stroke, efficient and stable",
+        "Stepper motor density control system to achieve deffierent weaving density for each part of each line",
+        "Stepper motor Scissors control system, hook yarn yarn Cutting and yarn laying at any position",
+        "The needle selection roller adopts the Screw linkage to ensure the position of the fornt and rear syringes",
+        "Stepper motor elastics thread feeding system, computer control the size of the mouth, evenly feeding the yarn",
+        "Intelligent oil supply, implementing lubrication friction parts",
+        "Broken finger weaving system to reduce raw material loss"
+      ],
+      "applications": [
+        "Knitted gloves",
+        "Work glove production"
+      ],
+      "specifications": [],
+      "specTable": null,
+      "image": "/media/kitecms__images__computerized-gloves-knitting-mach.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 374,
+      "legacyUrl": "/product_description.php?id=374",
+      "slug": "computerized-glove-knitting-machine",
+      "name": "Computerized Glove Knitting Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "socks-gloves-cap-machines",
+      "categoryName": "Socks, Gloves & Cap Machines",
+      "description": "A computerized glove knitting machine controlled by PLC and touch screen, producing around 300 pairs per day in 7G, 10G, 13G, 15G and 18G gauges. It is designed for cotton yarn and weighs 180 kg.",
+      "features": [],
+      "applications": [
+        "Work gloves",
+        "Cotton yarn glove production"
+      ],
+      "specifications": [
+        {
+          "label": "Product Keywords",
+          "value": "High Speed Work Glove Machine"
+        },
+        {
+          "label": "Usage",
+          "value": "Workshop"
+        },
+        {
+          "label": "Speed",
+          "value": "300 Pairs/Day"
+        },
+        {
+          "label": "Gauge",
+          "value": "7g 10g 13g 15g 18g"
+        },
+        {
+          "label": "Transport Package",
+          "value": "Wooden Packing"
+        },
+        {
+          "label": "Suitable Raw Metrial",
+          "value": "Cotton Yarn"
+        },
+        {
+          "label": "Color",
+          "value": "Customizable"
+        },
+        {
+          "label": "Application",
+          "value": "Automatic Glove Maker"
+        },
+        {
+          "label": "Control System",
+          "value": "PLC+ Touch Screen"
+        },
+        {
+          "label": "Specification",
+          "value": "180kg"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__gloves-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 375,
+      "legacyUrl": "/product_description.php?id=375",
+      "slug": "electronic-jacquard-shoe-upper-weaving-machine",
+      "name": "Electronic Jacquard Shoe Upper Weaving Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "weaving-machines",
+      "categoryName": "Weaving Machines",
+      "description": "An electronic jacquard weaving machine for shoe uppers, with reed widths from 170 cm to 360 cm. Electronic weft selection is available in 4, 8 or 12 colours, with electronic rotocut or mechanical weft cutting, independent electronic selvedge and single or double warp beams with 800 or 1000 flange.",
+      "features": [],
+      "applications": [
+        "Woven shoe uppers",
+        "Technical jacquard fabrics"
+      ],
+      "specifications": [
+        {
+          "label": "Reed Width ( CM )",
+          "value": "170,190,200,220,240,260,280,320,340,360"
+        },
+        {
+          "label": "Shedding",
+          "value": "Eletronic Jacquard"
+        },
+        {
+          "label": "Eletronic Weft Selection",
+          "value": "4 Colours, 8 Colours, 12 Colours"
+        },
+        {
+          "label": "Weft Cutter",
+          "value": "Eletronic Rotocut Weft Cutter Mechanical Weft Cutter"
+        },
+        {
+          "label": "Independent Selvedge",
+          "value": "Independent Eletronic Selvedge"
+        },
+        {
+          "label": "Wrap Beam and flange",
+          "value": "Single Beam Double Wrap Beam 800, 1000 Flange"
+        },
+        {
+          "label": "Let Off back Roller",
+          "value": "Negative Single Back Roller Negative Double Back Roller Postive Back Roller"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__sultex-electronic-jacquard-shoe-upper-weaving-machine.jpg",
+      "gallery": []
+    },
+    {
+      "legacyId": 403,
+      "legacyUrl": "/product_description.php?id=403",
+      "slug": "double-beam-high-speed-rapier-weaving-machine",
+      "name": "Double Beam High Speed Rapier Weaving Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "warp-machines-parts",
+      "categoryName": "Warp Machines & Parts",
+      "description": "A double-beam high-speed rapier weaving machine with electronic jacquard shedding and reed widths from 170 cm to 360 cm. Electronic weft selection covers 4, 8 or 12 colours, with independent selvedge, a double warp beam with 800 or 1000 flange and a choice of negative or positive let-off back rollers. Supplied under the Golden Knit brand.",
+      "features": [],
+      "applications": [
+        "Ladies wear and sports wear",
+        "Sweat shirts and night clothes",
+        "Babies wear",
+        "Protective clothing"
+      ],
+      "specifications": [
+        {
+          "label": "Reed Width (cm)",
+          "value": "170, 190, 200, 220, 240, 260, 280, 320, 340, 360"
+        },
+        {
+          "label": "Shedding",
+          "value": "Electronic Jacquard"
+        },
+        {
+          "label": "Electronic Weft Selection",
+          "value": "4 Colours, 8 Colours, 12 Colours"
+        },
+        {
+          "label": "Independent Selvedge",
+          "value": "Independent Selvedge"
+        },
+        {
+          "label": "Warp Beam and Flange",
+          "value": "Double Warp Beam 0800, Ø1000 Flange"
+        },
+        {
+          "label": "Brand",
+          "value": "Golden Knit"
+        },
+        {
+          "label": "Usage/Application",
+          "value": "Ladies Wear, Sports Wear, Sweat Shirt, Night Clothes, Babies Wear & Protective Clothing"
+        },
+        {
+          "label": "Let-off Back Rollerr",
+          "value": "Negative Single Back Roller, Negative Double Back Roller, Positive Back Roller"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122822.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 404,
+      "legacyUrl": "/product_description.php?id=404",
+      "slug": "double-high-speed-rapier-weaving-machine",
+      "name": "Double High Speed Rapier Weaving Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "warp-machines-parts",
+      "categoryName": "Warp Machines & Parts",
+      "description": "The Rapier Weaving machine are widely adaptable and making it extendable to multiple production areas like Shoe upper and various types of fabrics such as Sunshine Fabrics, car interiors fabrics, car airbags and home furnishings like sofa fabrics, curtains etc",
+      "features": [],
+      "applications": [
+        "Shoe uppers",
+        "Sunshine fabrics",
+        "Car interior fabrics and airbags",
+        "Sofa fabrics and curtains"
+      ],
+      "specifications": [
+        {
+          "label": "Reed Width (cm)",
+          "value": "170, 190, 200, 220, 240, 260, 280, 320, 340, 360"
+        },
+        {
+          "label": "Shedding",
+          "value": "Electronic Jacquard"
+        },
+        {
+          "label": "Electronic Weft Selection",
+          "value": "4 Colours, 8 Colours, 12 Colours"
+        },
+        {
+          "label": "Independent Selvedge",
+          "value": "Independent Selvedge"
+        },
+        {
+          "label": "Warp Beam and Flange",
+          "value": "Double Warp Beam 0800, 01000 Flange"
+        },
+        {
+          "label": "Let-off Back Roller",
+          "value": "Negative Single Back Roller, Negative Double Back Roller, Positive Back Roller"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122852.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 406,
+      "legacyUrl": "/product_description.php?id=406",
+      "slug": "double-needle-bar-spacer-double-jacquard-warp-knitting-machine",
+      "name": "Double Needle Bar Spacer Double Jacquard Warp Knitting Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "warp-machines-parts",
+      "categoryName": "Warp Machines & Parts",
+      "description": "A double needle bar high-speed warp knitting machine with separated double jacquard. Working widths of 110\" and 138\" are available in E22, E24 and E28 gauges, with seven ground bars and one separated jacquard bar, a 1-12 mm knock-over comb bar distance, eight sets of EBC electronic let-off and an electronic take-up device. Main power is 4 kW at 110\" and 7.5 kW at 138\".",
+      "features": [],
+      "applications": [
+        "Spacer jacquard fabrics",
+        "Shoe fabrics and sandwich uppers"
+      ],
+      "specifications": [
+        {
+          "label": "Working Width",
+          "value": "110\" / 138\""
+        },
+        {
+          "label": "Gauge",
+          "value": "E22 / E24 / E28"
+        },
+        {
+          "label": "Bars",
+          "value": "7 ground bars, 1 separated jacquard bar"
+        },
+        {
+          "label": "Knock-over Comb Bar Distance",
+          "value": "1-12 mm"
+        },
+        {
+          "label": "Pattern Device",
+          "value": "Pattern-disc or EL control"
+        },
+        {
+          "label": "Yarn Let-off Device",
+          "value": "8 sets EBC electronic let-off"
+        },
+        {
+          "label": "Fabric Take-up Device",
+          "value": "Electronic take-up device"
+        },
+        {
+          "label": "Beams",
+          "value": "21\"-30\""
+        },
+        {
+          "label": "Main Power",
+          "value": "4 kW (110\") / 7.5 kW (138\")"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122933.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 408,
+      "legacyUrl": "/product_description.php?id=408",
+      "slug": "split-warping-machine",
+      "name": "Split Warping Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "warp-machines-parts",
+      "categoryName": "Warp Machines & Parts",
+      "description": "A split warping machine with computer real-time control and intelligent tension control. Warp line speed runs 100-750 m/min with up to 80 cone positions, two sets of servo-controlled three-roller levelling rollers, pneumatic beam loading and unloading, and electromagnetic main braking.",
+      "features": [
+        "•Intelligent man-machine interface, easy to operate",
+        "• Computer real-time detection, intelligent tension control"
+      ],
+      "applications": [
+        "Split warping",
+        "Beam preparation"
+      ],
+      "specifications": [
+        {
+          "label": "Beam Up and down Clamping and Brake",
+          "value": "Pneumatical Control"
+        },
+        {
+          "label": "Control Way",
+          "value": "Computer Real-time Controlled"
+        },
+        {
+          "label": "Leveling Roller",
+          "value": "Two Sets of Servo-controlled Three-roller Rollers"
+        },
+        {
+          "label": "Warp Liner Speed",
+          "value": "100-750m/min."
+        },
+        {
+          "label": "Warp Beam Size",
+          "value": "00 021\"x21\" / 30\" x 21\""
+        },
+        {
+          "label": "Cone Positions",
+          "value": "upto 80 positions"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__untitled-1.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 407,
+      "legacyUrl": "/product_description.php?id=407",
+      "slug": "double-needle-bar-spacer-jacquard-warp-knitting-machine",
+      "name": "Double Needle Bar Spacer Jacquard Warp Knitting Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "warp-machines-parts",
+      "categoryName": "Warp Machines & Parts",
+      "description": "A double needle bar high-speed spacer jacquard warp knitting machine in 110\" and 138\" working widths with E22, E24 and E28 gauges. Six ground bars and one separated jacquard bar allow flexible patterning, with a 1-12 mm knock-over comb bar distance, eight sets of EBC electronic let-off and an electronic take-up device. Main power is 4 kW at 110\" and 7.5 kW at 138\".",
+      "features": [],
+      "applications": [
+        "Spacer jacquard fabrics",
+        "Shoe fabrics and sandwich shoe uppers",
+        "Jackets, padding and mattresses",
+        "Car seat cushions"
+      ],
+      "specifications": [
+        {
+          "label": "Working Width",
+          "value": "110\" / 138\""
+        },
+        {
+          "label": "Gauge",
+          "value": "E22 / E24 / E28"
+        },
+        {
+          "label": "Bars",
+          "value": "6 ground bars, 1 separated jacquard bar"
+        },
+        {
+          "label": "Knock-over Comb Bar Distance",
+          "value": "1-12 mm"
+        },
+        {
+          "label": "Pattern Device",
+          "value": "Pattern-disc or EL control"
+        },
+        {
+          "label": "Yarn Let-off Device",
+          "value": "8 sets EBC electronic let-off"
+        },
+        {
+          "label": "Fabric Take-up Device",
+          "value": "Electronic take-up device"
+        },
+        {
+          "label": "Beams",
+          "value": "21\"-30\""
+        },
+        {
+          "label": "Main Power",
+          "value": "4 kW (110\") / 7.5 kW (138\")"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122933.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 409,
+      "legacyUrl": "/product_description.php?id=409",
+      "slug": "cnc-computer-controlled-high-speed-copy-warping-machine",
+      "name": "CNC Computer Controlled High Speed Copy Warping Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "warp-machines-parts",
+      "categoryName": "Warp Machines & Parts",
+      "description": "A CNC copy warping machine that reproduces sub-beams matching a mother beam's perimeter and rotations. Warp line speed runs 80-1000 m/min driven by an 11 kW AC FC-controlled motor, with a servo tension roller, pneumatic beam loading, unloading, clamping and braking, and micro-computer real-time monitoring. Warp beam sizes include 21\" x 30\", 21\" x 40\" and 63\" x 56\".",
+      "features": [
+        "The diameter of the beam can be monitored and the tension is stable, which make sure the same diameter of the beams group and the length",
+        "The load and unload of the beam is controlled pneumatically, up and down in line, the motion is stable and positin is precise. The break of main shaft adopts pneumatic brakes",
+        "The machine can set the beams i.e. according to the mother beam, the sub-beams with same perimeter and rotations can be made",
+        "The up and down of the beam, clamp and brake: pneumatically control"
+      ],
+      "applications": [
+        "Copy warping",
+        "Beam duplication"
+      ],
+      "specifications": [
+        {
+          "label": "Warp lime speed",
+          "value": "80-1000m/min."
+        },
+        {
+          "label": "Warp beam size",
+          "value": "A: 21\" x 30\" (inch) B:21\" x 40\" (inch) C:21\" x 2\" (inch) D:63\" x 56\" (inch)"
+        },
+        {
+          "label": "Motor power",
+          "value": "11KW AC FC control."
+        },
+        {
+          "label": "Tension roller",
+          "value": "Servo motor, AC FC control, adjust the angle of the tension roller in electromotion."
+        },
+        {
+          "label": "Control way",
+          "value": "Micro-computer real-time monitoring and showing."
+        },
+        {
+          "label": "Copy precision",
+          "value": "the perimeter error of the same group beam is less than 5 min., the tension wave is equal."
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122909.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 410,
+      "legacyUrl": "/product_description.php?id=410",
+      "slug": "high-speed-sectional-warping-and-beaming-machine",
+      "name": "High Speed Sectional Warping and Beaming Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "warp-machines-parts",
+      "categoryName": "Warp Machines & Parts",
+      "description": "A sectional warping and beaming machine working widths of 2300-4200 mm, with warping speed to 400 m/min and beaming speed to 80 m/min. It carries 392 spindles at 300 x 250 mm spacing, 20 kVA capacity, a 7.5 kW warping motor and an 11 kW beaming motor, with automatic stripe location and adjustable stripe positioning.",
+      "features": [
+        "Stripe location, :Automatic"
+      ],
+      "applications": [
+        "Worsted yarn and high-twist filaments",
+        "Colour-woven and silk fabrics",
+        "Towelling fabrics",
+        "Preparation for water-jet, air-jet, rapier and projectile looms"
+      ],
+      "specifications": [
+        {
+          "label": "Work width",
+          "value": "2300-4200mm Particular Specification can be customized acording"
+        },
+        {
+          "label": "Beam Flange diameter",
+          "value": "<800 mm"
+        },
+        {
+          "label": "Warping Speed",
+          "value": "0-400 m/min."
+        },
+        {
+          "label": "Beaming Speed",
+          "value": "0-80 m/min"
+        },
+        {
+          "label": "Deviation of linear speed",
+          "value": "<2% (300m/min) with a speed of 300m/min."
+        },
+        {
+          "label": "Braking Distance",
+          "value": "<3(m) (500m/min)"
+        },
+        {
+          "label": "Drum Diameter",
+          "value": "1026"
+        },
+        {
+          "label": "Cone Length",
+          "value": "1010"
+        },
+        {
+          "label": "Stripe traverse speed",
+          "value": "0.0001~9.999 (mm/r) (no grade)"
+        },
+        {
+          "label": "Deviation of stripe traverse",
+          "value": "0.2%"
+        },
+        {
+          "label": "Deviation of stripe positioning",
+          "value": "Adjustable"
+        },
+        {
+          "label": "Stripe width",
+          "value": "0.1-999.9mm"
+        },
+        {
+          "label": "Spindle space",
+          "value": "300x250mm"
+        },
+        {
+          "label": "Spindle number",
+          "value": "392"
+        },
+        {
+          "label": "Input voltage",
+          "value": "3x380V+10%"
+        },
+        {
+          "label": "Capacity",
+          "value": "20KVA"
+        },
+        {
+          "label": "Warping motor power",
+          "value": "7.5KVW"
+        },
+        {
+          "label": "Bearing motor",
+          "value": "11KW"
+        },
+        {
+          "label": "Strip traverse motor",
+          "value": "0.75KW"
+        },
+        {
+          "label": "Warping and Bearing frame wt",
+          "value": "500KG"
+        },
+        {
+          "label": "Creel Weight",
+          "value": "2500KG"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122838.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 411,
+      "legacyUrl": "/product_description.php?id=411",
+      "slug": "high-speed-direct-warping-machine",
+      "name": "High Speed Direct Warping Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "warp-machines-parts",
+      "categoryName": "Warp Machines & Parts",
+      "description": "A high-speed direct warping machine with a 2300 mm basic working width, warping speed to 600 m/min and beaming speed to 100 m/min. Beam flange diameter is under 800 mm, with automatic stripe location, 30 kVA capacity, a 7.5 kW warping motor and a 15 kW beaming motor.",
+      "features": [
+        "(Chemical Fiber) 3x380V (+-10%)"
+      ],
+      "applications": [
+        "Direct warping",
+        "Wool, cotton and chemical fibre yarns"
+      ],
+      "specifications": [
+        {
+          "label": "Beam Flange Diameter",
+          "value": "<800mm Basic form"
+        },
+        {
+          "label": "Warping Speed",
+          "value": "0-600 m/min"
+        },
+        {
+          "label": "Beaming Speed",
+          "value": "0-100 m/min"
+        },
+        {
+          "label": "Deviation of Linear Speed",
+          "value": "+-2%"
+        },
+        {
+          "label": "Braking Distance",
+          "value": "<2m (with a speed of 300m/min)"
+        },
+        {
+          "label": "Bearing Tension",
+          "value": "<6000 N (Bearing Speed <50m/min)"
+        },
+        {
+          "label": "Drum Diameter",
+          "value": "1026 mm"
+        },
+        {
+          "label": "Cone Length",
+          "value": "1010 mm"
+        },
+        {
+          "label": "Cone Angle",
+          "value": "9°0.001-9.999 (mm/r) No grade"
+        },
+        {
+          "label": "Stripe Traverse Speed",
+          "value": "001-9.999 (mm/r) No grade"
+        },
+        {
+          "label": "Deviation of Stripe Traverse",
+          "value": "0.02% Adjustable"
+        },
+        {
+          "label": "Distance between Space Reed",
+          "value": "Adjustable"
+        },
+        {
+          "label": "Positioning of cone starting point",
+          "value": "Adjustable"
+        },
+        {
+          "label": "Stripe location",
+          "value": "Automatic"
+        },
+        {
+          "label": "Stripe width",
+          "value": "0.1-999.9 mm The length should not be longer than the guide roller"
+        },
+        {
+          "label": "Spindle space",
+          "value": "300x250 mm Wool Yarn/Cotton Yarn"
+        },
+        {
+          "label": "Spindle Number",
+          "value": "290x290, 220x220 (Chemical fiber)"
+        },
+        {
+          "label": "Input Voltage",
+          "value": "392 (Wool Yarn/cotton yarn), 480"
+        },
+        {
+          "label": "Capacity",
+          "value": "30 (KVA)"
+        },
+        {
+          "label": "Warping Motor Power",
+          "value": "7.5 (KW)"
+        },
+        {
+          "label": "Beaming Motor Power",
+          "value": "15 KW"
+        },
+        {
+          "label": "Strip Traverse Motor",
+          "value": "1.5 KW"
+        },
+        {
+          "label": "Warping and Beaming Frame Weight",
+          "value": "4500 (Kg)"
+        },
+        {
+          "label": "Creel Weight",
+          "value": "2500 (Kg)"
+        }
+      ],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122748.png",
+      "gallery": []
+    },
+    {
+      "legacyId": 405,
+      "legacyUrl": "/product_description.php?id=405",
+      "slug": "composite-lamination-unit-machine",
+      "name": "Composite Lamination Unit Machine",
+      "model": null,
+      "series": null,
+      "categorySlug": "warp-machines-parts",
+      "categoryName": "Warp Machines & Parts",
+      "description": "A composite lamination unit using a split heating and wind-cooling design. The heating area extends to 1400 mm with nine heating plates and the refrigeration area to 1400 mm, bringing material below room temperature quickly to increase adhesion and durability. Double frequency converters and motors give independent speed control, with an imported anti-static seamless belt and high-temperature silicone rollers.",
+      "features": [
+        "Imported anti-static seamless belt",
+        "Imported high temperature resistant silicone roler. 3. Imported nicket chromium wire mica sheet",
+        "Imported temperature controller, solid state relay temperature control",
+        "Large 3 hp ice water machine refrigeration. 6. Frequency converter frequency conversion motor speed regulation",
+        "The split healing wind cooling design is adopted. the heating area is extended to 1400mm, the heating speed of 9 heating plates is fast and the temperature is stable. The refrigaration area is extended to 1400mm. B refrigration boards and the cooling affect is strong, which can make the material reach a temperature below room temrature in s short time to increase the adhesion and the durability of the material",
+        "Use a thick silicone stick to poress to obtain a uniform and balanced pressure. 3. The double frequency converter and the double frequency conversion motor are separetly controlled and the speed and speed can be adjusted arbitarily",
+        "The ring shaped belt walking method does not roll the material and will not damage the belt. 5. Imported electrical components have a long service life and temperature control and speed control are more accurate",
+        "The heating speed of imported nicket chromium heating mine is 25% faster than that of ordinary electric heating tubes. The thermal insulatin effect of glass fiber wool insulatin layer is three times higher than that of material such as rock wool or aluminium silicate commonly used in the market"
+      ],
+      "applications": [
+        "Woven upper composites",
+        "Insole and shoe lining composites",
+        "Leather breathable film composites"
+      ],
+      "specifications": [],
+      "specTable": null,
+      "image": "/media/kitecms__images__screenshot-2023-10-19-122807.png",
+      "gallery": []
+    }
+  ]
+}

@@ -1,0 +1,3890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07131f" />
+  <meta name="description" content="Mastana Mechanical Works — premium textile machinery website redesign." />
+  <title>Mastana Mechanical Works | Premium Textile Machinery Since 1957</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet" />
+  <style>
+    /* =========================================================
+       ROOT VARIABLES
+    ========================================================= */
+    :root {
+      --background: #f8f5ee;
+      --paper: #fffdf9;
+      --paper-soft: #f3efe6;
+
+      --ink: #06111b;
+      --ink-soft: #0b1d2b;
+      --ink-blue: #123047;
+
+      --gold: #caa45a;
+      --gold-dark: #a97e36;
+      --gold-soft: #efd495;
+
+      --white: #ffffff;
+      --text: #172430;
+      --muted: #6f7b85;
+
+      --line: rgba(6, 17, 27, 0.11);
+
+      --shadow-small: 0 15px 40px rgba(3, 9, 14, 0.08);
+      --shadow-medium: 0 24px 60px rgba(3, 9, 14, 0.12);
+      --shadow-large: 0 35px 100px rgba(3, 9, 14, 0.18);
+
+      --container: 1240px;
+
+      --transition-fast: 180ms ease;
+      --transition-medium: 320ms ease;
+    }
+
+    /* =========================================================
+       RESET
+    ========================================================= */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 88px;
+    }
+
+    body {
+      min-height: 100vh;
+      overflow-x: hidden;
+      font-family: "Manrope", sans-serif;
+      color: var(--text);
+      line-height: 1.65;
+      background: linear-gradient(180deg, #fbfaf6 0%, var(--background) 100%);
+    }
+
+    body.is-locked {
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button:focus-visible,
+    a:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    textarea:focus-visible {
+      outline: 3px solid rgba(202, 164, 90, 0.4);
+      outline-offset: 3px;
+    }
+
+    ::selection {
+      color: var(--ink);
+      background: var(--gold-soft);
+    }
+
+    /* =========================================================
+       COMMON LAYOUT
+    ========================================================= */
+    .container {
+      width: min(var(--container), calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .section {
+      padding: 120px 0;
+    }
+
+    .section-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2.3px;
+      text-transform: uppercase;
+    }
+
+    .section-kicker::before {
+      content: "";
+      width: 36px;
+      height: 1px;
+      background: currentColor;
+    }
+
+    .section-title {
+      margin-top: 16px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: clamp(40px, 5vw, 72px);
+      line-height: 1.03;
+      letter-spacing: -2.3px;
+      text-transform: uppercase;
+    }
+
+    .section-title em {
+      font-family: "Playfair Display", serif;
+      font-style: italic;
+      font-weight: 700;
+      color: var(--gold-soft);
+      letter-spacing: -1px;
+      text-transform: none;
+    }
+
+    .section-copy {
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.85;
+    }
+
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 60px;
+      margin-bottom: 46px;
+    }
+
+    .section-heading > div {
+      max-width: 780px;
+    }
+
+    .section-heading .section-copy {
+      max-width: 430px;
+    }
+
+    .section-heading--light .section-title {
+      color: var(--white);
+    }
+
+    .section-heading--light .section-copy {
+      color: #b9c3ca;
+    }
+
+    /* =========================================================
+       BUTTONS
+    ========================================================= */
+    .button {
+      min-height: 56px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 25px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      transition: transform var(--transition-medium), box-shadow var(--transition-medium),
+        background-color var(--transition-medium), color var(--transition-medium);
+    }
+
+    .button:hover {
+      transform: translateY(-3px);
+    }
+
+    .button--gold {
+      color: #111820;
+      background: linear-gradient(135deg, var(--gold-soft), var(--gold));
+      box-shadow: 0 14px 35px rgba(202, 164, 90, 0.28);
+    }
+
+    .button--gold:hover {
+      box-shadow: 0 20px 44px rgba(202, 164, 90, 0.38);
+    }
+
+    .button--glass {
+      color: var(--white);
+      border-color: rgba(255, 255, 255, 0.35);
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(16px);
+    }
+
+    .button--glass:hover {
+      color: var(--ink);
+      background: var(--white);
+    }
+
+    .button--dark {
+      color: var(--white);
+      background: var(--ink);
+    }
+
+    .button--dark:hover {
+      background: var(--ink-blue);
+    }
+
+    /* =========================================================
+       GRAIN
+    ========================================================= */
+    .site-grain {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0.028;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.88' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='.8'/%3E%3C/svg%3E");
+    }
+
+    /* =========================================================
+       TOPBAR
+    ========================================================= */
+    .topbar {
+      color: #c5d0d7;
+      background: #02080d;
+      font-size: 11px;
+    }
+
+    .topbar__inner {
+      min-height: 39px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .topbar__separator {
+      margin-inline: 10px;
+      color: var(--gold);
+    }
+
+    .topbar__links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .topbar__links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      transition: color var(--transition-fast);
+    }
+
+    .topbar__links a:hover {
+      color: var(--gold-soft);
+    }
+
+    .mini-icon {
+      color: var(--gold-soft);
+    }
+
+    /* =========================================================
+       HEADER
+    ========================================================= */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 253, 249, 0.9);
+      border-bottom: 1px solid rgba(6, 17, 27, 0.07);
+      backdrop-filter: blur(20px);
+      transition: box-shadow var(--transition-medium), background-color var(--transition-medium);
+    }
+
+    .site-header.is-scrolled {
+      background: rgba(255, 253, 249, 0.97);
+      box-shadow: 0 10px 40px rgba(3, 9, 14, 0.08);
+    }
+
+    .navbar {
+      min-height: 84px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    /* =========================================================
+       BRAND
+    ========================================================= */
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand__mark {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      flex: none;
+      border-radius: 50%;
+      color: var(--ink);
+      background: radial-gradient(circle at 30% 30%, var(--gold-soft), var(--gold));
+      box-shadow: 0 10px 28px rgba(202, 164, 90, 0.25);
+      font-family: "Archivo Black", sans-serif;
+      font-size: 20px;
+    }
+
+    .brand__copy strong {
+      display: block;
+      color: var(--ink);
+      font-family: "Archivo Black", sans-serif;
+      font-size: 15px;
+      line-height: 1.05;
+    }
+
+    .brand__copy span {
+      display: block;
+      margin-top: 3px;
+      color: var(--gold);
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    /* =========================================================
+       DESKTOP NAVIGATION
+    ========================================================= */
+    .desktop-nav {
+      display: flex;
+      align-items: center;
+      gap: 27px;
+    }
+
+    .desktop-nav a {
+      position: relative;
+      color: #24313d;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .desktop-nav a:not(.desktop-nav__cta)::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      width: 0;
+      height: 2px;
+      background: var(--gold);
+      transition: width var(--transition-medium);
+    }
+
+    .desktop-nav a:hover::after {
+      width: 100%;
+    }
+
+    .desktop-nav__cta {
+      padding: 12px 18px;
+      border-radius: 999px;
+      color: var(--white) !important;
+      background: var(--ink);
+    }
+
+    /* =========================================================
+       HAMBURGER
+    ========================================================= */
+    .hamburger {
+      width: 48px;
+      height: 48px;
+      position: relative;
+      z-index: 1201;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      border-radius: 50%;
+      background: transparent;
+    }
+
+    .hamburger__line {
+      position: absolute;
+      width: 25px;
+      height: 2px;
+      border-radius: 999px;
+      background: var(--ink);
+      transition: transform var(--transition-medium), opacity var(--transition-medium);
+    }
+
+    .hamburger__line--top {
+      transform: translateY(-8px);
+    }
+
+    .hamburger__line--middle {
+      transform: translateY(0);
+    }
+
+    .hamburger__line--bottom {
+      transform: translateY(8px);
+    }
+
+    .hamburger.is-active .hamburger__line--top {
+      transform: rotate(45deg);
+    }
+
+    .hamburger.is-active .hamburger__line--middle {
+      opacity: 0;
+    }
+
+    .hamburger.is-active .hamburger__line--bottom {
+      transform: rotate(-45deg);
+    }
+
+    /* =========================================================
+       MOBILE NAVIGATION
+    ========================================================= */
+    .mobile-navigation {
+      position: fixed;
+      inset: 0;
+      z-index: 1200;
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      transition: visibility var(--transition-medium), opacity var(--transition-medium);
+    }
+
+    .mobile-navigation.is-open {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-navigation__backdrop {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: rgba(2, 8, 13, 0.82);
+      backdrop-filter: blur(10px);
+    }
+
+    .mobile-navigation__drawer {
+      width: min(88vw, 430px);
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 25px 28px 30px;
+      color: var(--text);
+      background: var(--paper);
+      box-shadow: -30px 0 80px rgba(0, 0, 0, 0.22);
+      transform: translateX(100%);
+      transition: transform 420ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .mobile-navigation.is-open .mobile-navigation__drawer {
+      transform: translateX(0);
+    }
+
+    .mobile-navigation__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .drawer-close {
+      width: 44px;
+      height: 44px;
+      position: relative;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(6, 17, 27, 0.06);
+    }
+
+    .drawer-close span {
+      position: absolute;
+      top: 21px;
+      left: 11px;
+      width: 22px;
+      height: 2px;
+      background: var(--ink);
+    }
+
+    .drawer-close span:first-child {
+      transform: rotate(45deg);
+    }
+
+    .drawer-close span:last-child {
+      transform: rotate(-45deg);
+    }
+
+    .mobile-navigation__links {
+      display: flex;
+      flex-direction: column;
+      margin-top: 28px;
+    }
+
+    .mobile-navigation__links a {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 18px 4px;
+      border-bottom: 1px solid var(--line);
+      color: var(--ink);
+      font-size: 19px;
+      font-weight: 800;
+    }
+
+    .mobile-navigation__links a span {
+      color: var(--gold);
+      font-size: 10px;
+    }
+
+    .mobile-navigation__links .mobile-navigation__quote {
+      justify-content: center;
+      margin-top: 22px;
+      padding: 16px;
+      border: 0;
+      border-radius: 999px;
+      color: var(--white);
+      background: var(--ink);
+      font-size: 14px;
+    }
+
+    .mobile-navigation__footer {
+      margin-top: auto;
+      padding-top: 28px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .mobile-navigation__contact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .mobile-navigation__contact a {
+      padding: 12px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--ink);
+      text-align: center;
+      font-weight: 800;
+    }
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+    .hero {
+      min-height: 890px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      color: var(--white);
+      background: linear-gradient(90deg,
+          rgba(2, 8, 13, 0.98) 0%,
+          rgba(4, 12, 19, 0.91) 47%,
+          rgba(4, 12, 19, 0.24) 100%),
+        url("https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=2200&q=92") center / cover no-repeat;
+    }
+
+    .hero__visual-layer {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, transparent 60%, rgba(2, 8, 13, 0.82));
+    }
+
+    .hero__grid-layer {
+      position: absolute;
+      inset: 0;
+      opacity: 0.18;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+      background-size: 84px 84px;
+    }
+
+    .hero__glow {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(30px);
+    }
+
+    .hero__glow--one {
+      width: 430px;
+      height: 430px;
+      top: 70px;
+      right: 3%;
+      background: rgba(239, 212, 149, 0.18);
+    }
+
+    .hero__glow--two {
+      width: 240px;
+      height: 240px;
+      bottom: 60px;
+      left: 12%;
+      background: rgba(28, 93, 132, 0.16);
+    }
+
+    .hero__layout {
+      position: relative;
+      z-index: 3;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      align-items: center;
+      gap: 85px;
+      padding: 115px 0 135px;
+    }
+
+    .hero__title {
+      max-width: 860px;
+      margin: 20px 0 26px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: clamp(54px, 6.2vw, 92px);
+      line-height: 0.99;
+      letter-spacing: -3.5px;
+      text-transform: uppercase;
+    }
+
+    .hero__title em {
+      font-family: "Playfair Display", serif;
+      font-style: italic;
+      color: var(--gold-soft);
+      text-transform: none;
+    }
+
+    .hero__description {
+      max-width: 690px;
+      color: #c8d1d7;
+      font-size: 17px;
+      line-height: 1.85;
+    }
+
+    .hero__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 37px 0 46px;
+    }
+
+    .hero__trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+    }
+
+    .trust-pill {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+    }
+
+    .trust-pill__icon {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      flex: none;
+      border: 1px solid rgba(239, 212, 149, 0.35);
+      border-radius: 50%;
+      color: var(--gold-soft);
+    }
+
+    .trust-pill strong {
+      display: block;
+      font-size: 12px;
+    }
+
+    .trust-pill small {
+      display: block;
+      color: #aeb8c0;
+      font-size: 10px;
+    }
+
+    /* =========================================================
+       HERO MACHINE
+    ========================================================= */
+    .hero-machine {
+      position: relative;
+      width: min(100%, 460px);
+      justify-self: end;
+    }
+
+    .hero-machine__orbit {
+      position: absolute;
+      border: 1px solid rgba(239, 212, 149, 0.22);
+      border-radius: 50%;
+      animation: slowRotate 24s linear infinite;
+    }
+
+    .hero-machine__orbit::before,
+    .hero-machine__orbit::after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--gold-soft);
+    }
+
+    .hero-machine__orbit::before {
+      top: 11%;
+      left: 13%;
+    }
+
+    .hero-machine__orbit::after {
+      right: 10%;
+      bottom: 17%;
+    }
+
+    .hero-machine__orbit--outer {
+      inset: -32px;
+    }
+
+    .hero-machine__orbit--inner {
+      inset: 22px;
+      opacity: 0.48;
+      animation-direction: reverse;
+    }
+
+    @keyframes slowRotate {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .hero-machine__card {
+      position: relative;
+      z-index: 2;
+      padding: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 36px;
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04));
+      box-shadow: 0 38px 95px rgba(0, 0, 0, 0.34);
+      backdrop-filter: blur(22px);
+    }
+
+    .hero-machine__badge {
+      position: absolute;
+      top: 34px;
+      left: 34px;
+      z-index: 3;
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: var(--white);
+      background: var(--ink);
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .hero-machine__image-wrap {
+      height: 450px;
+      overflow: hidden;
+      border-radius: 25px;
+      background: var(--white);
+    }
+
+    .hero-machine__image-wrap img {
+      height: 100%;
+      padding: 20px;
+      object-fit: contain;
+    }
+
+    .hero-machine__details {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 21px 8px 6px;
+    }
+
+    .hero-machine__details small {
+      color: var(--gold-soft);
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .hero-machine__details h2 {
+      margin-top: 4px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 25px;
+    }
+
+    .hero-machine__arrow {
+      width: 50px;
+      height: 50px;
+      border: 0;
+      border-radius: 50%;
+      color: var(--ink);
+      background: var(--gold);
+      font-size: 22px;
+    }
+
+    .hero-machine__floating-label {
+      position: absolute;
+      z-index: 4;
+      padding: 11px 14px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 999px;
+      color: var(--white);
+      background: rgba(255, 255, 255, 0.09);
+      backdrop-filter: blur(14px);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .hero-machine__floating-label--one {
+      top: 14%;
+      left: -22%;
+    }
+
+    .hero-machine__floating-label--two {
+      right: -18%;
+      bottom: 22%;
+    }
+
+    .hero__scroll-indicator {
+      position: absolute;
+      left: 50%;
+      bottom: 28px;
+      z-index: 4;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transform: translateX(-50%);
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .hero__scroll-indicator span {
+      width: 34px;
+      height: 1px;
+      background: var(--gold-soft);
+    }
+
+    /* =========================================================
+       METRICS - "ESTABLISHED 1957" NOW HERE IN STRIPS
+    ========================================================= */
+    .metrics {
+      position: relative;
+      z-index: 10;
+      margin-top: -52px;
+    }
+
+    .metrics__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      overflow: hidden;
+      border-radius: 27px;
+      background: var(--white);
+      box-shadow: var(--shadow-large);
+    }
+
+    .metric-card {
+      padding: 32px;
+      border-right: 1px solid var(--line);
+    }
+
+    .metric-card:last-child {
+      border-right: 0;
+    }
+
+    .metric-card strong {
+      display: block;
+      color: var(--ink);
+      font-family: "Archivo Black", sans-serif;
+      font-size: 31px;
+    }
+
+    .metric-card span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    /* Special highlight for the first metric card */
+    .metric-card:first-child {
+      background: linear-gradient(135deg, rgba(202, 164, 90, 0.08), rgba(202, 164, 90, 0.02));
+      position: relative;
+    }
+
+    .metric-card:first-child::after {
+      content: "✦";
+      position: absolute;
+      top: 12px;
+      right: 16px;
+      color: var(--gold);
+      font-size: 14px;
+      opacity: 0.3;
+    }
+
+    .metric-card:first-child strong {
+      color: var(--gold-dark);
+    }
+
+    /* =========================================================
+       LEGACY - NO "ESTABLISHED" BADGE ANYMORE
+    ========================================================= */
+    .legacy__layout {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      align-items: center;
+      gap: 95px;
+    }
+
+    .legacy__visual {
+      position: relative;
+      min-width: 0;
+    }
+
+    .legacy__image-main {
+      height: 560px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 30px;
+      box-shadow: var(--shadow-large);
+      background: #e8eceb;
+    }
+
+    .legacy__image-main::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(120deg, rgba(6, 17, 27, 0.14), transparent 46%),
+        linear-gradient(to top, rgba(6, 17, 27, 0.16), transparent 38%);
+    }
+
+    .legacy__image-main img {
+      height: 100%;
+      object-fit: cover;
+      transition: transform 1.1s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .legacy__visual:hover .legacy__image-main img {
+      transform: scale(1.025);
+    }
+
+    .legacy__visual-footer {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 178px;
+      gap: 16px;
+      align-items: stretch;
+      margin-top: 16px;
+    }
+
+    .legacy__year-card {
+      position: relative;
+      min-height: 150px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      align-items: center;
+      padding: 25px 28px;
+      overflow: hidden;
+      color: var(--white);
+      border-radius: 22px;
+      background: radial-gradient(circle at 8% 15%, rgba(239, 212, 149, 0.17), transparent 32%),
+        linear-gradient(135deg, #0d2535 0%, #071620 55%, #02090e 100%);
+      box-shadow: 0 24px 55px rgba(3, 9, 14, 0.20), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+      transition: transform 450ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 450ms ease;
+    }
+
+    .legacy__year-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -45%;
+      width: 34%;
+      height: 100%;
+      pointer-events: none;
+      transform: skewX(-18deg);
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+      transition: left 900ms ease;
+    }
+
+    .legacy__visual:hover .legacy__year-card {
+      transform: translateY(-4px);
+      box-shadow: 0 30px 68px rgba(3, 9, 14, 0.27), 0 0 0 1px rgba(202, 164, 90, 0.16),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.10);
+    }
+
+    .legacy__visual:hover .legacy__year-card::before {
+      left: 120%;
+    }
+
+    .legacy__year-caption {
+      display: block;
+      color: #edf2f4;
+      font-family: "Playfair Display", serif;
+      font-size: 20px;
+      font-style: italic;
+      line-height: 1.4;
+    }
+
+    .legacy__year-location {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 13px;
+      color: #b9c5cc;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+
+    .legacy__year-pin {
+      width: 7px;
+      height: 7px;
+      flex: none;
+      border-radius: 50%;
+      background: var(--gold-soft);
+      box-shadow: 0 0 0 5px rgba(239, 212, 149, 0.11);
+    }
+
+    .legacy__image-small {
+      min-height: 150px;
+      overflow: hidden;
+      border-radius: 22px;
+      background: var(--white);
+      box-shadow: var(--shadow-medium);
+    }
+
+    .legacy__image-small img {
+      height: 100%;
+      object-fit: cover;
+      transition: transform 900ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .legacy__visual:hover .legacy__image-small img {
+      transform: scale(1.06);
+    }
+
+    .legacy__content .section-title {
+      margin-bottom: 24px;
+    }
+
+    .legacy__content .section-copy + .section-copy {
+      margin-top: 15px;
+    }
+
+    .legacy__features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin: 30px 0 34px;
+    }
+
+    .legacy__features article {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 15px;
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      background: var(--white);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .legacy__features article span {
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: var(--gold);
+      background: rgba(202, 164, 90, 0.15);
+    }
+
+    /* =========================================================
+       CATEGORIES
+    ========================================================= */
+    .categories {
+      color: var(--white);
+      background: radial-gradient(circle at 90% 10%, rgba(239, 212, 149, 0.1), transparent 30%),
+        var(--ink);
+    }
+
+    .categories__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 17px;
+    }
+
+    .category-card {
+      min-height: 410px;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 26px;
+    }
+
+    .category-card img {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 700ms ease;
+    }
+
+    .category-card:hover img {
+      transform: scale(1.08);
+    }
+
+    .category-card__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(3, 9, 14, 0.98), rgba(3, 9, 14, 0.55), rgba(3, 9, 14, 0.05));
+    }
+
+    .category-card__number {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 2;
+      color: rgba(255, 255, 255, 0.45);
+      font-family: "Archivo Black", sans-serif;
+      font-size: 20px;
+    }
+
+    .category-card__content {
+      position: absolute;
+      left: 24px;
+      right: 24px;
+      bottom: 24px;
+      z-index: 3;
+    }
+
+    .category-card__content small {
+      color: var(--gold-soft);
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .category-card__content h3 {
+      margin: 7px 0 17px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 22px;
+    }
+
+    .category-card__content button,
+    .category-card__content a {
+      border: 0;
+      color: var(--white);
+      background: transparent;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    /* =========================================================
+       FLAGSHIP
+    ========================================================= */
+    .flagship {
+      color: var(--white);
+      background: radial-gradient(circle at 92% 8%, rgba(239, 212, 149, 0.12), transparent 28%),
+        linear-gradient(135deg, #07111b, #0e283c);
+    }
+
+    .flagship__layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 85px;
+    }
+
+    .flagship__content .section-title {
+      margin-bottom: 24px;
+    }
+
+    .flagship__content .section-copy {
+      color: #b9c3ca;
+    }
+
+    .flagship__specifications {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 30px 0;
+    }
+
+    .flagship__specifications article {
+      padding: 17px;
+      border: 1px solid rgba(255, 255, 255, 0.11);
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .flagship__specifications small {
+      display: block;
+      color: var(--gold-soft);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .flagship__specifications strong {
+      display: block;
+      margin-top: 3px;
+      color: #b9c3ca;
+      font-size: 11px;
+    }
+
+    .flagship__visual {
+      min-height: 570px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .flagship__ring {
+      position: absolute;
+      border: 1px solid rgba(239, 212, 149, 0.22);
+      border-radius: 50%;
+    }
+
+    .flagship__ring--large {
+      width: 520px;
+      height: 520px;
+    }
+
+    .flagship__ring--small {
+      width: 360px;
+      height: 360px;
+    }
+
+    .flagship__machine {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      height: 540px;
+    }
+
+    .flagship__machine img {
+      height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 35px 44px rgba(0, 0, 0, 0.48));
+    }
+
+    .flagship__label {
+      position: absolute;
+      z-index: 3;
+      padding: 11px 14px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.09);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .flagship__label--top {
+      top: 18%;
+      left: 0;
+    }
+
+    .flagship__label--bottom {
+      right: 0;
+      bottom: 20%;
+    }
+
+    /* =========================================================
+       PRODUCTS
+    ========================================================= */
+    .product-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-bottom: 34px;
+    }
+
+    .product-filter {
+      padding: 11px 16px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--ink);
+      background: var(--white);
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .product-filter.is-active {
+      color: var(--white);
+      background: var(--ink);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 23px;
+    }
+
+    .product-card {
+      overflow: hidden;
+      border: 1px solid rgba(8, 18, 27, 0.08);
+      border-radius: 27px;
+      background: var(--white);
+      box-shadow: 0 14px 42px rgba(3, 9, 14, 0.05);
+      transition: transform var(--transition-medium), box-shadow var(--transition-medium);
+    }
+
+    .product-card:hover {
+      transform: translateY(-9px);
+      box-shadow: 0 28px 64px rgba(3, 9, 14, 0.12);
+    }
+
+    .product-card.is-hidden {
+      display: none;
+    }
+
+    .product-card__image {
+      height: 320px;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, #f9faf9, #eff2f1);
+    }
+
+    .product-card__image img {
+      height: 100%;
+      padding: 20px;
+      object-fit: contain;
+      transition: transform 500ms ease;
+    }
+
+    .product-card:hover .product-card__image img {
+      transform: scale(1.05);
+    }
+
+    .product-card__tag {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      z-index: 3;
+      padding: 7px 11px;
+      border-radius: 999px;
+      color: var(--white);
+      background: var(--ink);
+      font-size: 9px;
+      font-weight: 800;
+    }
+
+    .product-card__quick-view {
+      position: absolute;
+      left: 50%;
+      bottom: 18px;
+      z-index: 3;
+      padding: 11px 16px;
+      border: 0;
+      border-radius: 999px;
+      color: var(--white);
+      background: rgba(6, 17, 27, 0.92);
+      transform: translate(-50%, 20px);
+      opacity: 0;
+      transition: transform var(--transition-medium), opacity var(--transition-medium);
+    }
+
+    .product-card:hover .product-card__quick-view {
+      transform: translate(-50%, 0);
+      opacity: 1;
+    }
+
+    .product-card__body {
+      padding: 25px;
+    }
+
+    .product-card__body small {
+      color: var(--gold);
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .product-card__body h3 {
+      margin: 7px 0 10px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 22px;
+    }
+
+    .product-card__body p {
+      min-height: 62px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .product-card__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .product-card__footer button {
+      border: 0;
+      color: var(--ink);
+      background: transparent;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .product-card__footer span {
+      color: var(--muted);
+      font-size: 9px;
+    }
+
+    /* =========================================================
+       WHY US
+    ========================================================= */
+    .why-us {
+      color: var(--white);
+      background: linear-gradient(135deg, #07111b, #102c42);
+    }
+
+    .why-us__layout {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      align-items: center;
+      gap: 80px;
+    }
+
+    .why-us__content .section-title {
+      margin-bottom: 24px;
+    }
+
+    .why-us__content .section-copy {
+      color: #bdc7ce;
+    }
+
+    .why-us__quote {
+      margin-top: 30px;
+      padding: 22px;
+      border-left: 2px solid var(--gold);
+      background: rgba(255, 255, 255, 0.04);
+      font-family: "Playfair Display", serif;
+      font-size: 20px;
+    }
+
+    .why-us__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .why-card {
+      padding: 29px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.04);
+      transition: transform var(--transition-medium);
+    }
+
+    .why-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .why-card__icon {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      color: var(--gold-soft);
+      background: rgba(239, 212, 149, 0.1);
+      font-size: 22px;
+    }
+
+    .why-card h3 {
+      margin: 18px 0 8px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 17px;
+    }
+
+    .why-card p {
+      color: #b8c2ca;
+      font-size: 11px;
+    }
+
+    /* =========================================================
+       PROCESS
+    ========================================================= */
+    .process {
+      color: var(--white);
+      background: linear-gradient(135deg, #07111b, #123047);
+    }
+
+    .process__heading {
+      max-width: 850px;
+      margin: 0 auto 56px;
+      text-align: center;
+    }
+
+    .process__heading .section-kicker {
+      justify-content: center;
+    }
+
+    .process__heading .section-copy {
+      max-width: 650px;
+      margin: 20px auto 0;
+      color: #bdc7ce;
+    }
+
+    .process__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .process-card {
+      padding: 35px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 23px;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .process-card__number {
+      color: rgba(239, 212, 149, 0.26);
+      font-family: "Archivo Black", sans-serif;
+      font-size: 42px;
+    }
+
+    .process-card h3 {
+      margin: 18px 0 9px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 18px;
+    }
+
+    .process-card p {
+      color: #b7c2ca;
+      font-size: 11px;
+    }
+
+    /* =========================================================
+       TESTIMONIALS
+    ========================================================= */
+    .testimonials {
+      background: var(--paper);
+    }
+
+    .testimonial-controls {
+      display: flex;
+      gap: 10px;
+    }
+
+    .testimonial-controls button {
+      width: 48px;
+      height: 48px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      color: var(--ink);
+      background: var(--white);
+      font-size: 20px;
+    }
+
+    .testimonial-slider {
+      position: relative;
+      min-height: 340px;
+    }
+
+    .testimonial-card {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 55px;
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      background: linear-gradient(135deg, var(--white), #f5f2eb);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateX(30px);
+      transition: opacity var(--transition-medium), transform var(--transition-medium);
+    }
+
+    .testimonial-card.is-active {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(0);
+    }
+
+    .testimonial-card__stars {
+      color: var(--gold);
+      letter-spacing: 4px;
+    }
+
+    .testimonial-card blockquote {
+      max-width: 950px;
+      margin: 24px 0;
+      color: var(--ink);
+      font-family: "Playfair Display", serif;
+      font-size: clamp(26px, 3vw, 42px);
+    }
+
+    .testimonial-card__author span {
+      display: block;
+      font-weight: 800;
+    }
+
+    .testimonial-card__author small {
+      color: var(--muted);
+    }
+
+    /* =========================================================
+       FAQ
+    ========================================================= */
+    .faq__layout {
+      display: grid;
+      grid-template-columns: 0.85fr 1.15fr;
+      gap: 80px;
+    }
+
+    .faq__intro .section-title {
+      margin-bottom: 24px;
+    }
+
+    .faq__list {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+
+    .faq-item {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--white);
+    }
+
+    .faq-item__question {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 20px 22px;
+      border: 0;
+      color: var(--ink);
+      background: transparent;
+      text-align: left;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .faq-item__question span {
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      flex: none;
+      border-radius: 50%;
+      color: var(--gold);
+      background: rgba(202, 164, 90, 0.12);
+      font-size: 19px;
+      transition: transform var(--transition-medium);
+    }
+
+    .faq-item.is-open .faq-item__question span {
+      transform: rotate(45deg);
+    }
+
+    .faq-item__answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height var(--transition-medium);
+    }
+
+    .faq-item__answer p {
+      padding: 0 22px 22px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    /* =========================================================
+       CONTACT
+    ========================================================= */
+    .contact__shell {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      overflow: hidden;
+      border-radius: 33px;
+      background: var(--white);
+      box-shadow: var(--shadow-large);
+    }
+
+    .contact__information {
+      padding: 62px;
+      color: var(--white);
+      background: linear-gradient(rgba(5, 11, 18, 0.92), rgba(5, 11, 18, 0.92)),
+        url("https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=1500&q=88") center / cover;
+    }
+
+    .contact__information h2 {
+      margin: 18px 0;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 40px;
+      line-height: 1.08;
+    }
+
+    .contact__information>p {
+      color: #bdc7ce;
+    }
+
+    .contact__details {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 36px;
+    }
+
+    .contact__details article {
+      display: flex;
+      gap: 14px;
+    }
+
+    .contact__icon {
+      width: 43px;
+      height: 43px;
+      display: grid;
+      place-items: center;
+      flex: none;
+      border-radius: 50%;
+      color: var(--gold-soft);
+      background: rgba(239, 212, 149, 0.12);
+    }
+
+    .contact__details strong {
+      display: block;
+      font-size: 12px;
+    }
+
+    .contact__details a,
+    .contact__details div>span {
+      display: block;
+      color: #b9c3ca;
+      font-size: 11px;
+    }
+
+    .quotation-form {
+      padding: 62px;
+    }
+
+    .quotation-form__heading small {
+      color: var(--gold);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .quotation-form__heading h3 {
+      margin: 7px 0 28px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 27px;
+    }
+
+    .quotation-form__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .form-field--full {
+      grid-column: 1 / -1;
+    }
+
+    .form-field label {
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .form-field input,
+    .form-field select,
+    .form-field textarea {
+      width: 100%;
+      padding: 15px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      color: var(--text);
+      background: #f8f7f3;
+      outline: none;
+    }
+
+    .form-field input:focus,
+    .form-field select:focus,
+    .form-field textarea:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 4px rgba(202, 164, 90, 0.1);
+    }
+
+    .form-field textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+    .form-field.is-invalid input,
+    .form-field.is-invalid select,
+    .form-field.is-invalid textarea {
+      border-color: #c33b30;
+    }
+
+    .quotation-form__submit {
+      margin-top: 21px;
+    }
+
+    .quotation-form__status {
+      min-height: 20px;
+      margin-top: 12px;
+      font-size: 11px;
+    }
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+    .footer {
+      color: #aeb8c0;
+      background: #02070c;
+    }
+
+    .footer__grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.3fr;
+      gap: 50px;
+      padding: 74px 0;
+    }
+
+    .brand--footer .brand__copy strong {
+      color: var(--white);
+    }
+
+    .footer__company p {
+      max-width: 360px;
+      margin-top: 18px;
+      font-size: 11px;
+    }
+
+    .footer__column h4 {
+      margin-bottom: 18px;
+      color: var(--white);
+      font-family: "Archivo Black", sans-serif;
+      font-size: 13px;
+    }
+
+    .footer__column a,
+    .footer__column p {
+      display: block;
+      margin: 9px 0;
+      font-size: 11px;
+    }
+
+    .footer__bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .footer__bottom-inner {
+      min-height: 56px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      font-size: 10px;
+    }
+
+    /* =========================================================
+       PRODUCT MODAL
+    ========================================================= */
+    .product-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 1300;
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      transition: visibility var(--transition-medium), opacity var(--transition-medium);
+    }
+
+    .product-modal.is-open {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .product-modal__backdrop {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: rgba(2, 8, 13, 0.84);
+      backdrop-filter: blur(12px);
+    }
+
+    .product-modal__dialog {
+      width: min(940px, calc(100% - 32px));
+      max-height: calc(100vh - 40px);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      overflow: auto;
+      border-radius: 28px;
+      background: var(--white);
+      transform: translate(-50%, -45%) scale(0.96);
+      transition: transform var(--transition-medium);
+    }
+
+    .product-modal.is-open .product-modal__dialog {
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    .product-modal__close {
+      width: 44px;
+      height: 44px;
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 3;
+      border: 0;
+      border-radius: 50%;
+      color: var(--white);
+      background: var(--ink);
+      font-size: 25px;
+    }
+
+    .product-modal__image {
+      min-height: 520px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      background: #eef1f0;
+    }
+
+    .product-modal__image img {
+      max-height: 460px;
+      object-fit: contain;
+    }
+
+    .product-modal__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 55px;
+    }
+
+    .product-modal__content small {
+      color: var(--gold);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .product-modal__content h2 {
+      margin: 8px 0 16px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 34px;
+    }
+
+    .product-modal__content p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .product-modal__points {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 24px 0;
+    }
+
+    .product-modal__points span {
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    /* =========================================================
+       WHATSAPP
+    ========================================================= */
+    .floating-whatsapp {
+      width: 58px;
+      height: 58px;
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 900;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: var(--white);
+      background: #25d366;
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.24);
+      transition: transform var(--transition-medium);
+    }
+
+    .floating-whatsapp:hover {
+      transform: scale(1.08);
+    }
+
+    .floating-whatsapp svg {
+      width: 31px;
+      height: 31px;
+    }
+
+    .floating-whatsapp::after {
+      content: "WhatsApp";
+      position: absolute;
+      right: 70px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: var(--white);
+      background: var(--ink);
+      font-size: 11px;
+      font-weight: 800;
+      white-space: nowrap;
+      opacity: 0;
+      transform: translateX(8px);
+      pointer-events: none;
+      transition: opacity var(--transition-fast), transform var(--transition-fast);
+    }
+
+    .floating-whatsapp:hover::after {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .mobile-action-bar {
+      display: none;
+    }
+
+    /* =========================================================
+       REVEAL ANIMATIONS
+    ========================================================= */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 720ms ease, transform 720ms ease;
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* =========================================================
+       TABLET
+    ========================================================= */
+    @media (max-width: 1100px) {
+      .desktop-nav {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .hero__layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-machine {
+        display: none;
+      }
+
+      .hero {
+        min-height: 790px;
+      }
+
+      .metrics__grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .legacy__layout,
+      .flagship__layout,
+      .why-us__layout,
+      .faq__layout,
+      .contact__shell {
+        grid-template-columns: 1fr;
+      }
+
+      .categories__grid,
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer__grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .section-heading {
+        display: block;
+      }
+
+      .section-heading .section-copy {
+        max-width: 680px;
+        margin-top: 20px;
+      }
+    }
+
+    /* =========================================================
+       MOBILE
+    ========================================================= */
+    @media (max-width: 720px) {
+      html {
+        scroll-padding-top: 74px;
+      }
+
+      body {
+        padding-bottom: 66px;
+      }
+
+      .topbar {
+        display: none;
+      }
+
+      .container {
+        width: min(100% - 28px, var(--container));
+      }
+
+      .section {
+        padding: 82px 0;
+      }
+
+      .navbar {
+        min-height: 74px;
+      }
+
+      .brand__mark {
+        width: 43px;
+        height: 43px;
+      }
+
+      .brand__copy strong {
+        font-size: 12px;
+      }
+
+      .brand__copy span {
+        font-size: 7px;
+      }
+
+      .section-title {
+        font-size: 43px;
+        letter-spacing: -1.5px;
+      }
+
+      .section-copy {
+        font-size: 14px;
+      }
+
+      .hero {
+        min-height: 815px;
+        background-position: 64% center;
+      }
+
+      .hero__layout {
+        padding: 86px 0 110px;
+      }
+
+      .hero__title {
+        font-size: 48px;
+        letter-spacing: -1.8px;
+      }
+
+      .hero__description {
+        font-size: 14px;
+      }
+
+      .hero__actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .hero__trust {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .hero__scroll-indicator {
+        display: none;
+      }
+
+      .metrics {
+        margin-top: -28px;
+      }
+
+      .metrics__grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .metric-card {
+        padding: 22px 16px;
+      }
+
+      .metric-card strong {
+        font-size: 23px;
+      }
+
+      .legacy__layout {
+        gap: 58px;
+      }
+
+      .legacy__image-main {
+        height: 440px;
+      }
+
+      .legacy__visual-footer {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 12px;
+      }
+
+      .legacy__year-card {
+        min-height: 0;
+        padding: 21px 19px;
+        border-radius: 19px;
+      }
+
+      .legacy__year-caption {
+        font-size: 18px;
+      }
+
+      .legacy__year-location {
+        margin-top: 9px;
+        font-size: 9px;
+      }
+
+      .legacy__image-small {
+        height: 170px;
+        min-height: 170px;
+        border-radius: 19px;
+      }
+
+      .legacy__features,
+      .flagship__specifications,
+      .why-us__cards,
+      .process__grid,
+      .quotation-form__grid,
+      .footer__grid {
+        grid-template-columns: 1fr;
+      }
+
+      .categories__grid,
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .category-card {
+        min-height: 350px;
+      }
+
+      .flagship__visual {
+        min-height: 390px;
+      }
+
+      .flagship__machine {
+        height: 370px;
+      }
+
+      .flagship__ring--large {
+        width: 340px;
+        height: 340px;
+      }
+
+      .flagship__ring--small {
+        width: 240px;
+        height: 240px;
+      }
+
+      .flagship__label {
+        display: none;
+      }
+
+      .product-card__image {
+        height: 285px;
+      }
+
+      .product-card__quick-view {
+        transform: translate(-50%, 0);
+        opacity: 1;
+      }
+
+      .testimonial-slider {
+        min-height: 430px;
+      }
+
+      .testimonial-card {
+        padding: 35px 24px;
+      }
+
+      .testimonial-card blockquote {
+        font-size: 28px;
+      }
+
+      .contact__information,
+      .quotation-form {
+        padding: 36px 24px;
+      }
+
+      .contact__information h2 {
+        font-size: 33px;
+      }
+
+      .form-field--full {
+        grid-column: auto;
+      }
+
+      .product-modal__dialog {
+        grid-template-columns: 1fr;
+      }
+
+      .product-modal__image {
+        min-height: 260px;
+      }
+
+      .product-modal__image img {
+        max-height: 240px;
+      }
+
+      .product-modal__content {
+        padding: 30px 24px 35px;
+      }
+
+      .floating-whatsapp {
+        display: none;
+      }
+
+      .mobile-action-bar {
+        min-height: 66px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 950;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-top: 1px solid var(--line);
+        background: rgba(255, 253, 249, 0.96);
+        box-shadow: 0 -10px 30px rgba(3, 9, 14, 0.08);
+        backdrop-filter: blur(16px);
+      }
+
+      .mobile-action-bar a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        color: var(--ink);
+        font-size: 10px;
+        font-weight: 800;
+      }
+
+      .mobile-action-bar a span {
+        color: var(--gold);
+        font-size: 17px;
+      }
+
+      .mobile-action-bar svg {
+        width: 21px;
+        height: 21px;
+        color: #25d366;
+      }
+    }
+
+    @media (max-width: 440px) {
+      .hero__trust,
+      .metrics__grid {
+        min-width: 0;
+      }
+    }
+
+    /* =========================================================
+       REDUCED MOTION
+    ========================================================= */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation: none !important;
+        transition: none !important;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    /* =========================================================
+       FINAL MOBILE STABILITY & OVERFLOW PATCH
+    ========================================================= */
+    html,
+    body {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: clip;
+    }
+
+    body,
+    main,
+    header,
+    footer,
+    section,
+    .container {
+      min-width: 0;
+      max-width: 100%;
+    }
+
+    img,
+    svg,
+    video,
+    iframe,
+    canvas {
+      max-width: 100%;
+    }
+
+    .navbar>*,
+    .hero__layout>*,
+    .legacy__layout>*,
+    .flagship__layout>*,
+    .why-us__layout>*,
+    .faq__layout>*,
+    .contact__shell>*,
+    .section-heading>*,
+    .product-grid>*,
+    .categories__grid>*,
+    .footer__grid>*,
+    .legacy__visual-footer>* {
+      min-width: 0;
+    }
+
+    .mobile-navigation__drawer,
+    .product-modal__dialog {
+      overscroll-behavior: contain;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .mobile-navigation__drawer {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .product-modal__dialog {
+      overflow-x: hidden;
+    }
+
+    .brand__copy,
+    .section-title,
+    .hero__title,
+    .product-card__body,
+    .product-modal__content,
+    .contact__information,
+    .quotation-form,
+    .footer__column,
+    .legacy__year-copy {
+      overflow-wrap: anywhere;
+      word-break: normal;
+    }
+
+    @media (max-width: 720px) {
+      html,
+      body {
+        overflow-x: hidden;
+      }
+
+      .container {
+        width: calc(100% - 28px);
+        max-width: calc(100% - 28px);
+      }
+
+      .navbar {
+        gap: 10px;
+      }
+
+      .brand {
+        min-width: 0;
+        max-width: calc(100% - 58px);
+      }
+
+      .brand__copy {
+        min-width: 0;
+      }
+
+      .brand__copy strong,
+      .brand__copy span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .hamburger {
+        flex: 0 0 48px;
+      }
+
+      .mobile-navigation__drawer {
+        width: min(90vw, 390px);
+        max-width: 100%;
+        padding-inline: 20px;
+      }
+
+      .mobile-navigation__header .brand {
+        max-width: calc(100% - 52px);
+      }
+
+      .hero,
+      .hero__layout,
+      .hero__content {
+        max-width: 100%;
+      }
+
+      .hero__title {
+        font-size: clamp(39px, 12vw, 48px);
+        line-height: 1.02;
+        letter-spacing: -1.8px;
+      }
+
+      .section-title {
+        font-size: clamp(34px, 10.5vw, 43px);
+        line-height: 1.06;
+      }
+
+      .hero__actions .button,
+      .quotation-form__submit {
+        width: 100%;
+      }
+
+      .metrics__grid {
+        width: 100%;
+      }
+
+      .metric-card {
+        min-width: 0;
+      }
+
+      .legacy__visual {
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .legacy__image-main {
+        width: 100%;
+        height: clamp(320px, 105vw, 430px);
+      }
+
+      .legacy__visual-footer {
+        width: 100%;
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .legacy__year-card {
+        width: 100%;
+        max-width: 100%;
+        transform: none !important;
+      }
+
+      .legacy__visual:hover .legacy__year-card {
+        transform: none;
+      }
+
+      .legacy__year-caption {
+        max-width: 100%;
+        font-size: 16px;
+      }
+
+      .legacy__image-small {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .product-filters {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 8px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 2px 1px 10px;
+        scrollbar-width: none;
+        overscroll-behavior-inline: contain;
+      }
+
+      .product-filters::-webkit-scrollbar {
+        display: none;
+      }
+
+      .product-filter {
+        flex: 0 0 auto;
+        white-space: nowrap;
+      }
+
+      .product-card,
+      .category-card,
+      .why-card,
+      .process-card,
+      .faq-item,
+      .contact__shell {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .product-card__footer {
+        gap: 8px;
+      }
+
+      .product-card__footer span {
+        text-align: right;
+      }
+
+      .testimonial-slider {
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .testimonial-card {
+        width: 100%;
+      }
+
+      .contact__information,
+      .quotation-form {
+        width: 100%;
+      }
+
+      input,
+      select,
+      textarea {
+        min-width: 0;
+        max-width: 100%;
+      }
+
+      .product-modal {
+        padding: 10px;
+      }
+
+      .product-modal__dialog {
+        width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
+        max-height: calc(100dvh - 20px);
+      }
+
+      .product-modal__content h2 {
+        font-size: clamp(27px, 9vw, 34px);
+      }
+
+      .mobile-action-bar {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .mobile-action-bar a {
+        min-width: 0;
+      }
+    }
+
+    @media (max-width: 440px) {
+      .hero__trust,
+      .metrics__grid {
+        min-width: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Decorative Grain -->
+  <div class="site-grain" aria-hidden="true"></div>
+
+  <!-- Top Information Bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <p class="topbar__message">
+        ISO 9001:2008 Registered Company
+        <span class="topbar__separator">•</span>
+        Engineering Textile Progress Since 1957
+      </p>
+      <div class="topbar__links">
+        <a href="tel:+919814011130">
+          <span class="mini-icon">☎</span>
+          +91 98 1401 1130
+        </a>
+        <a href="mailto:marketing@mastanaintl.com">
+          <span class="mini-icon">✉</span>
+          marketing@mastanaintl.com
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container navbar">
+      <a class="brand" href="#home" aria-label="Mastana Mechanical Works home">
+        <span class="brand__mark" aria-hidden="true">M</span>
+        <span class="brand__copy">
+          <strong>MASTANA MECHANICAL WORKS</strong>
+          <span>Textile Machinery · Since 1957</span>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Machines</a>
+        <a href="#why-us">Why Mastana</a>
+        <a href="#contact" class="desktop-nav__cta">Request Quote</a>
+      </nav>
+      <button class="hamburger" id="hamburgerButton" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileNavigation">
+        <span class="hamburger__line hamburger__line--top"></span>
+        <span class="hamburger__line hamburger__line--middle"></span>
+        <span class="hamburger__line hamburger__line--bottom"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-navigation" id="mobileNavigation" aria-hidden="true">
+    <button class="mobile-navigation__backdrop" id="mobileBackdrop" type="button" aria-label="Close navigation menu"></button>
+    <aside class="mobile-navigation__drawer" role="dialog" aria-modal="true" aria-label="Mobile navigation menu">
+      <div class="mobile-navigation__header">
+        <a class="brand brand--mobile" href="#home">
+          <span class="brand__mark">M</span>
+          <span class="brand__copy">
+            <strong>MASTANA</strong>
+            <span>Mechanical Works</span>
+          </span>
+        </a>
+        <button class="drawer-close" id="drawerCloseButton" type="button" aria-label="Close navigation menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-navigation__links" aria-label="Mobile primary navigation">
+        <a href="#home"><span>01</span>Home</a>
+        <a href="#legacy"><span>02</span>Company Legacy</a>
+        <a href="#categories"><span>03</span>Product Categories</a>
+        <a href="#products"><span>04</span>Featured Machines</a>
+        <a href="#why-us"><span>05</span>Why Mastana</a>
+        <a href="#contact" class="mobile-navigation__quote">Request a Quotation</a>
+      </nav>
+      <div class="mobile-navigation__footer">
+        <p>E-2/36/5, Street No. 1, Guru Vihar, Jodhewal, Ludhiana, Punjab.</p>
+        <div class="mobile-navigation__contact">
+          <a href="tel:+919814011130">Call Now</a>
+          <a href="https://wa.me/919814011130" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero__visual-layer" aria-hidden="true"></div>
+      <div class="hero__grid-layer" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+      <div class="container hero__layout">
+        <div class="hero__content reveal">
+          <span class="section-kicker">Textile Engineering Reimagined</span>
+          <h1 class="hero__title">Built for <em>precision.</em> Designed for scale.</h1>
+          <p class="hero__description">Mastana Mechanical Works manufactures, exports and repairs advanced hosiery knitting and textile machinery—combining more than six decades of industry experience with dependable engineering and customer-focused support.</p>
+          <div class="hero__actions">
+            <a class="button button--gold" href="#products">Explore Machinery <span aria-hidden="true">→</span></a>
+            <a class="button button--glass" href="#contact">Request a Quotation</a>
+          </div>
+          <div class="hero__trust">
+            <article class="trust-pill">
+              <span class="trust-pill__icon">✓</span>
+              <div><strong>Quality Focused</strong><small>Reliable manufacturing approach</small></div>
+            </article>
+            <article class="trust-pill">
+              <span class="trust-pill__icon">⚙</span>
+              <div><strong>Technical Support</strong><small>Sales, service and repair</small></div>
+            </article>
+            <article class="trust-pill">
+              <span class="trust-pill__icon">◎</span>
+              <div><strong>Manufacturer & Exporter</strong><small>Industrial textile machinery</small></div>
+            </article>
+          </div>
+        </div>
+        <div class="hero-machine reveal">
+          <div class="hero-machine__orbit hero-machine__orbit--outer"></div>
+          <div class="hero-machine__orbit hero-machine__orbit--inner"></div>
+          <article class="hero-machine__card">
+            <div class="hero-machine__badge">Flagship Machine</div>
+            <div class="hero-machine__image-wrap">
+              <img src="https://www.mastanaintl.com/assets/images/resource/product-2.jpg" alt="FX-3-72-SJ computerized flat knitting machine" onerror="handleMachineImageError(this)" />
+            </div>
+            <div class="hero-machine__details">
+              <div>
+                <small>Computerized Flat Knitting</small>
+                <h2>FX-3-72-SJ</h2>
+              </div>
+              <button class="hero-machine__arrow" type="button" data-product="FX-3-72-SJ" aria-label="Enquire about FX-3-72-SJ">↗</button>
+            </div>
+          </article>
+          <div class="hero-machine__floating-label hero-machine__floating-label--one">Precision Engineering</div>
+          <div class="hero-machine__floating-label hero-machine__floating-label--two">Industrial Performance</div>
+        </div>
+      </div>
+      <div class="hero__scroll-indicator"><span></span>Scroll to explore</div>
+    </section>
+
+    <!-- Metrics - "ESTABLISHED 1957" NOW HERE IN STRIPS -->
+    <section class="metrics" aria-label="Company metrics">
+      <div class="container metrics__grid reveal">
+        <article class="metric-card">
+          <strong>1957</strong>
+          <span>Established in Ludhiana</span>
+        </article>
+        <article class="metric-card">
+          <strong>65+</strong>
+          <span>Years of industry experience</span>
+        </article>
+        <article class="metric-card">
+          <strong>6000</strong>
+          <span>Sq. ft. infrastructure facility</span>
+        </article>
+        <article class="metric-card">
+          <strong>7+</strong>
+          <span>Major machine categories</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Legacy Section - NO "ESTABLISHED" BADGE ANYMORE -->
+    <section class="section legacy" id="legacy">
+      <div class="container legacy__layout">
+        <div class="legacy__visual reveal">
+          <div class="legacy__image-main">
+            <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?auto=format&fit=crop&w=1600&q=90" alt="Industrial engineering facility" />
+          </div>
+          <div class="legacy__visual-footer">
+            <div class="legacy__year-card">
+              <span class="legacy__year-caption">"Engineering textile progress for generations."</span>
+              <span class="legacy__year-location">
+                <span class="legacy__year-pin" aria-hidden="true"></span>
+                Ludhiana, Punjab
+              </span>
+            </div>
+            <div class="legacy__image-small">
+              <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1000&q=88" alt="Precision manufacturing process" />
+            </div>
+          </div>
+        </div>
+        <div class="legacy__content reveal">
+          <span class="section-kicker">A Legacy of Engineering</span>
+          <h2 class="section-title">Quality is the <em>lifeline</em> of our business.</h2>
+          <p class="section-copy">Mastana Mechanical Works was established in 1957 and is engaged in manufacturing various models of hosiery knitting machines. The company believes in manufacturing and supplying quality products that satisfy customers the first time and every time.</p>
+          <p class="section-copy">Decades of domain experience have helped Mastana evolve into a multi-dimensional organization backed by qualified professionals and a well-organized infrastructure facility.</p>
+          <div class="legacy__features">
+            <article><span>✓</span>Manufacturer & Exporter</article>
+            <article><span>✓</span>Repair & Technical Support</article>
+            <article><span>✓</span>Qualified Professionals</article>
+            <article><span>✓</span>Customer Satisfaction</article>
+          </div>
+          <a class="button button--dark" href="#why-us">Discover Our Strengths <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section categories" id="categories">
+      <div class="container">
+        <div class="section-heading section-heading--light reveal">
+          <div>
+            <span class="section-kicker">Product Categories</span>
+            <h2 class="section-title">Complete machinery solutions for modern textile production.</h2>
+          </div>
+          <p class="section-copy">Explore Mastana's machinery portfolio across computerized knitting, embroidery, laser, fusing, weaving and related textile production solutions.</p>
+        </div>
+        <div class="categories__grid">
+          <article class="category-card reveal">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1000&q=88" alt="Flat knitting machinery" />
+            <div class="category-card__overlay"></div>
+            <div class="category-card__number">01</div>
+            <div class="category-card__content">
+              <small>Primary Category</small>
+              <h3>Flat Knitting Machines</h3>
+              <button type="button" data-category-filter="knitting">Explore Category →</button>
+            </div>
+          </article>
+          <article class="category-card reveal">
+            <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=88" alt="Embroidery machinery" />
+            <div class="category-card__overlay"></div>
+            <div class="category-card__number">02</div>
+            <div class="category-card__content">
+              <small>Specialized Production</small>
+              <h3>Embroidery Machines</h3>
+              <a href="#contact">Request Details →</a>
+            </div>
+          </article>
+          <article class="category-card reveal">
+            <img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=1000&q=88" alt="Laser and fusing machinery" />
+            <div class="category-card__overlay"></div>
+            <div class="category-card__number">03</div>
+            <div class="category-card__content">
+              <small>Precision Processing</small>
+              <h3>Laser & Fusing Machines</h3>
+              <button type="button" data-category-filter="laser">Explore Category →</button>
+            </div>
+          </article>
+          <article class="category-card reveal">
+            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1000&q=88" alt="Weaving and warp machinery" />
+            <div class="category-card__overlay"></div>
+            <div class="category-card__number">04</div>
+            <div class="category-card__content">
+              <small>Technical Textile Solutions</small>
+              <h3>Weaving & Warp Machines</h3>
+              <button type="button" data-category-filter="weaving">Explore Category →</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flagship -->
+    <section class="section flagship" id="flagship">
+      <div class="container flagship__layout">
+        <div class="flagship__content reveal">
+          <span class="section-kicker">Flagship Machine Showcase</span>
+          <h2 class="section-title">Computerized flat knitting, <em>elevated.</em></h2>
+          <p class="section-copy">The FX-3-72-SJ represents Mastana's focus on precise production, dependable operation and modern textile engineering.</p>
+          <div class="flagship__specifications">
+            <article><small>Category</small><strong>Computerized Flat Knitting</strong></article>
+            <article><small>Application</small><strong>Industrial Textile Production</strong></article>
+            <article><small>Support</small><strong>Sales, Service & Repair</strong></article>
+            <article><small>Availability</small><strong>Enquiry Based</strong></article>
+          </div>
+          <button type="button" class="button button--gold" data-product="FX-3-72-SJ">Get Machine Details <span>→</span></button>
+        </div>
+        <div class="flagship__visual reveal">
+          <div class="flagship__ring flagship__ring--large"></div>
+          <div class="flagship__ring flagship__ring--small"></div>
+          <div class="flagship__machine">
+            <img src="https://www.mastanaintl.com/assets/images/resource/product-2.jpg" alt="Featured computerized flat knitting machine" onerror="handleMachineImageError(this)" />
+          </div>
+          <div class="flagship__label flagship__label--top">Precision Engineering</div>
+          <div class="flagship__label flagship__label--bottom">Built for Production</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section products" id="products">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Premium Machinery Catalogue</span>
+            <h2 class="section-title">Engineered for <em>consistent output.</em></h2>
+          </div>
+          <p class="section-copy">Select a machine category and explore featured product models. Each card includes a working quick-view enquiry experience.</p>
+        </div>
+        <div class="product-filters reveal" role="group" aria-label="Product filters">
+          <button type="button" class="product-filter is-active" data-filter="all">All Machines</button>
+          <button type="button" class="product-filter" data-filter="knitting">Flat Knitting</button>
+          <button type="button" class="product-filter" data-filter="laser">Laser & Fusing</button>
+          <button type="button" class="product-filter" data-filter="weaving">Weaving</button>
+        </div>
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <article class="product-card reveal" data-category="knitting">
+            <div class="product-card__image">
+              <span class="product-card__tag">Computerized</span>
+              <img src="https://www.mastanaintl.com/assets/images/resource/product-2.jpg" alt="FX-3-72-SJ flat knitting machine" onerror="handleMachineImageError(this)" />
+              <button class="product-card__quick-view" type="button" data-modal-product="FX-3-72-SJ" data-modal-category="Computerized Flat Knitting Machine" data-modal-description="A computerized flat knitting machine designed for precise production, improved consistency and dependable industrial operation." data-modal-image="https://www.mastanaintl.com/assets/images/resource/product-2.jpg">Quick View</button>
+            </div>
+            <div class="product-card__body">
+              <small>Flat Knitting Machine</small>
+              <h3>FX-3-72-SJ</h3>
+              <p>Computerized flat knitting machinery designed for precise, efficient and dependable textile production.</p>
+              <div class="product-card__footer">
+                <button type="button" data-product="FX-3-72-SJ">Enquire Now →</button>
+                <span>Product Enquiry</span>
+              </div>
+            </div>
+          </article>
+          <!-- Product 2 -->
+          <article class="product-card reveal" data-category="laser">
+            <div class="product-card__image">
+              <span class="product-card__tag">CO₂ Laser</span>
+              <img src="https://www.mastanaintl.com/assets/images/resource/product-3.jpg" alt="FS-1600 CO2 laser cutting machine" onerror="handleMachineImageError(this)" />
+              <button class="product-card__quick-view" type="button" data-modal-product="FS-1600" data-modal-category="CO₂ Laser Cutting Machine" data-modal-description="An industrial laser cutting solution focused on reliable operation, clean cuts and accurate textile processing." data-modal-image="https://www.mastanaintl.com/assets/images/resource/product-3.jpg">Quick View</button>
+            </div>
+            <div class="product-card__body">
+              <small>Laser Cutting Machine</small>
+              <h3>FS-1600</h3>
+              <p>Industrial CO₂ laser cutting solution for dependable operation and clean, accurate cutting.</p>
+              <div class="product-card__footer">
+                <button type="button" data-product="FS-1600">Enquire Now →</button>
+                <span>Product Enquiry</span>
+              </div>
+            </div>
+          </article>
+          <!-- Product 3 -->
+          <article class="product-card reveal" data-category="knitting">
+            <div class="product-card__image">
+              <span class="product-card__tag">Featured</span>
+              <img src="https://www.mastanaintl.com/assets/images/resource/product-4.jpg" alt="FX-3-5253 flat knitting machine" onerror="handleMachineImageError(this)" />
+              <button class="product-card__quick-view" type="button" data-modal-product="FX-3-5253" data-modal-category="Flat Knitting Machine" data-modal-description="A modern flat knitting solution created to support consistent fabric quality and improved textile production." data-modal-image="https://www.mastanaintl.com/assets/images/resource/product-4.jpg">Quick View</button>
+            </div>
+            <div class="product-card__body">
+              <small>Flat Knitting Machine</small>
+              <h3>FX-3-5253</h3>
+              <p>Modern flat knitting technology created to support consistent fabric quality and improved productivity.</p>
+              <div class="product-card__footer">
+                <button type="button" data-product="FX-3-5253">Enquire Now →</button>
+                <span>Product Enquiry</span>
+              </div>
+            </div>
+          </article>
+          <!-- Product 4 -->
+          <article class="product-card reveal" data-category="laser">
+            <div class="product-card__image">
+              <span class="product-card__tag">Heat Press</span>
+              <img src="https://www.mastanaintl.com/assets/images/resource/product-5.jpg" alt="Fine Star 1600MM heat press fusing machine" onerror="handleMachineImageError(this)" />
+              <button class="product-card__quick-view" type="button" data-modal-product="Fine Star 1600MM" data-modal-category="Heat Press Fusing Machine" data-modal-description="A reliable heat press fusing solution designed for stable performance, uniform pressure and industrial textile use." data-modal-image="https://www.mastanaintl.com/assets/images/resource/product-5.jpg">Quick View</button>
+            </div>
+            <div class="product-card__body">
+              <small>Fusing Machine</small>
+              <h3>Fine Star 1600MM</h3>
+              <p>Heat press fusing machinery designed for stable operation, uniform pressure and industrial use.</p>
+              <div class="product-card__footer">
+                <button type="button" data-product="Fine Star 1600MM">Enquire Now →</button>
+                <span>Product Enquiry</span>
+              </div>
+            </div>
+          </article>
+          <!-- Product 5 -->
+          <article class="product-card reveal" data-category="knitting">
+            <div class="product-card__image">
+              <span class="product-card__tag">Semi Computerized</span>
+              <img src="https://www.mastanaintl.com/assets/images/resource/product-6.jpg" alt="KM-1122 sweater flat knitting machine" onerror="handleMachineImageError(this)" />
+              <button class="product-card__quick-view" type="button" data-modal-product="KM-1122" data-modal-category="Sweater Flat Knitting Machine" data-modal-description="A practical sweater flat knitting machine developed for dependable production and ease of operation." data-modal-image="https://www.mastanaintl.com/assets/images/resource/product-6.jpg">Quick View</button>
+            </div>
+            <div class="product-card__body">
+              <small>Sweater Flat Knitting</small>
+              <h3>KM-1122</h3>
+              <p>A practical sweater flat knitting machine developed for dependable production and ease of operation.</p>
+              <div class="product-card__footer">
+                <button type="button" data-product="KM-1122">Enquire Now →</button>
+                <span>Product Enquiry</span>
+              </div>
+            </div>
+          </article>
+          <!-- Product 6 -->
+          <article class="product-card reveal" data-category="weaving">
+            <div class="product-card__image">
+              <span class="product-card__tag">Jacquard</span>
+              <img src="https://www.mastanaintl.com/assets/images/resource/product-8.jpg" alt="Shoe upper jacquard weaving machine" onerror="handleMachineImageError(this)" />
+              <button class="product-card__quick-view" type="button" data-modal-product="Shoe Upper" data-modal-category="Jacquard Weaving Machine" data-modal-description="A specialized jacquard weaving machine for shoe-upper and technical textile production." data-modal-image="https://www.mastanaintl.com/assets/images/resource/product-8.jpg">Quick View</button>
+            </div>
+            <div class="product-card__body">
+              <small>Jacquard Weaving Machine</small>
+              <h3>Shoe Upper</h3>
+              <p>Specialized jacquard weaving machinery for shoe-upper and technical textile production.</p>
+              <div class="product-card__footer">
+                <button type="button" data-product="Shoe Upper Jacquard Machine">Enquire Now →</button>
+                <span>Product Enquiry</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us -->
+    <section class="section why-us" id="why-us">
+      <div class="container why-us__layout">
+        <div class="why-us__content reveal">
+          <span class="section-kicker">Why Trust Mastana</span>
+          <h2 class="section-title">Experience behind every <em>decision.</em></h2>
+          <p class="section-copy">More than five decades of industry knowledge, qualified professionals and organized infrastructure support the company's commitment to dependable machinery and customer satisfaction.</p>
+          <blockquote class="why-us__quote">"Quality is not expensive. It is an investment in dependable production."</blockquote>
+        </div>
+        <div class="why-us__cards">
+          <article class="why-card reveal">
+            <span class="why-card__icon">◷</span>
+            <h3>Decades of Experience</h3>
+            <p>Long-term exposure to hosiery knitting and textile machinery requirements.</p>
+          </article>
+          <article class="why-card reveal">
+            <span class="why-card__icon">◉</span>
+            <h3>Qualified Manpower</h3>
+            <p>Skilled professionals supporting manufacturing, service and customer requirements.</p>
+          </article>
+          <article class="why-card reveal">
+            <span class="why-card__icon">▦</span>
+            <h3>Organized Infrastructure</h3>
+            <p>A 6000 sq. ft. facility equipped with essential machinery and production tools.</p>
+          </article>
+          <article class="why-card reveal">
+            <span class="why-card__icon">◇</span>
+            <h3>Client Satisfaction</h3>
+            <p>A customer-first approach focused on dependable products and long-term partnerships.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section process">
+      <div class="container">
+        <div class="process__heading reveal">
+          <span class="section-kicker">Simple Enquiry Process</span>
+          <h2 class="section-title">From your requirement to the <em>right machine.</em></h2>
+          <p class="section-copy">A clear, direct and mobile-friendly enquiry journey designed to help customers quickly connect with the Mastana team.</p>
+        </div>
+        <div class="process__grid">
+          <article class="process-card reveal">
+            <span class="process-card__number">01</span>
+            <h3>Share Requirement</h3>
+            <p>Tell us the machine category, intended application and expected production needs.</p>
+          </article>
+          <article class="process-card reveal">
+            <span class="process-card__number">02</span>
+            <h3>Get Recommendation</h3>
+            <p>The team can help identify suitable machine models and options for your business.</p>
+          </article>
+          <article class="process-card reveal">
+            <span class="process-card__number">03</span>
+            <h3>Receive Quotation</h3>
+            <p>Receive relevant product information and a quotation for the selected machinery.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Customer Experience</span>
+            <h2 class="section-title">Built around <em>trust and support.</em></h2>
+          </div>
+          <div class="testimonial-controls">
+            <button type="button" id="testimonialPrevious" aria-label="Previous testimonial">←</button>
+            <button type="button" id="testimonialNext" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+        <div class="testimonial-slider reveal" id="testimonialSlider">
+          <article class="testimonial-card is-active">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <blockquote>"A machinery supplier should provide more than a product. Responsive support and clear communication make the relationship valuable."</blockquote>
+            <div class="testimonial-card__author">
+              <span>Textile Manufacturing Client</span>
+              <small>Concept testimonial for redesign preview</small>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <blockquote>"The ability to understand production requirements and recommend the right machinery is essential for long-term customer confidence."</blockquote>
+            <div class="testimonial-card__author">
+              <span>Industrial Production Partner</span>
+              <small>Concept testimonial for redesign preview</small>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <blockquote>"A strong combination of experience, machinery knowledge and after-sales support creates dependable value for textile businesses."</blockquote>
+            <div class="testimonial-card__author">
+              <span>Textile Industry Buyer</span>
+              <small>Concept testimonial for redesign preview</small>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq">
+      <div class="container faq__layout">
+        <div class="faq__intro reveal">
+          <span class="section-kicker">Frequently Asked Questions</span>
+          <h2 class="section-title">Everything you may want to <em>know first.</em></h2>
+          <p class="section-copy">This section improves user confidence by answering common product and enquiry questions before customers contact the team.</p>
+        </div>
+        <div class="faq__list">
+          <article class="faq-item reveal">
+            <button class="faq-item__question" type="button" aria-expanded="false">What types of textile machines are available? <span>+</span></button>
+            <div class="faq-item__answer"><p>The product portfolio includes flat knitting, embroidery, laser, fusing, mesh, socks, gloves, caps, weaving and warp machinery categories.</p></div>
+          </article>
+          <article class="faq-item reveal">
+            <button class="faq-item__question" type="button" aria-expanded="false">Can I request details for a specific machine model? <span>+</span></button>
+            <div class="faq-item__answer"><p>Yes. Use any product enquiry button or the quotation form. The selected machine model will automatically appear in the WhatsApp enquiry message.</p></div>
+          </article>
+          <article class="faq-item reveal">
+            <button class="faq-item__question" type="button" aria-expanded="false">Does Mastana provide repair or technical support? <span>+</span></button>
+            <div class="faq-item__answer"><p>The company profile includes manufacturing, exporting and repair-related support for textile machinery.</p></div>
+          </article>
+          <article class="faq-item reveal">
+            <button class="faq-item__question" type="button" aria-expanded="false">How can I receive a quotation? <span>+</span></button>
+            <div class="faq-item__answer"><p>Complete the enquiry form with your contact details, machine category and requirements. The website opens a prepared WhatsApp message for direct communication.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container contact__shell reveal">
+        <div class="contact__information">
+          <span class="section-kicker">Connect With Mastana</span>
+          <h2>Looking for the right textile machinery?</h2>
+          <p>Share your requirement and connect directly with the Mastana Mechanical Works team through WhatsApp.</p>
+          <div class="contact__details">
+            <article>
+              <span class="contact__icon">☎</span>
+              <div>
+                <strong>Call</strong>
+                <a href="tel:+919814011130">+91 98 1401 1130</a>
+                <a href="tel:+911612933689">+91 161 293 3689</a>
+              </div>
+            </article>
+            <article>
+              <span class="contact__icon">✉</span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:marketing@mastanaintl.com">marketing@mastanaintl.com</a>
+              </div>
+            </article>
+            <article>
+              <span class="contact__icon">⌖</span>
+              <div>
+                <strong>Address</strong>
+                <span>E-2/36/5, Street No. 1, Guru Vihar, Jodhewal, Ludhiana-141007, Punjab, India</span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <form class="quotation-form" id="quotationForm" novalidate>
+          <div class="quotation-form__heading">
+            <small>Fast Response Enquiry</small>
+            <h3>Request a Premium Quotation</h3>
+          </div>
+          <div class="quotation-form__grid">
+            <div class="form-field">
+              <label for="customerName">Your name</label>
+              <input id="customerName" name="customerName" type="text" placeholder="Enter your full name" autocomplete="name" required />
+            </div>
+            <div class="form-field">
+              <label for="customerPhone">Phone number</label>
+              <input id="customerPhone" name="customerPhone" type="tel" placeholder="+91 98XXXXXX" autocomplete="tel" required />
+            </div>
+            <div class="form-field form-field--full">
+              <label for="customerEmail">Email address</label>
+              <input id="customerEmail" name="customerEmail" type="email" placeholder="name@company.com" autocomplete="email" required />
+            </div>
+            <div class="form-field form-field--full">
+              <label for="machineCategory">Machine category</label>
+              <select id="machineCategory" name="machineCategory" required>
+                <option value="">Select a machine category</option>
+                <option value="Flat Knitting Machine">Flat Knitting Machine</option>
+                <option value="Embroidery Machine">Embroidery Machine</option>
+                <option value="Laser & Fusing Machine">Laser & Fusing Machine</option>
+                <option value="Mesh Knitting Machine">Mesh Knitting Machine</option>
+                <option value="Socks, Gloves & Cap Machine">Socks, Gloves & Cap Machine</option>
+                <option value="Weaving Machine">Weaving Machine</option>
+                <option value="Warp Machine / Parts">Warp Machine / Parts</option>
+              </select>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="customerMessage">Requirement</label>
+              <textarea id="customerMessage" name="customerMessage" placeholder="Tell us which machine or production requirement you have"></textarea>
+            </div>
+          </div>
+          <button class="button button--gold quotation-form__submit" type="submit">Send Enquiry on WhatsApp <span>→</span></button>
+          <p class="quotation-form__status" id="quotationStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__company">
+        <a class="brand brand--footer" href="#home">
+          <span class="brand__mark">M</span>
+          <span class="brand__copy">
+            <strong>MASTANA MECHANICAL WORKS</strong>
+            <span>Textile Machinery · Since 1957</span>
+          </span>
+        </a>
+        <p>Manufacturer, exporter and repairer of hosiery knitting and textile machinery.</p>
+      </div>
+      <div class="footer__column">
+        <h4>Company</h4>
+        <a href="#legacy">Legacy</a>
+        <a href="#why-us">Why Mastana</a>
+        <a href="#contact">Enquiry</a>
+      </div>
+      <div class="footer__column">
+        <h4>Products</h4>
+        <a href="#products">Flat Knitting</a>
+        <a href="#products">Laser & Fusing</a>
+        <a href="#products">Weaving Machines</a>
+        <a href="#products">Warp Machines</a>
+      </div>
+      <div class="footer__column">
+        <h4>Contact</h4>
+        <p>+91 98 1401 1130</p>
+        <p>+91 161 293 3689</p>
+        <p>marketing@mastanaintl.com</p>
+        <p>Ludhiana, Punjab, India</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2026 Mastana Mechanical Works. Premium redesign concept.</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Quick View Modal -->
+  <div class="product-modal" id="productModal" aria-hidden="true">
+    <button class="product-modal__backdrop" id="productModalBackdrop" type="button" aria-label="Close product details"></button>
+    <section class="product-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="productModalTitle">
+      <button class="product-modal__close" id="productModalClose" type="button" aria-label="Close product details">×</button>
+      <div class="product-modal__image">
+        <img id="productModalImage" src="" alt="" onerror="handleMachineImageError(this)" />
+      </div>
+      <div class="product-modal__content">
+        <small id="productModalCategory">Machine Category</small>
+        <h2 id="productModalTitle">Machine Model</h2>
+        <p id="productModalDescription">Product details.</p>
+        <div class="product-modal__points">
+          <span>✓ Product enquiry available</span>
+          <span>✓ Technical discussion support</span>
+          <span>✓ Quotation through WhatsApp</span>
+        </div>
+        <button class="button button--gold" id="productModalEnquire" type="button">Enquire About This Machine <span>→</span></button>
+      </div>
+    </section>
+  </div>
+
+  <!-- Mobile Bottom Action Bar -->
+  <div class="mobile-action-bar">
+    <a href="tel:+919814011130"><span>☎</span>Call</a>
+    <a href="https://wa.me/919814011130" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path fill="currentColor" d="M19.11 17.28c-.26-.13-1.54-.76-1.78-.85-.24-.09-.41-.13-.59.13-.17.26-.67.85-.82 1.02-.15.17-.3.2-.56.07-.26-.13-1.09-.4-2.08-1.28-.77-.68-1.29-1.52-1.44-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.3.39-.46.13-.15.17-.26.26-.43.09-.17.04-.33-.02-.46-.07-.13-.59-1.42-.8-1.94-.21-.51-.43-.44-.59-.45h-.5c-.17 0-.46.07-.7.33-.24.26-.91.89-.91 2.17 0 1.28.93 2.52 1.06 2.69.13.17 1.83 2.8 4.44 3.93.62.27 1.1.43 1.48.55.62.2 1.19.17 1.64.1.5-.07 1.54-.63 1.76-1.24.22-.61.22-1.13.15-1.24-.06-.11-.24-.17-.5-.3Z" />
+        <path fill="currentColor" d="M16.03 3.2c-6.98 0-12.66 5.68-12.66 12.66 0 2.23.58 4.4 1.68 6.31L3.27 28.8l6.79-1.78a12.6 12.6 0 0 0 5.96 1.52h.01c6.98 0 12.66-5.68 12.66-12.66 0-3.38-1.32-6.56-3.71-8.95A12.56 12.56 0 0 0 16.03 3.2Zm0 23.2h-.01a10.49 10.49 0 0 1-5.35-1.46l-.38-.23-4.03 1.06 1.08-3.93-.25-.4a10.5 10.5 0 1 1 8.94 4.96Z" />
+      </svg>
+      WhatsApp
+    </a>
+    <a href="#contact"><span>✉</span>Enquire</a>
+  </div>
+
+  <!-- Floating WhatsApp -->
+  <a class="floating-whatsapp" href="https://wa.me/919814011130?text=Hello%20Mastana%20Mechanical%20Works%2C%20I%20want%20to%20enquire%20about%20your%20machines." target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp enquiry">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M19.11 17.28c-.26-.13-1.54-.76-1.78-.85-.24-.09-.41-.13-.59.13-.17.26-.67.85-.82 1.02-.15.17-.3.2-.56.07-.26-.13-1.09-.4-2.08-1.28-.77-.68-1.29-1.52-1.44-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.3.39-.46.13-.15.17-.26.26-.43.09-.17.04-.33-.02-.46-.07-.13-.59-1.42-.8-1.94-.21-.51-.43-.44-.59-.45h-.5c-.17 0-.46.07-.7.33-.24.26-.91.89-.91 2.17 0 1.28.93 2.52 1.06 2.69.13.17 1.83 2.8 4.44 3.93.62.27 1.1.43 1.48.55.62.2 1.19.17 1.64.1.5-.07 1.54-.63 1.76-1.24.22-.61.22-1.13.15-1.24-.06-.11-.24-.17-.5-.3Z" />
+      <path fill="currentColor" d="M16.03 3.2c-6.98 0-12.66 5.68-12.66 12.66 0 2.23.58 4.4 1.68 6.31L3.27 28.8l6.79-1.78a12.6 12.6 0 0 0 5.96 1.52h.01c6.98 0 12.66-5.68 12.66-12.66 0-3.38-1.32-6.56-3.71-8.95A12.56 12.56 0 0 0 16.03 3.2Zm0 23.2h-.01a10.49 10.49 0 0 1-5.35-1.46l-.38-.23-4.03 1.06 1.08-3.93-.25-.4a10.5 10.5 0 1 1 8.94 4.96Z" />
+    </svg>
+  </a>
+
+  <script>
+    "use strict";
+
+    /* =========================================================
+       HELPERS
+    ========================================================= */
+    function select(selector, parent = document) {
+      return parent.querySelector(selector);
+    }
+
+    function selectAll(selector, parent = document) {
+      return Array.from(parent.querySelectorAll(selector));
+    }
+
+    function setBodyScrollLock(shouldLock) {
+      document.body.classList.toggle("is-locked", shouldLock);
+    }
+
+    function focusElement(element) {
+      if (element && typeof element.focus === "function") {
+        element.focus();
+      }
+    }
+
+    /* =========================================================
+       IMAGE FALLBACK
+    ========================================================= */
+    window.handleMachineImageError = function handleMachineImageError(image) {
+      image.onerror = null;
+      image.src = "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=88";
+    };
+
+    /* =========================================================
+       HEADER SCROLL EFFECT
+    ========================================================= */
+    const siteHeader = select("#siteHeader");
+
+    function updateHeaderAppearance() {
+      if (!siteHeader) return;
+      siteHeader.classList.toggle("is-scrolled", window.scrollY > 18);
+    }
+
+    window.addEventListener("scroll", updateHeaderAppearance, { passive: true });
+    updateHeaderAppearance();
+
+    /* =========================================================
+       MOBILE MENU
+    ========================================================= */
+    const hamburgerButton = select("#hamburgerButton");
+    const mobileNavigation = select("#mobileNavigation");
+    const mobileBackdrop = select("#mobileBackdrop");
+    const drawerCloseButton = select("#drawerCloseButton");
+    const mobileDrawer = select(".mobile-navigation__drawer");
+    const mobileNavigationLinks = selectAll(".mobile-navigation__links a");
+    let lastFocusedElementBeforeMenu = null;
+
+    function openMobileMenu() {
+      if (!hamburgerButton || !mobileNavigation) return;
+      lastFocusedElementBeforeMenu = document.activeElement;
+      hamburgerButton.classList.add("is-active");
+      hamburgerButton.setAttribute("aria-expanded", "true");
+      hamburgerButton.setAttribute("aria-label", "Close navigation menu");
+      mobileNavigation.classList.add("is-open");
+      mobileNavigation.setAttribute("aria-hidden", "false");
+      setBodyScrollLock(true);
+      window.setTimeout(() => {
+        focusElement(drawerCloseButton);
+      }, 100);
+    }
+
+    function closeMobileMenu() {
+      if (!hamburgerButton || !mobileNavigation) return;
+      hamburgerButton.classList.remove("is-active");
+      hamburgerButton.setAttribute("aria-expanded", "false");
+      hamburgerButton.setAttribute("aria-label", "Open navigation menu");
+      mobileNavigation.classList.remove("is-open");
+      mobileNavigation.setAttribute("aria-hidden", "true");
+      setBodyScrollLock(false);
+      if (lastFocusedElementBeforeMenu && typeof lastFocusedElementBeforeMenu.focus === "function") {
+        lastFocusedElementBeforeMenu.focus();
+      }
+    }
+
+    function toggleMobileMenu() {
+      const isOpen = mobileNavigation?.classList.contains("is-open");
+      if (isOpen) {
+        closeMobileMenu();
+      } else {
+        openMobileMenu();
+      }
+    }
+
+    if (hamburgerButton) {
+      hamburgerButton.addEventListener("click", toggleMobileMenu);
+    }
+
+    if (drawerCloseButton) {
+      drawerCloseButton.addEventListener("click", closeMobileMenu);
+    }
+
+    if (mobileBackdrop) {
+      mobileBackdrop.addEventListener("click", closeMobileMenu);
+    }
+
+    mobileNavigationLinks.forEach((link) => {
+      link.addEventListener("click", closeMobileMenu);
+    });
+
+    if (mobileDrawer) {
+      mobileDrawer.addEventListener("click", (event) => {
+        event.stopPropagation();
+      });
+    }
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && mobileNavigation?.classList.contains("is-open")) {
+        closeMobileMenu();
+      }
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 1100) {
+        closeMobileMenu();
+      }
+    });
+
+    /* =========================================================
+       REVEAL ANIMATIONS
+    ========================================================= */
+    const revealElements = selectAll(".reveal");
+
+    if ("IntersectionObserver" in window) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -30px 0px" });
+
+      revealElements.forEach((element) => {
+        revealObserver.observe(element);
+      });
+    } else {
+      revealElements.forEach((element) => {
+        element.classList.add("is-visible");
+      });
+    }
+
+    /* =========================================================
+       PRODUCT FILTERS
+    ========================================================= */
+    const productFilterButtons = selectAll(".product-filter");
+    const productCards = selectAll(".product-card");
+
+    function filterProducts(category) {
+      productCards.forEach((card) => {
+        const productCategory = card.dataset.category;
+        const shouldHide = category !== "all" && productCategory !== category;
+        card.classList.toggle("is-hidden", shouldHide);
+      });
+
+      productFilterButtons.forEach((button) => {
+        button.classList.toggle("is-active", button.dataset.filter === category);
+      });
+    }
+
+    productFilterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        filterProducts(button.dataset.filter || "all");
+      });
+    });
+
+    /* =========================================================
+       CATEGORY FILTER BUTTONS
+    ========================================================= */
+    const categoryFilterButtons = selectAll("[data-category-filter]");
+
+    categoryFilterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const category = button.dataset.categoryFilter;
+        filterProducts(category);
+        select("#products")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+
+    /* =========================================================
+       PRODUCT ENQUIRY PREFILL
+    ========================================================= */
+    const machineCategorySelect = select("#machineCategory");
+    const customerMessage = select("#customerMessage");
+
+    function prepareProductEnquiry(productName) {
+      if (!productName) return;
+
+      if (customerMessage) {
+        customerMessage.value =
+          `I want complete details, specifications and quotation for ${productName}.`;
+      }
+
+      if (machineCategorySelect) {
+        const lowerName = productName.toLowerCase();
+        if (lowerName.includes("laser") || lowerName.includes("fine star") || lowerName.includes("fs-")) {
+          machineCategorySelect.value = "Laser & Fusing Machine";
+        } else if (lowerName.includes("shoe") || lowerName.includes("jacquard")) {
+          machineCategorySelect.value = "Weaving Machine";
+        } else {
+          machineCategorySelect.value = "Flat Knitting Machine";
+        }
+      }
+
+      select("#contact")?.scrollIntoView({ behavior: "smooth", block: "start" });
+
+      window.setTimeout(() => {
+        focusElement(customerMessage);
+      }, 700);
+    }
+
+    selectAll("[data-product]").forEach((button) => {
+      button.addEventListener("click", () => {
+        prepareProductEnquiry(button.dataset.product);
+      });
+    });
+
+    /* =========================================================
+       PRODUCT MODAL
+    ========================================================= */
+    const productModal = select("#productModal");
+    const productModalBackdrop = select("#productModalBackdrop");
+    const productModalClose = select("#productModalClose");
+    const productModalImage = select("#productModalImage");
+    const productModalCategory = select("#productModalCategory");
+    const productModalTitle = select("#productModalTitle");
+    const productModalDescription = select("#productModalDescription");
+    const productModalEnquire = select("#productModalEnquire");
+    const modalOpenButtons = selectAll("[data-modal-product]");
+    let currentModalProduct = "";
+    let lastFocusedElementBeforeModal = null;
+
+    function openProductModal(button) {
+      if (!productModal) return;
+
+      currentModalProduct = button.dataset.modalProduct || "";
+      const category = button.dataset.modalCategory || "";
+      const description = button.dataset.modalDescription || "";
+      const image = button.dataset.modalImage || "";
+
+      lastFocusedElementBeforeModal = document.activeElement;
+
+      if (productModalImage) {
+        productModalImage.src = image;
+        productModalImage.alt = `${currentModalProduct} product image`;
+      }
+
+      if (productModalCategory) {
+        productModalCategory.textContent = category;
+      }
+
+      if (productModalTitle) {
+        productModalTitle.textContent = currentModalProduct;
+      }
+
+      if (productModalDescription) {
+        productModalDescription.textContent = description;
+      }
+
+      productModal.classList.add("is-open");
+      productModal.setAttribute("aria-hidden", "false");
+      setBodyScrollLock(true);
+
+      window.setTimeout(() => {
+        focusElement(productModalClose);
+      }, 100);
+    }
+
+    function closeProductModal() {
+      if (!productModal) return;
+      productModal.classList.remove("is-open");
+      productModal.setAttribute("aria-hidden", "true");
+      setBodyScrollLock(false);
+
+      if (lastFocusedElementBeforeModal && typeof lastFocusedElementBeforeModal.focus === "function") {
+        lastFocusedElementBeforeModal.focus();
+      }
+    }
+
+    modalOpenButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        openProductModal(button);
+      });
+    });
+
+    productModalBackdrop?.addEventListener("click", closeProductModal);
+    productModalClose?.addEventListener("click", closeProductModal);
+
+    productModalEnquire?.addEventListener("click", () => {
+      closeProductModal();
+      window.setTimeout(() => {
+        prepareProductEnquiry(currentModalProduct);
+      }, 150);
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && productModal?.classList.contains("is-open")) {
+        closeProductModal();
+      }
+    });
+
+    /* =========================================================
+       TESTIMONIAL SLIDER
+    ========================================================= */
+    const testimonialCards = selectAll(".testimonial-card");
+    const testimonialPrevious = select("#testimonialPrevious");
+    const testimonialNext = select("#testimonialNext");
+    let activeTestimonialIndex = 0;
+
+    function showTestimonial(index) {
+      if (testimonialCards.length === 0) return;
+      activeTestimonialIndex = (index + testimonialCards.length) % testimonialCards.length;
+      testimonialCards.forEach((card, cardIndex) => {
+        card.classList.toggle("is-active", cardIndex === activeTestimonialIndex);
+      });
+    }
+
+    testimonialPrevious?.addEventListener("click", () => {
+      showTestimonial(activeTestimonialIndex - 1);
+    });
+
+    testimonialNext?.addEventListener("click", () => {
+      showTestimonial(activeTestimonialIndex + 1);
+    });
+
+    window.setInterval(() => {
+      showTestimonial(activeTestimonialIndex + 1);
+    }, 7000);
+
+    /* =========================================================
+       FAQ ACCORDION
+    ========================================================= */
+    const faqItems = selectAll(".faq-item");
+
+    faqItems.forEach((faqItem) => {
+      const question = select(".faq-item__question", faqItem);
+      const answer = select(".faq-item__answer", faqItem);
+
+      if (!question || !answer) return;
+
+      question.addEventListener("click", () => {
+        const isOpen = faqItem.classList.contains("is-open");
+
+        faqItems.forEach((item) => {
+          item.classList.remove("is-open");
+          const itemQuestion = select(".faq-item__question", item);
+          const itemAnswer = select(".faq-item__answer", item);
+          itemQuestion?.setAttribute("aria-expanded", "false");
+          if (itemAnswer) {
+            itemAnswer.style.maxHeight = "0px";
+          }
+        });
+
+        if (!isOpen) {
+          faqItem.classList.add("is-open");
+          question.setAttribute("aria-expanded", "true");
+          answer.style.maxHeight = `${answer.scrollHeight}px`;
+        }
+      });
+    });
+
+    /* =========================================================
+       FORM VALIDATION
+    ========================================================= */
+    const quotationForm = select("#quotationForm");
+    const customerName = select("#customerName");
+    const customerPhone = select("#customerPhone");
+    const customerEmail = select("#customerEmail");
+    const quotationStatus = select("#quotationStatus");
+
+    function setFieldInvalid(input, invalid) {
+      const wrapper = input?.closest(".form-field");
+      wrapper?.classList.toggle("is-invalid", invalid);
+    }
+
+    function validateQuotationForm() {
+      const nameValue = customerName?.value.trim() || "";
+      const phoneValue = customerPhone?.value.trim() || "";
+      const emailValue = customerEmail?.value.trim() || "";
+      const categoryValue = machineCategorySelect?.value || "";
+      const phonePattern = /^[0-9+\-\s]{8,15}$/;
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      const nameInvalid = nameValue.length < 2;
+      const phoneInvalid = !phonePattern.test(phoneValue);
+      const emailInvalid = !emailPattern.test(emailValue);
+      const categoryInvalid = categoryValue.length === 0;
+
+      setFieldInvalid(customerName, nameInvalid);
+      setFieldInvalid(customerPhone, phoneInvalid);
+      setFieldInvalid(customerEmail, emailInvalid);
+      setFieldInvalid(machineCategorySelect, categoryInvalid);
+
+      if (nameInvalid || phoneInvalid || emailInvalid || categoryInvalid) {
+        if (quotationStatus) {
+          quotationStatus.textContent = "Please complete all required fields correctly.";
+          quotationStatus.style.color = "#b42318";
+        }
+        return false;
+      }
+      return true;
+    }
+
+    [customerName, customerPhone, customerEmail, machineCategorySelect].forEach((input) => {
+      input?.addEventListener("input", () => {
+        setFieldInvalid(input, false);
+        if (quotationStatus) {
+          quotationStatus.textContent = "";
+        }
+      });
+
+      input?.addEventListener("change", () => {
+        setFieldInvalid(input, false);
+      });
+    });
+
+    /* =========================================================
+       WHATSAPP FORM SUBMISSION
+    ========================================================= */
+    quotationForm?.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      if (!validateQuotationForm()) return;
+
+      const name = customerName.value.trim();
+      const phone = customerPhone.value.trim();
+      const email = customerEmail.value.trim();
+      const category = machineCategorySelect.value;
+      const requirement = customerMessage.value.trim();
+
+      const whatsappMessage =
+        `Hello Mastana Mechanical Works,
+
+Name: ${name}
+Phone: ${phone}
+Email: ${email}
+Machine Category: ${category}
+Requirement: ${requirement || "Please share complete machine details and quotation."}`;
+
+      const whatsappNumber = "919814011130";
+      const whatsappUrl =
+        `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+      if (quotationStatus) {
+        quotationStatus.textContent = "Opening WhatsApp with your prepared enquiry...";
+        quotationStatus.style.color = "#18794e";
+      }
+
+      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+    });
+
+    /* =========================================================
+       FINAL RESPONSIVE SAFETY
+    ========================================================= */
+    function normalizeResponsiveOverlays() {
+      if (window.innerWidth > 1100) {
+        document.body.classList.remove("is-locked");
+      }
+
+      if (window.scrollX !== 0) {
+        window.scrollTo({ left: 0, top: window.scrollY, behavior: "auto" });
+      }
+    }
+
+    window.addEventListener("orientationchange", () => {
+      window.setTimeout(normalizeResponsiveOverlays, 180);
+    });
+
+    window.addEventListener("resize", normalizeResponsiveOverlays, { passive: true });
+    normalizeResponsiveOverlays();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+﻿assets/images/background/clients.jpg|assets__images__background__clients.jpg
+assets/images/background/contact_banner.jpg|assets__images__background__contact_banner.jpg
+assets/images/background/enquiry_banner.jpg|assets__images__background__enquiry_banner.jpg
+assets/images/background/footer-1.jpg|assets__images__background__footer-1.jpg
+assets/images/background/infra_banner.jpg|assets__images__background__infra_banner.jpg
+assets/images/background/profile_banner.jpg|assets__images__background__profile_banner.jpg
+assets/images/background/trust.jpg|assets__images__background__trust.jpg
+assets/images/banner/banner-3.jpg|assets__images__banner__banner-3.jpg
+assets/images/bannerp.png|assets__images__bannerp.png
+assets/images/cologo.png|assets__images__cologo.png
+assets/images/logo.png|assets__images__logo.png
+assets/images/resource/about-1.jpg|assets__images__resource__about-1.jpg
+assets/images/resource/about-2.jpg|assets__images__resource__about-2.jpg
+assets/images/resource/feature-1.jpg|assets__images__resource__feature-1.jpg
+assets/images/resource/feature-2.jpg|assets__images__resource__feature-2.jpg
+assets/images/resource/feature-3.jpg|assets__images__resource__feature-3.jpg
+assets/images/resource/infra1.jpg|assets__images__resource__infra1.jpg
+assets/images/resource/infra2.jpg|assets__images__resource__infra2.jpg
+assets/images/resource/infra3.jpg|assets__images__resource__infra3.jpg
+assets/images/resource/process-1.jpg|assets__images__resource__process-1.jpg
+assets/images/resource/process-2.jpg|assets__images__resource__process-2.jpg
+assets/images/resource/process-3.jpg|assets__images__resource__process-3.jpg
+assets/images/resource/product-1.jpg|assets__images__resource__product-1.jpg
+assets/images/resource/product-2.jpg|assets__images__resource__product-2.jpg
+assets/images/resource/product-3.jpg|assets__images__resource__product-3.jpg
+assets/images/resource/product-4.jpg|assets__images__resource__product-4.jpg
+assets/images/resource/product-5.jpg|assets__images__resource__product-5.jpg
+assets/images/resource/product-6.jpg|assets__images__resource__product-6.jpg
+assets/images/resource/product-7.jpg|assets__images__resource__product-7.jpg
+assets/images/resource/product-8.jpg|assets__images__resource__product-8.jpg
+assets/images/shape/shape-12.png|assets__images__shape__shape-12.png
+assets/images/shape/shape-16.png|assets__images__shape__shape-16.png
+assets/images/shape/shape-9.png|assets__images__shape__shape-9.png
+assets/images/slider/1.jpg|assets__images__slider__1.jpg
+assets/images/slider/10.jpg|assets__images__slider__10.jpg
+assets/images/slider/11.jpg|assets__images__slider__11.jpg
+assets/images/slider/12.jpg|assets__images__slider__12.jpg
+assets/images/slider/2.jpg|assets__images__slider__2.jpg
+assets/images/slider/4.jpg|assets__images__slider__4.jpg
+assets/images/slider/5.jpg|assets__images__slider__5.jpg
+kitecms/images/airmash-jaiquard-wrap-knitting-machine-for-shoes-upper.jpg|kitecms__images__airmash-jaiquard-wrap-knitting-machine-for-shoes-upper.jpg
+kitecms/images/cap-knit.jpg|kitecms__images__cap-knit.jpg
+kitecms/images/CO2-HEAT-PRESSES-FUSING-MACHINE.jpg|kitecms__images__CO2-HEAT-PRESSES-FUSING-MACHINE.jpg
+kitecms/images/COLLER.jpg|kitecms__images__COLLER.jpg
+kitecms/images/comb.jpg|kitecms__images__comb.jpg
+kitecms/images/Computerized-gloves-knitting-mach.jpg|kitecms__images__Computerized-gloves-knitting-mach.jpg
+kitecms/images/embrodiery-machine.jpg|kitecms__images__embrodiery-machine.jpg
+kitecms/images/Flying-woven-vamp,-woven-vamp,-jacquard,-leather-composite,-seamless-underwear,-clothing-adhesive-lining,-etc.jpg|kitecms__images__Flying-woven-vamp,-woven-vamp,-jacquard,-leather-composite,-seamless-underwear,-clothing-adhesive-lining,-etc.jpg
+kitecms/images/fully fashion coller flat knitting machine.jpg|kitecms__images__fully fashion coller flat knitting machine.jpg
+kitecms/images/fully jacquard  professional collar flat knitting machine.jpg|kitecms__images__fully jacquard  professional collar flat knitting machine.jpg
+kitecms/images/gloves-machine.jpg|kitecms__images__gloves-machine.jpg
+kitecms/images/high-speed-embroidery-machine.jpg|kitecms__images__high-speed-embroidery-machine.jpg
+kitecms/images/high-speed-embroidery--machine-with-beads-mixed-with-heat-cutting-machine.jpg|kitecms__images__high-speed-embroidery--machine-with-beads-mixed-with-heat-cutting-machine.jpg
+kitecms/images/intarsia.jpg|kitecms__images__intarsia.jpg
+kitecms/images/LAZER CUTTING MACHINE.jpg|kitecms__images__LAZER CUTTING MACHINE.jpg
+kitecms/images/mastana COMPUTERIZED SWEATER.jpg|kitecms__images__mastana COMPUTERIZED SWEATER.jpg
+kitecms/images/mastana DJ COLLAR FLAT KNITTING MACHINE.jpg|kitecms__images__mastana DJ COLLAR FLAT KNITTING MACHINE.jpg
+kitecms/images/MASTANACOMPUTERIZED COLLAR.jpg|kitecms__images__MASTANACOMPUTERIZED COLLAR.jpg
+kitecms/images/mixed-chenille-embroidery-machine.jpg|kitecms__images__mixed-chenille-embroidery-machine.jpg
+kitecms/images/Screenshot 2023-10-19 122451.png|kitecms__images__Screenshot 2023-10-19 122451.png
+kitecms/images/Screenshot 2023-10-19 122610.png|kitecms__images__Screenshot 2023-10-19 122610.png
+kitecms/images/Screenshot 2023-10-19 122729.png|kitecms__images__Screenshot 2023-10-19 122729.png
+kitecms/images/Screenshot 2023-10-19 122748.png|kitecms__images__Screenshot 2023-10-19 122748.png
+kitecms/images/Screenshot 2023-10-19 122807.png|kitecms__images__Screenshot 2023-10-19 122807.png
+kitecms/images/Screenshot 2023-10-19 122822.png|kitecms__images__Screenshot 2023-10-19 122822.png
+kitecms/images/Screenshot 2023-10-19 122838.png|kitecms__images__Screenshot 2023-10-19 122838.png
+kitecms/images/Screenshot 2023-10-19 122852.png|kitecms__images__Screenshot 2023-10-19 122852.png
+kitecms/images/Screenshot 2023-10-19 122909.png|kitecms__images__Screenshot 2023-10-19 122909.png
+kitecms/images/Screenshot 2023-10-19 122933 (1).png|kitecms__images__Screenshot 2023-10-19 122933 (1).png
+kitecms/images/Screenshot 2023-10-19 122933.png|kitecms__images__Screenshot 2023-10-19 122933.png
+kitecms/images/Screenshot 2023-10-21 102058.jpg|kitecms__images__Screenshot 2023-10-21 102058.jpg
+kitecms/images/show 1.jpg|kitecms__images__show 1.jpg
+kitecms/images/show 2.jpg|kitecms__images__show 2.jpg
+kitecms/images/socks.jpg|kitecms__images__socks.jpg
+kitecms/images/Sultex-Electronic-jacquard-shoe-upper-weaving-machine.jpg|kitecms__images__Sultex-Electronic-jacquard-shoe-upper-weaving-machine.jpg
+kitecms/images/t-shirt.jpg|kitecms__images__t-shirt.jpg
+kitecms/images/Untitled design (5).png|kitecms__images__Untitled design (5).png
+kitecms/images/Untitled design (6).png|kitecms__images__Untitled design (6).png
+kitecms/images/Untitled-1.jpg|kitecms__images__Untitled-1.jpg
+kitecms/images/Untitled-1.png|kitecms__images__Untitled-1.png
+kitecms/images/Untitled-2.jpg|kitecms__images__Untitled-2.jpg
+kitecms/images/whole  germent.jpg|kitecms__images__whole  germent.jpg
+kitecms/images/woolen series.jpg|kitecms__images__woolen series.jpg

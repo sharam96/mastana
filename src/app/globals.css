@@ -1,26 +1,297 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ===========================================================================
+   Mastana design tokens
+   Dark graphite industrial base, machined steel neutrals, and a refined
+   version of the brand orange carried over from the existing logo.
+   =========================================================================== */
+@theme {
+  --color-ink-950: #06080b;
+  --color-ink-900: #0a0d11;
+  --color-ink-880: #0d1116;
+  --color-ink-850: #11161c;
+  --color-ink-800: #161c24;
+  --color-ink-750: #1c232d;
+  --color-ink-700: #232c37;
+  --color-ink-600: #2f3a47;
+
+  --color-steel-500: #6d7a8a;
+  --color-steel-400: #8b98a8;
+  --color-steel-300: #aab5c2;
+  --color-steel-200: #ccd4dd;
+  --color-mist: #e8edf3;
+
+  --color-amber-700: #b8480a;
+  --color-amber-600: #d2560b;
+  --color-amber-500: #f2711c;
+  --color-amber-400: #ff8a3d;
+  --color-amber-300: #ffa869;
+
+  --color-plate-100: #f4f6f8;
+  --color-plate-200: #e6eaee;
+  --color-plate-300: #d3d9e0;
+
+  --font-display: var(--font-archivo), 'Archivo', system-ui, sans-serif;
+  --font-sans: var(--font-inter), 'Inter', system-ui, sans-serif;
+  --font-mono: var(--font-mono), 'JetBrains Mono', ui-monospace, monospace;
+
+  --shadow-plate: 0 40px 80px -30px rgb(0 0 0 / 0.7);
+  --shadow-lift: 0 24px 60px -24px rgb(0 0 0 / 0.65);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --line: rgb(255 255 255 / 0.09);
+    --line-strong: rgb(255 255 255 / 0.16);
+    color-scheme: dark;
+  }
+
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-ink-950);
+    color: var(--color-steel-200);
+    font-family: var(--font-sans);
+    font-feature-settings: 'cv02', 'cv03', 'cv04';
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--color-mist);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-amber-500);
+    color: #06080b;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-amber-400);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* Only hide focus rings for pointer users, never for keyboard users. */
+  :focus:not(:focus-visible) {
+    outline: none;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .container-x {
+    width: 100%;
+    /* 90rem keeps line lengths readable while leaving noticeably less dead
+       margin on 1500px+ displays than the previous 84rem. */
+    max-width: 90rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-x {
+      padding-inline: 2rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .container-x {
+      padding-inline: 3rem;
+    }
+  }
+
+  /* Technical eyebrow label — the mono/track treatment used across sections. */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-steel-500);
+  }
+
+  /* Blueprint grid backdrop, drawn with gradients so it costs no image weight. */
+  .blueprint {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.035) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.035) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+
+  .blueprint-fine {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.028) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.028) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  /*
+   * Machine photography from the archive sits on white backgrounds. Rather
+   * than fight that, images are presented on a lit "studio plate" — a real
+   * technique from industrial catalogues that turns the constraint into the
+   * visual language.
+   */
+  .plate {
+    background:
+      radial-gradient(120% 90% at 50% 0%, #ffffff 0%, var(--color-plate-100) 45%, var(--color-plate-300) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .plate::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(to right, rgb(6 8 11 / 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(6 8 11 / 0.05) 1px, transparent 1px);
+    background-size: 28px 28px;
+    mask-image: radial-gradient(80% 70% at 50% 50%, transparent 35%, #000 100%);
+    pointer-events: none;
+  }
+
+  .hairline-t {
+    border-top: 1px solid var(--line);
+  }
+
+  .hairline-b {
+    border-bottom: 1px solid var(--line);
+  }
+
+  /* Thin bracket corners used on technical cards. */
+  .bracket {
+    position: relative;
+  }
+
+  .bracket::before,
+  .bracket::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-color: var(--color-amber-500);
+    opacity: 0.65;
+    transition: opacity 240ms var(--ease-out-expo);
+  }
+
+  .bracket::before {
+    top: 0;
+    left: 0;
+    border-top: 1px solid;
+    border-left: 1px solid;
+  }
+
+  .bracket::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+  }
+
+  .bracket:hover::before,
+  .bracket:hover::after {
+    opacity: 1;
+  }
+}
+
+/* Continuous horizontal ticker. The track holds two identical copies, so
+   shifting by exactly -50% loops seamlessly. */
+@keyframes marquee-x {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-x var(--marquee-duration, 42s) linear infinite;
+  will-change: transform;
+}
+
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    overflow-x: auto;
+    mask-image: none;
+  }
+  .marquee-track {
+    animation: none;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, #000 60%, transparent 100%);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}
+
+/* Custom scrollbar — subtle, matches the graphite surface. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink-900);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink-700);
+  border-radius: 999px;
+  border: 2px solid var(--color-ink-900);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-600);
+}
+
+/* Respect the user's motion preference everywhere, including Lenis. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }

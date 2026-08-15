@@ -1,0 +1,264 @@
+{
+  "358": {
+    "description": "A fully computerized intarsia flat knitting machine built around a 5.2\" carriage and Reynen control system. It covers gauges from 2.5G to 18G and knitting widths from 52\" to 100\", running at a maximum knitting speed of 1.6 m/s. Non-waiting racking, patented tight-hanging motor technology and full protection monitoring support continuous production of intarsia, jacquard and shaped patterns.",
+    "applications": ["Intarsia patterned knitwear", "Jacquard and shaped panels", "Three-dimensional relief knitting"]
+  },
+  "359": {
+    "name": "Flat Knitting Flyknit Shoe Upper Machine",
+    "description": "A three-system computerized flat knitting machine configured for flyknit shoe uppers. Fine gauges of 14G, 16G and 18G and knitting widths from 52\" to 80\" suit dense upper structures, with a maximum knitting speed of 1.6 m/s under Reynen control.",
+    "applications": ["Flyknit shoe uppers", "Technical knitted uppers"]
+  },
+  "360": {
+    "description": "A computerized sweater flat knitting machine spanning 2.5G to 18G gauges and 52\" to 100\" knitting widths. Two- and three-system carriage configurations, a maximum speed of 1.6 m/s and non-waiting racking support high-output sweater panel production.",
+    "applications": ["Sweater panels", "Knitted garment panels"]
+  },
+  "417": {
+    "name": "Flyknit Shoe Vamp Computerized Flat Knitting Machine",
+    "description": "A three-system computerized flat knitting machine for 3D flyknit shoe vamps. It runs 14G to 18G gauges across 52\" to 80\" knitting widths at up to 1.6 m/s, with patented sinker and tight-hanging motor technology for dense, three-dimensional upper structures.",
+    "applications": ["3D flyknit shoe vamps", "Shoe upper knitting"]
+  },
+  "418": {
+    "name": "Computerized Sweater Flat Knitting Machine (With Comb)",
+    "description": "A computerized sweater flat knitting machine fitted with a comb device that knits yarn directly from the bottom, saving waste-yarn cost. Gauges run 2.5G to 18G across 52\" to 80\" knitting widths at a maximum speed of 1.6 m/s.",
+    "applications": ["Sweater panels", "Waste-yarn-free knitting"]
+  },
+  "419": {
+    "name": "Computerized T-Shirt Flat Knitting Machine",
+    "description": "A computerized flat knitting machine configured for T-shirt panels, with 12G to 18G gauges and 36\", 52\", 72\" and 80\" knitting widths. Maximum knitting speed is 1.6 m/s under Reynen control.",
+    "applications": ["Knitted T-shirt panels", "Fine-gauge garment panels"]
+  },
+  "362": {
+    "description": "A semi-computerized sweater flat knitting machine with a micro-computer control system and 40x4 LCD display. Knitting widths run 40\" to 80\" across 7G to 16G sweater gauges at 1.4 m/sec, with six yarn feeders on three rails and storage for 250 design files.",
+    "applications": ["Sweater panels", "Semi-automatic knitwear production"]
+  },
+  "363": {
+    "description": "The collar configuration of the KM-1122 semi-computerized flat knitting machine. It offers 7G to 16G collar gauges and 40\" to 80\" knitting widths at 1.4 m/sec, with a single cam system, electronic stepper-motor command and 250-file design storage.",
+    "applications": ["Knitted collars", "Cuffs and plackets"]
+  },
+  "413": {
+    "name": "Fully Computerized DJ Collar Flat Knitting Machine",
+    "description": "A fully computerized collar flat knitting machine offering full jacquard and full jacquard with transfer. Servo-controlled knitting reaches 1.4 m/s across 12G to 18G gauges and 42\" to 80\" knitting widths, with servo racking within 2 inches, 32-section stitch density control and an LCD industrial display with USB memory. Net weight is 550-1050 kg.",
+    "applications": ["Jacquard collars", "Collars with transfer patterning"]
+  },
+  "414": {
+    "model": "KS-3-72",
+    "name": "KE-Shang Pro Three System Flat Knitting Machine",
+    "description": "A three-system single-carriage flat knitting machine under Heng Qiang / Reynen control. Gauges span 2.5G to 18G with knitting widths from 36\" to 100\", AC servo racking within 2 inches and a stepper-controlled sinker system adjustable to different knitwear structures.",
+    "applications": ["Sweater and garment panels", "Jacquard and intarsia knitwear"]
+  },
+  "415": {
+    "model": "KS-3-72",
+    "name": "KE-Shang Triple System Flat Knitting Machine",
+    "description": "A triple-system single-carriage flat knitting machine (3+3) under Heng Qiang / Reynen control, covering 2.5G to 18G gauges and 36\" to 100\" knitting widths with AC servo racking and a stepper-controlled sinker system.",
+    "applications": ["Sweater and garment panels", "Jacquard and intarsia knitwear"]
+  },
+  "381": {
+    "name": "Fully Jacquard Professional Collar Machine (With Transfer)",
+    "description": "A professional collar flat knitting machine offering full jacquard with transfer. Single, double and triple system configurations run 14G to 20G basic and transfer needles across 52\", 72\" and 80\" knitting widths at up to 1.6 m/s, with a double takedown winder and sub roller.",
+    "applications": ["Jacquard collars with transfer", "Fine-gauge collar production"]
+  },
+  "382": {
+    "name": "Fully Jacquard Professional Tandem Collar Machine",
+    "description": "A tandem professional collar machine with full jacquard capability. It offers 14G to 20G basic and transfer needles across 52\", 72\" and 80\" knitting widths, running at up to 1.6 m/s with a 5.2\" carriage and double takedown winder.",
+    "applications": ["Tandem collar production", "Jacquard collars"]
+  },
+  "412": {
+    "description": "A full-fashion collar flat knitting machine with double-carriage two- and three-system configurations. Gauges of 14G, 16G and 18G run across 52\" to 100\" knitting widths at up to 1.6 m/s, with patented sinker technology and a double takedown winder.",
+    "applications": ["Full-fashion collars", "Shaped collar panels"]
+  },
+  "416": {
+    "name": "Whole Garment Flat Knitting Machine",
+    "description": "A whole-garment flat knitting machine covering 2.5G to 18G gauges and 52\" to 80\" knitting widths, running at up to 1.6 m/s with non-waiting racking, patented sinker technology and full protection monitoring.",
+    "applications": ["Whole-garment knitwear", "Seamless knitted garments"]
+  },
+
+  "366": {
+    "model": "XTL Series",
+    "name": "XTL Series Computerized Embroidery Machine",
+    "applications": ["Branded clothing and dress design", "Fashion embroidery"]
+  },
+  "377": {
+    "name": "High Speed Embroidery Machine With Beads and Heat Cutting",
+    "applications": ["Beadwork embroidery", "Heat-cut appliqué"],
+    "specifications": [
+      ["Maximum Speed", "1200 rpm"],
+      ["Control System", "Dahao computer control system"],
+      ["Motors", "Main shaft servo motor, Dahao full servo motors"],
+      ["Head System", "Single cam double reciprocators, linear head system"],
+      ["Guides", "Linear guide"],
+      ["Rotary Hooks", "Imported high-speed rotary hooks"],
+      ["Embroidery Frame", "High-strength wear-resistant aluminium alloy"],
+      ["Table", "High-strength wear-resistant eucalyptus table"],
+      ["Beads Device", "OLH beads device"],
+      ["Heat Cutting Device", "MING brand heat-cutting device"],
+      ["Bobbin Changing", "Automatic bobbin changing device"],
+      ["Colour Change", "9 colours, automatic conversion"]
+    ],
+    "features": [
+      "Maximum speed of 1200 rpm with adjustable, stable embroidery for greatly improved production",
+      "9 colours can be automatically converted, so colour matching can be used flexibly",
+      "Automatic conversion between beads and heat cutting adds lustre to finished products",
+      "Products can be made according to customers' requirements"
+    ]
+  },
+  "367": {
+    "description": "A high-speed embroidery machine for logo, trademark and three-dimensional small-lettering work. A full-bearing structure gives stable running at 1050 rpm with a maximum of 1200 rpm, supported by a Tajima-type thread holding system, high-accuracy digital colour change and automatic oiling and lubrication.",
+    "applications": ["Logo and trademark embroidery", "Three-dimensional small lettering"]
+  },
+  "378": {
+    "description": "A mixed chenille embroidery machine that switches automatically between chenille and ordinary flat embroidery. Maximum speed is 1200 rpm with automatic 12-colour change; flat heads are available in 3/4/6/9/12/15 colours and chenille heads in 4/6/9/12 colours, with optional chain, chenille, cording and taping functions.",
+    "applications": ["Chenille embroidery", "Flat embroidery", "Cording and taping"]
+  },
+  "389": {
+    "description": "A high-speed embroidery machine suited to logo, trademark and three-dimensional small-lettering work, running at a stable 1050 rpm with a maximum of 1200 rpm. It uses a Tajima-type thread holding system, high-accuracy digital colour change, AC servo motors with linear guides and automatic oiling.",
+    "applications": ["Logo and trademark embroidery", "Three-dimensional small lettering"]
+  },
+  "390": {
+    "name": "High Speed Embroidery Machine With Dual Sequins",
+    "applications": ["Clothing", "Curtains", "Handbags", "Lace fabrics"]
+  },
+  "392": {
+    "model": "MPL Series",
+    "description": "A high-speed chain-stitch and chenille embroidery machine available in MPL-618 through MPL-647 configurations, with 4 or 6 needles and 12 to 47 heads. Maximum speed is 1200 rpm with automatic 12-colour change and optional chain, chenille, cording and taping functions.",
+    "applications": ["Chain-stitch embroidery", "Chenille embroidery"]
+  },
+
+  "368": {
+    "description": "A heat-press fusing machine with a heating area extended to 1400 mm and nine heating plates giving independent temperature control across the left, middle and right sections. Pressure is applied by cylinder or motor and adjustable from 0 to 0.6 MPa, with a ring-shaped belt path, a multi-fan cooling zone and glass-fibre wool insulation. Available in 450 mm, 600 mm, 900 mm, 1600 mm and 1800 mm sizes.",
+    "applications": ["3D fly-woven uppers and woven uppers", "Mid- to high-end clothing adhesive lining", "Seamless underwear, down jackets and shirts", "Leather composites"],
+    "specifications": [
+      ["Heating Area", "Extended to 1400 mm"],
+      ["Heating Plates", "9 plates, independent left / middle / right control"],
+      ["Pressure", "Cylinder or motor, adjustable 0-0.6 MPa"],
+      ["Silicone Roller", "Imported, high temperature, 100 mm diameter"],
+      ["Temperature Controller", "Imported (Otonix)"],
+      ["Belt", "Imported anti-static ring-shaped seamless belt"],
+      ["Insulation", "Glass fibre wool insulation layer"],
+      ["Sizes Available", "450 mm, 600 mm, 900 mm, 1600 mm, 1800 mm"]
+    ]
+  },
+  "369": {
+    "name": "Flywoven Vamp Calender and Gluing Machine",
+    "description": "A calendering and gluing machine for flywoven vamps, available as NHG-600 through NHG-1800 with adhesive tape widths from 600 mm to 1800 mm. Bonding speed is 0-12 m/min at 0-0.4 MPa bonding pressure, with multi-stage independent heating, mica-sheet heating elements and rated power from 12 kW to 32 kW.",
+    "applications": ["Flywoven and woven vamps", "Jacquard and leather composites", "Seamless underwear", "Clothing adhesive lining"]
+  },
+  "379": {
+    "model": "FS1600",
+    "description": "A CO2 laser cutting machine with processing areas from 900 x 600 mm to 1600 x 1000 mm and laser power options of 80 W, 100 W, 130 W, 150 W and 180 W. Cutting speed reaches 64,000 mm/min at 0.0064 mm resolution with positioning precision under 0.01 mm, using DSP control with projection positioning and separated upper and lower suction systems.",
+    "applications": ["3D flyknit and 4D shoe uppers", "Printed uppers and 3D art ware", "Leather, cloth, woollen and paper", "Acrylic, resin, ABS and organic glass"]
+  },
+  "393": {
+    "name": "Laser Cutting and Engraving Machine",
+    "model": "1590 / 1610",
+    "description": "A laser cutting and engraving machine available in 1590 and 1610 sizes, in single- or double-head configuration and with or without projector. Laser power runs 70-100 W at 0.0064 mm resolution with positioning precision under 0.01 mm and 1250 W gross power, supporting BMP, JPEG, PLT, CDR, DWG, DXF and DST files.",
+    "applications": ["Cloth, leather and fabric", "Wood, paper and bamboo", "Acrylic, resin and plexiglass", "Advertising, packaging and printing"]
+  },
+
+  "370": {
+    "name": "Air Mesh Jacquard Warp Knitting Machine for Shoe Uppers",
+    "description": "A flexible double-bar raschel machine for producing spacer textiles and air-mesh shoe uppers. Working widths of 1995 mm (77\") and 3505 mm (138\") are available in E18, E22, E24 and E28 gauges, with a continuously adjustable 2-12 mm knock-over comb bar distance, two needle bars with latch needle units and seven ground bars. The machine is operated through the KAMCOS (Karl Mayer Command System) interface.",
+    "applications": ["Spacer fabrics", "Air-mesh shoe uppers"],
+    "specifications": [
+      ["Working Width", "1995 mm (77\") / 3505 mm (138\")"],
+      ["Gauge", "E18, E22, E24, E28"],
+      ["Knock-over Comb Bar Distance", "2-12 mm, continuously adjustable"],
+      ["Needle Bars", "Two needle bars with latch needle units"],
+      ["Comb Bars", "Two knock-over comb bars, two movable stitch comb bars"],
+      ["Ground Bars", "Seven ground bars; GB4 and GB5 stitch forming on both needle bars"],
+      ["Warp Beam Support", "7 x 812 mm (32\"), free standing"],
+      ["Control System", "KAMCOS (Karl Mayer Command System)"]
+    ],
+    "features": [
+      "Highly efficient production speed combined with easy and flexible patterning",
+      "Easy handling due to stitch comb swiveling device and central trick plate readjustment",
+      "Wide range of gauges and trick plate distances for various applications"
+    ]
+  },
+
+  "371": {
+    "description": "A circular cap knitting machine in E14 cut with latch needles and a double knitting method, producing at 40-50 m/h. It runs on 380 V / 50 Hz three-phase power (customisable), measures 60 x 78 x 155 cm and is supplied with free spare parts and service within 12 months.",
+    "applications": ["Knitted caps and hats"]
+  },
+  "372": {
+    "description": "A computerized sock knitting machine with a 3.5\" cylinder and 84 to 200 needles, running at a maximum 330 rpm. Main power is 1.1 kW with a 0.8 kW control cabinet on a 220 V or 380 V supply, in a 150 x 120 x 240 cm footprint at 300 kg net weight.",
+    "applications": ["Knitted socks", "Hosiery production"]
+  },
+  "373": {
+    "name": "High Speed Automatic Glove Knitting Machine",
+    "description": "A high-speed automatic glove knitting machine operated from a large full-touch HD LCD panel with USB copy output. A servo-motor synchronous belt drive allows the head stroke to be changed freely, with stepper-motor density control, stepper-motor scissor control, elastic thread feeding and a broken-finger weaving system that reduces raw material loss.",
+    "applications": ["Knitted gloves", "Work glove production"]
+  },
+  "374": {
+    "name": "Computerized Glove Knitting Machine",
+    "description": "A computerized glove knitting machine controlled by PLC and touch screen, producing around 300 pairs per day in 7G, 10G, 13G, 15G and 18G gauges. It is designed for cotton yarn and weighs 180 kg.",
+    "applications": ["Work gloves", "Cotton yarn glove production"]
+  },
+
+  "375": {
+    "description": "An electronic jacquard weaving machine for shoe uppers, with reed widths from 170 cm to 360 cm. Electronic weft selection is available in 4, 8 or 12 colours, with electronic rotocut or mechanical weft cutting, independent electronic selvedge and single or double warp beams with 800 or 1000 flange.",
+    "applications": ["Woven shoe uppers", "Technical jacquard fabrics"]
+  },
+
+  "403": {
+    "description": "A double-beam high-speed rapier weaving machine with electronic jacquard shedding and reed widths from 170 cm to 360 cm. Electronic weft selection covers 4, 8 or 12 colours, with independent selvedge, a double warp beam with 800 or 1000 flange and a choice of negative or positive let-off back rollers. Supplied under the Golden Knit brand.",
+    "applications": ["Ladies wear and sports wear", "Sweat shirts and night clothes", "Babies wear", "Protective clothing"]
+  },
+  "404": {
+    "applications": ["Shoe uppers", "Sunshine fabrics", "Car interior fabrics and airbags", "Sofa fabrics and curtains"]
+  },
+  "406": {
+    "name": "Double Needle Bar Spacer Double Jacquard Warp Knitting Machine",
+    "description": "A double needle bar high-speed warp knitting machine with separated double jacquard. Working widths of 110\" and 138\" are available in E22, E24 and E28 gauges, with seven ground bars and one separated jacquard bar, a 1-12 mm knock-over comb bar distance, eight sets of EBC electronic let-off and an electronic take-up device. Main power is 4 kW at 110\" and 7.5 kW at 138\".",
+    "applications": ["Spacer jacquard fabrics", "Shoe fabrics and sandwich uppers"],
+    "specifications": [
+      ["Working Width", "110\" / 138\""],
+      ["Gauge", "E22 / E24 / E28"],
+      ["Bars", "7 ground bars, 1 separated jacquard bar"],
+      ["Knock-over Comb Bar Distance", "1-12 mm"],
+      ["Pattern Device", "Pattern-disc or EL control"],
+      ["Yarn Let-off Device", "8 sets EBC electronic let-off"],
+      ["Fabric Take-up Device", "Electronic take-up device"],
+      ["Beams", "21\"-30\""],
+      ["Main Power", "4 kW (110\") / 7.5 kW (138\")"]
+    ],
+    "features": []
+  },
+  "407": {
+    "name": "Double Needle Bar Spacer Jacquard Warp Knitting Machine",
+    "description": "A double needle bar high-speed spacer jacquard warp knitting machine in 110\" and 138\" working widths with E22, E24 and E28 gauges. Six ground bars and one separated jacquard bar allow flexible patterning, with a 1-12 mm knock-over comb bar distance, eight sets of EBC electronic let-off and an electronic take-up device. Main power is 4 kW at 110\" and 7.5 kW at 138\".",
+    "applications": ["Spacer jacquard fabrics", "Shoe fabrics and sandwich shoe uppers", "Jackets, padding and mattresses", "Car seat cushions"],
+    "specifications": [
+      ["Working Width", "110\" / 138\""],
+      ["Gauge", "E22 / E24 / E28"],
+      ["Bars", "6 ground bars, 1 separated jacquard bar"],
+      ["Knock-over Comb Bar Distance", "1-12 mm"],
+      ["Pattern Device", "Pattern-disc or EL control"],
+      ["Yarn Let-off Device", "8 sets EBC electronic let-off"],
+      ["Fabric Take-up Device", "Electronic take-up device"],
+      ["Beams", "21\"-30\""],
+      ["Main Power", "4 kW (110\") / 7.5 kW (138\")"]
+    ],
+    "features": []
+  },
+  "408": {
+    "description": "A split warping machine with computer real-time control and intelligent tension control. Warp line speed runs 100-750 m/min with up to 80 cone positions, two sets of servo-controlled three-roller levelling rollers, pneumatic beam loading and unloading, and electromagnetic main braking.",
+    "applications": ["Split warping", "Beam preparation"]
+  },
+  "409": {
+    "description": "A CNC copy warping machine that reproduces sub-beams matching a mother beam's perimeter and rotations. Warp line speed runs 80-1000 m/min driven by an 11 kW AC FC-controlled motor, with a servo tension roller, pneumatic beam loading, unloading, clamping and braking, and micro-computer real-time monitoring. Warp beam sizes include 21\" x 30\", 21\" x 40\" and 63\" x 56\".",
+    "applications": ["Copy warping", "Beam duplication"]
+  },
+  "410": {
+    "name": "High Speed Sectional Warping and Beaming Machine",
+    "description": "A sectional warping and beaming machine working widths of 2300-4200 mm, with warping speed to 400 m/min and beaming speed to 80 m/min. It carries 392 spindles at 300 x 250 mm spacing, 20 kVA capacity, a 7.5 kW warping motor and an 11 kW beaming motor, with automatic stripe location and adjustable stripe positioning.",
+    "applications": ["Worsted yarn and high-twist filaments", "Colour-woven and silk fabrics", "Towelling fabrics", "Preparation for water-jet, air-jet, rapier and projectile looms"]
+  },
+  "411": {
+    "description": "A high-speed direct warping machine with a 2300 mm basic working width, warping speed to 600 m/min and beaming speed to 100 m/min. Beam flange diameter is under 800 mm, with automatic stripe location, 30 kVA capacity, a 7.5 kW warping motor and a 15 kW beaming motor.",
+    "applications": ["Direct warping", "Wool, cotton and chemical fibre yarns"]
+  },
+  "405": {
+    "description": "A composite lamination unit using a split heating and wind-cooling design. The heating area extends to 1400 mm with nine heating plates and the refrigeration area to 1400 mm, bringing material below room temperature quickly to increase adhesion and durability. Double frequency converters and motors give independent speed control, with an imported anti-static seamless belt and high-temperature silicone rollers.",
+    "applications": ["Woven upper composites", "Insole and shoe lining composites", "Leather breathable film composites"]
+  }
+}
