@@ -113,17 +113,25 @@ const FALLBACK_DIR = path.join(process.cwd(), '.data');
 /**
  * When no database is configured, submissions are appended to a local JSONL
  * file rather than silently dropped — the forms are never fake.
+ *
+ * Serverless hosts (Vercel, Lambda) mount the project read-only, so the write
+ * fails there. Losing a lead is not an acceptable outcome, so it goes to the
+ * server log instead, where it stays retrievable. Configure DATABASE_URL in
+ * any real deployment; this is the last line of defence, not the plan.
  */
-async function appendFallback(file: string, record: unknown) {
-  await fs.mkdir(FALLBACK_DIR, { recursive: true });
-  await fs.appendFile(
-    path.join(FALLBACK_DIR, file),
-    JSON.stringify({ ...(record as object), receivedAt: new Date().toISOString() }) + '\n',
-    'utf8'
-  );
+async function appendFallback(file: string, record: unknown): Promise<'file' | 'log'> {
+  const payload = { ...(record as object), receivedAt: new Date().toISOString() };
+  try {
+    await fs.mkdir(FALLBACK_DIR, { recursive: true });
+    await fs.appendFile(path.join(FALLBACK_DIR, file), JSON.stringify(payload) + '\n', 'utf8');
+    return 'file';
+  } catch {
+    console.error('[mastana:lead]', file, JSON.stringify(payload));
+    return 'log';
+  }
 }
 
-export async function createEnquiry(input: EnquiryInput): Promise<{ stored: 'db' | 'file' }> {
+export async function createEnquiry(input: EnquiryInput): Promise<{ stored: 'db' | 'file' | 'log' }> {
   if (databaseEnabled && prisma) {
     try {
       await prisma.enquiry.create({
@@ -142,11 +150,10 @@ export async function createEnquiry(input: EnquiryInput): Promise<{ stored: 'db'
       /* fall through so a DB outage never loses a lead */
     }
   }
-  await appendFallback('enquiries.jsonl', input);
-  return { stored: 'file' };
+  return { stored: await appendFallback('enquiries.jsonl', input) };
 }
 
-export async function createChatLead(input: ChatLeadInput): Promise<{ stored: 'db' | 'file' }> {
+export async function createChatLead(input: ChatLeadInput): Promise<{ stored: 'db' | 'file' | 'log' }> {
   if (databaseEnabled && prisma) {
     try {
       await prisma.chatLead.create({
@@ -165,6 +172,5 @@ export async function createChatLead(input: ChatLeadInput): Promise<{ stored: 'd
       /* fall through */
     }
   }
-  await appendFallback('chat-leads.jsonl', input);
-  return { stored: 'file' };
+  return { stored: await appendFallback('chat-leads.jsonl', input) };
 }
