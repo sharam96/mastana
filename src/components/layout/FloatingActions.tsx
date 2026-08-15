@@ -50,7 +50,7 @@ export function FloatingActions() {
         animate={{ opacity: show ? 1 : 0, scale: show || reduce ? 1 : 0.85 }}
         transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
         style={{ pointerEvents: show ? 'auto' : 'none' }}
-        className="fixed bottom-24 left-5 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_10px_30px_-8px_rgba(37,211,102,0.6)] transition-transform hover:scale-105 md:bottom-6 md:left-6"
+        className="fixed bottom-20 left-4 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_10px_30px_-8px_rgba(37,211,102,0.6)] transition-transform hover:scale-105 md:bottom-6 md:left-6"
       >
         <WhatsAppIcon />
       </motion.a>

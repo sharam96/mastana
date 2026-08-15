@@ -4,7 +4,7 @@ export function SpecList({ specs }: { specs: Spec[] }) {
   return (
     <dl className="divide-y divide-white/8 border-y border-white/8">
       {specs.map((s) => (
-        <div key={s.label} className="grid gap-1 py-4 sm:grid-cols-3 sm:gap-6">
+        <div key={s.label} className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-3 sm:gap-6">
           <dt className="font-mono text-[0.6875rem] uppercase tracking-wider break-words text-steel-500">
             {s.label}
           </dt>

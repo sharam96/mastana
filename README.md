@@ -94,7 +94,7 @@ before scaling horizontally.
 | --- | --- |
 | `npm run dev` / `build` / `start` | Next.js |
 | `npm run db:push` / `db:seed` / `db:studio` | Prisma |
-| `node scripts/verify.mjs` | Catalogue integrity — images, specs, slugs, legacy coverage |
+| `node scripts/verify.mjs` | Catalogue integrity — images, specs, slugs, legacy coverage, stray U+00A0 in source |
 | `node scripts/audit-site.mjs <url>` | Crawls a running site: headings, metadata, broken links, redirects, sitemap |
 | `node scripts/prune-media.mjs` | Reports unreferenced media (`--apply` archives it) |
 | `scripts/responsive-check.js` | Paste into DevTools, run `__check()` — flags clipped text, viewport escapes and small tap targets at the current width |
@@ -131,3 +131,18 @@ Edit `scripts/overrides.json` to correct copy — never edit
 > rather than literal `°`, `Ø`, `—`). They were corrupted once by a PowerShell
 > `Get-Content | Set-Content` round-trip; `scripts/fix-encoding.mjs` repairs
 > that class of damage if it recurs.
+
+## Responsive coverage
+
+Every page in the sitemap is checked for horizontal overflow, clipped headings
+and a single `h1` at **320 / 360 / 390 / 414 / 768 / 1024 / 1280 / 1440** px
+against a production build. Two things caused nearly all the failures found and
+are worth knowing about:
+
+- **A responsive grid needs an explicit `grid-cols-1`.** Without it the single
+  implicit column sizes to its content's max-content width and drags the page
+  sideways on a phone — most visibly with the spec matrix, which carries a
+  `min-w-[36rem]`.
+- **A `U+00A0` between the words of an animated heading serialises to `&nbsp;`**
+  and the heading can then never wrap. `verify.mjs` now fails on any
+  non-breaking space in `src/`.

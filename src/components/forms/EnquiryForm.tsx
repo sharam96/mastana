@@ -93,7 +93,7 @@ export function EnquiryForm({
         <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" />
       </div>
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <Field name="name" label="Name" required autoComplete="name" />
         <Field name="company" label="Company" autoComplete="organization" />
         <Field name="email" label="Email" type="email" required autoComplete="email" />

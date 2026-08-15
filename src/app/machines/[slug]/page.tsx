@@ -112,7 +112,7 @@ export default async function ProductPage({ params }: Params) {
           </nav>
 
           {/* ------------------------------------------------------- hero */}
-          <div className="grid gap-10 pb-14 lg:grid-cols-2 lg:gap-14 lg:pb-20">
+          <div className="grid grid-cols-1 gap-10 pb-14 lg:grid-cols-2 lg:gap-14 lg:pb-20">
             <Reveal>
               <div className="plate relative aspect-[4/3] overflow-hidden">
                 <Image
@@ -198,8 +198,11 @@ export default async function ProductPage({ params }: Params) {
 
       {/* ------------------------------------------------------- details */}
       <div className="container-x py-16 md:py-20">
-        <div className="grid gap-12 lg:grid-cols-12 lg:gap-14">
-          <div className="lg:col-span-8">
+        {/* grid-cols-1 stops the implicit column from sizing to the spec
+            matrix's min-width, which used to push the whole page sideways on
+            machines that ship a model-comparison table. */}
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-14">
+          <div className="min-w-0 lg:col-span-8">
             {product.specifications.length > 0 && (
               <section>
                 <h2 className="mb-6 font-display text-2xl font-bold">Technical specifications</h2>
@@ -251,7 +254,7 @@ export default async function ProductPage({ params }: Params) {
               )}
           </div>
 
-          <aside className="space-y-6 lg:col-span-4">
+          <aside className="min-w-0 space-y-6 lg:col-span-4">
             <AskAI slug={product.slug} label={label} categorySlug={product.categorySlug} />
 
             <section className="border border-white/10 bg-ink-900 p-6">
@@ -285,17 +288,23 @@ export default async function ProductPage({ params }: Params) {
       {related.length > 0 && (
         <section className="hairline-t bg-ink-900 py-16 md:py-20">
           <div className="container-x">
-            <div className="mb-9 flex items-end justify-between gap-6">
+            {/* Long category names ("Socks, Gloves & Cap Machines") cannot sit
+                beside the heading on a narrow phone, so the row wraps instead
+                of forcing the page wider. */}
+            <div className="mb-9 flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
               <h2 className="font-display text-2xl font-bold md:text-3xl">Related machines</h2>
               <Link
                 href={`/machines/category/${product.categorySlug}`}
-                className="group inline-flex shrink-0 items-center gap-2 text-[0.8125rem] text-amber-400"
+                className="group inline-flex items-center gap-2 text-[0.8125rem] text-amber-400"
               >
                 All {product.categoryName}
                 <ArrowRight />
               </Link>
             </div>
-            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {/* grid-cols-1 is load bearing: without it the single implicit
+                column sizes to the card's max-content and overflows the
+                viewport on phones. */}
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((p) => (
                 <ProductCard key={p.slug} product={p} />
               ))}

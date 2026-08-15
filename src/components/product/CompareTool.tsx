@@ -47,7 +47,7 @@ export function CompareTool({ products }: { products: Product[] }) {
   return (
     <div className="py-10 md:py-14">
       {/* selectors */}
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {(['a', 'b'] as Slot[]).map((slot) => {
           const value = slot === 'a' ? a : b;
           const other = slot === 'a' ? b : a;

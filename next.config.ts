@@ -1,6 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  // Next 16 writes AGENTS.md / CLAUDE.md into the project root on every dev
+  // start; this project does not ship them.
+  agentRules: false,
+
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [390, 640, 768, 1024, 1280, 1536, 1920],

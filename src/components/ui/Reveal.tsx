@@ -77,6 +77,11 @@ export function RevealText({
         variants={{ show: { transition: { staggerChildren: 0.045, delayChildren: delay } } }}
         className="inline"
       >
+        {/*
+          The separator below must stay a plain U+0020. It was a non-breaking
+          space, which serialises to &nbsp; and left the heading unable to wrap
+          — it ran straight off the side of a phone screen.
+        */}
         {words.map((word, i) => (
           <span key={`${word}-${i}`} className="inline-block overflow-hidden align-bottom">
             <motion.span
@@ -87,7 +92,7 @@ export function RevealText({
               }}
             >
               {word}
-              {i < words.length - 1 ? ' ' : ''}
+              {i < words.length - 1 ? ' ' : ''}
             </motion.span>
           </span>
         ))}

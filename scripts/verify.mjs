@@ -53,8 +53,28 @@ if (/lorem ipsum/i.test(blob)) fail('placeholder lorem ipsum found');
 if (/undefined|\[object Object\]/.test(blob)) fail('undefined / [object Object] in content');
 console.log('  encoding and placeholder checks done');
 
+/* ---- no stray non-breaking spaces in components ----------------------- */
+// A U+00A0 between the words of an animated heading serialises to &nbsp; and
+// stops the heading wrapping, which pushed whole pages off-screen on phones.
+console.log('\n[5] source hygiene');
+const componentFiles = [];
+const walk = (dir) => {
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = `${dir}/${e.name}`;
+    if (e.isDirectory()) walk(p);
+    else if (/\.tsx?$/.test(e.name)) componentFiles.push(p);
+  }
+};
+walk('src');
+for (const f of componentFiles) {
+  const src = fs.readFileSync(f, 'utf8');
+  const line = src.split('\n').findIndex((l) => l.includes(String.fromCharCode(0xa0)));
+  if (line >= 0) fail(`${f}:${line + 1} contains a non-breaking space (U+00A0)`);
+}
+console.log(`  scanned ${componentFiles.length} source files`);
+
 /* ---- legacy coverage -------------------------------------------------- */
-console.log('\n[5] legacy URL coverage');
+console.log('\n[6] legacy URL coverage');
 const legacyIds = new Set(catalog.products.map((p) => p.legacyId));
 const sitemapIds = [
   ...fs.readFileSync('scripts/urls_all.txt', 'utf8').matchAll(/product_description\.php\?id=(\d+)/g),

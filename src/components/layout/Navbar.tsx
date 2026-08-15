@@ -96,14 +96,22 @@ export function Navbar({
               scrolled ? 'h-16' : 'h-20 md:h-24'
             )}
           >
-            <Link href="/" className="flex items-center gap-3" aria-label="Mastana Mechanical Works — home">
+            <Link
+              href="/"
+              className="flex shrink-0 items-center"
+              aria-label="Mastana Mechanical Works — home"
+            >
+              {/*
+                The lockup carries two lines of small type, so it needs a little
+                more height than a wordmark would to stay legible on a phone.
+              */}
               <Image
                 src="/media/assets__images__logo.png"
                 alt="Mastana Mechanical Works"
                 width={220}
                 height={44}
                 priority
-                className="h-8 w-auto brightness-0 invert md:h-9"
+                className="h-8 w-auto brightness-0 invert min-[360px]:h-9 sm:h-10 lg:h-11"
               />
             </Link>
 
@@ -153,18 +161,31 @@ export function Navbar({
               )}
             </nav>
 
-            <div className="flex items-center gap-3">
-              <ButtonLink href="/request-quote" size="sm" className="hidden sm:inline-flex">
-                Request a Quote
-                <ArrowRight />
-              </ButtonLink>
+            <div className="flex shrink-0 items-center gap-3">
+              {/*
+                Below lg the header is only logo + menu button. The quote CTA
+                lives in the mobile menu and in the sticky bottom bar, so
+                keeping it here only crowded the lockup.
+              */}
+              {/*
+                Hidden on a wrapper rather than on the button itself: the
+                button's own `inline-flex` sits in the same Tailwind display
+                group as `hidden` and was winning the cascade, which is why the
+                CTA kept showing up crammed against the logo on phones.
+              */}
+              <div className="hidden md:block">
+                <ButtonLink href="/request-quote" size="sm" className="whitespace-nowrap">
+                  Request a Quote
+                  <ArrowRight />
+                </ButtonLink>
+              </div>
 
               <button
                 type="button"
                 onClick={() => setMobileOpen((v) => !v)}
                 aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
                 aria-expanded={mobileOpen}
-                className="flex h-10 w-10 items-center justify-center border border-white/12 text-mist transition-colors hover:border-amber-500/60 lg:hidden"
+                className="flex h-11 w-11 shrink-0 items-center justify-center border border-white/12 text-mist transition-colors hover:border-amber-500/60 lg:hidden"
               >
                 <span className="relative block h-3 w-5">
                   <span

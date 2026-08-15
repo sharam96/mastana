@@ -158,7 +158,11 @@ export function AssistantPanel() {
         whileHover={reduce ? undefined : { scale: 1.03 }}
         whileTap={reduce ? undefined : { scale: 0.97 }}
         className={cn(
-          'fixed bottom-24 right-5 z-50 flex items-center gap-2.5 rounded-full border border-amber-500/30 bg-ink-900/95 py-3 pl-3 pr-4 shadow-[0_16px_50px_-12px_rgba(242,113,28,0.5)] backdrop-blur-xl transition-colors hover:border-amber-500/70 md:bottom-6 md:right-6',
+          // On phones this is a 48px circle on the same baseline as the
+          // WhatsApp button, clear of the sticky quote bar. The labelled pill
+          // only appears from md up, where there is room for it.
+          'fixed bottom-20 right-4 z-50 flex h-12 w-12 items-center justify-center rounded-full border border-amber-500/30 bg-ink-900/95 shadow-[0_16px_50px_-12px_rgba(242,113,28,0.5)] backdrop-blur-xl transition-colors hover:border-amber-500/70',
+          'md:bottom-6 md:right-6 md:h-auto md:w-auto md:justify-start md:gap-2.5 md:py-3 md:pl-3 md:pr-4',
           open && 'opacity-0 pointer-events-none md:opacity-100 md:pointer-events-auto'
         )}
       >
@@ -168,7 +172,9 @@ export function AssistantPanel() {
             <span className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-emerald-400 ring-2 ring-ink-900" />
           )}
         </span>
-        <span className="text-[0.8125rem] font-semibold tracking-tight text-mist">Mastana AI</span>
+        <span className="hidden text-[0.8125rem] font-semibold tracking-tight text-mist md:inline">
+          Mastana AI
+        </span>
       </motion.button>
 
       {/* ---------------------------------------------------------- panel */}
